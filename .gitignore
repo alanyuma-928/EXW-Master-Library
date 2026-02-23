@@ -69,3 +69,43 @@ out/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# --- EXW Course Specifics ---
+# Ensure Master Context and Markdown are NOT ignored
+!GEMINI.md
+!*.md
+
+# Ignore the HTML outputs generated for Canvas Paste
+html-builds/
+*.html
+
+# Office & System Temp Files
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Gemini CLI & AI Context ---
+.gemini_session_history
+.env
+.env.*
+!.env.example
+
+# --- Node.js Standard (Cleaned) ---
+logs
+*.log
+npm-debug.log*
+node_modules/
+.node_repl_history
+
+# --- Build & Output Folders ---
+dist/
+out/
+.next/
+
+# --- IDE & Editors ---
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
