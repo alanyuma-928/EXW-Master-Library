@@ -10,6 +10,7 @@
 ## **Exemplary & OER Standard (★★★)**
 ### **Module Overview & Quality Control**
 * **[Criteria 2.7 / OER 152]** Introduction/Overview page with a clear content outline. [cite: 19, 152]
+* **[Criteria 1.3]** Link to official 2018 PAGA (2nd Edition) federal standards.
 * **[OER 110]** **Currency Audit:** Ensure health data reflects recent scholarship and won't obsolete quickly. [cite: 110, 111]
 * **[OER 114]** **Clarity & Accuracy:** Content is factual, verifiable, and free of grammatical errors. [cite: 115]
 
