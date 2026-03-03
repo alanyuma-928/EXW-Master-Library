@@ -3,24 +3,22 @@
 * **Author:** Coach Alan Pruitt
 * **Contact:** alan.pruitt@azwestern.edu
 * **Safety Protocol:** PAGA-based
+* **License:** CC BY 4.0 International (OERizona Requirement) 
 
 ---
 
-## **Exemplary Learning Standard (★★★)**
-### **Module Overview & Objectives**
-* **[Criteria 2.7]** Introduction/Overview page to activate background knowledge.
-* **[Criteria 1.3]** Link to official 2026 federal physical activity standards.
+## **Exemplary & OER Standard (★★★)**
+### **Module Overview & Quality Control**
+* **[Criteria 2.7 / OER 152]** Introduction/Overview page with a clear content outline. [cite: 19, 152]
+* **[OER 110]** **Currency Audit:** Ensure health data reflects recent scholarship and won't obsolete quickly. [cite: 110, 111]
+* **[OER 114]** **Clarity & Accuracy:** Content is factual, verifiable, and free of grammatical errors. [cite: 115]
 
-### **Content Delivery & Interaction**
-* **[Criteria 2.3]** Format: Directions > Guidelines > Tech Support. (H2-H4 only).
-* **[Criteria 4.9]** **Instructor Action:** Insert modeling video/animation here.
-* **[Criteria 3.6]** Audit for inclusive imagery in health/fitness contexts.
+### **Pedagogical & Cultural Standards**
+* **[Criteria 3.6 / OER 157]** **Inclusion:** Audit for diversity regarding culture, gender, and disability. 
+* **[OER 124]** **Vocabulary:** Provide adequate context for all jargon and technical exercise terminology. [cite: 124]
+* **[OER 147]** **Active Learning:** Explicitly prompt for class participation or collaboration. [cite: 147]
 
-### **Assessment & Feedback Loops**
-* **[Criteria 1.10]** **Feedback Loop:** Mid-module check-in for student barriers.
-* **[Criteria 2.10]** **MasteryPaths:** Provide Choice (Video vs. Written Reflection).
-* **[Criteria 2.7]** **Module Summary:** Conclude with a "Key Takeaways" page.
-
-### **Technical & Mobile Compliance**
-* **[Criteria 7.8]** Tables must include scope (caption and/or heading row).
-* **[Criteria 9.1]** Preview in Canvas App (Light & Dark Mode) before final sync.
+### **Technical & Adaptability Compliance**
+* **[OER 160]** **Modularity:** Ensure text is divisible into smaller sections for easy reorganization. [cite: 160]
+* **[Criteria 7.8 / OER 144]** **Multi-Modality:** Use accessible tables/graphics to support text. [cite: 45, 144]
+* **[OER 135]** **Copyright:** Link out to all copyrighted content; do not embed restricted files. [cite: 135]
