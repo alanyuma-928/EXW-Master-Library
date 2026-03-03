@@ -2,24 +2,24 @@
 * **Course:** EXW265
 * **Author:** Coach Alan Pruitt
 * **Contact:** alan.pruitt@azwestern.edu
-* **Safety Protocol:** PAGA-based
-* **License:** CC BY 4.0 International (OERizona Requirement) 
+* **Safety Protocol:** 2018 PAGA (2nd Edition)
+* **License:** CC BY 4.0 International (OERizona Requirement)
+* **AI Disclosure:** [AWC Principle 5] This content was [generated/enhanced/reviewed] by AI and verified by a human expert.
 
 ---
 
-## **Exemplary & OER Standard (★★★)**
-### **Module Overview & Quality Control**
-* **[Criteria 2.7 / OER 152]** Introduction/Overview page with a clear content outline. [cite: 19, 152]
-* **[Criteria 1.3]** Link to official 2018 PAGA (2nd Edition) federal standards.
-* **[OER 110]** **Currency Audit:** Ensure health data reflects recent scholarship and won't obsolete quickly. [cite: 110, 111]
-* **[OER 114]** **Clarity & Accuracy:** Content is factual, verifiable, and free of grammatical errors. [cite: 115]
+## **Exemplary, OER, & AI Standards (★★★)**
+### **AI Responsibility & Human Oversight**
+* **[AWC 2 & 5]** **Human Verification:** All AI-generated text and data have been reviewed for accuracy and bias.
+* **[AWC 1]** **Data Privacy:** No restricted or sensitive student data was used in the creation of this module.
+* **[AWC 3]** **Academic Integrity:** Content respects intellectual property and creative ownership.
 
-### **Pedagogical & Cultural Standards**
-* **[Criteria 3.6 / OER 157]** **Inclusion:** Audit for diversity regarding culture, gender, and disability. 
-* **[OER 124]** **Vocabulary:** Provide adequate context for all jargon and technical exercise terminology. [cite: 124]
-* **[OER 147]** **Active Learning:** Explicitly prompt for class participation or collaboration. [cite: 147]
+### **OER & Pedagogical Quality**
+* **[OER 114 / AWC 5]** **Fact Check:** Verify all health data against 2018 PAGA federal standards.
+* **[Criteria 2.3]** **Consistent Formatting:** Directions > Guidelines > Tech Support.
+* **[OER 157]** **Diversity Audit:** Ensure AI-generated imagery or examples are inclusive and free of stereotypes.
 
-### **Technical & Adaptability Compliance**
-* **[OER 160]** **Modularity:** Ensure text is divisible into smaller sections for easy reorganization. [cite: 160]
-* **[Criteria 7.8 / OER 144]** **Multi-Modality:** Use accessible tables/graphics to support text. [cite: 45, 144]
-* **[OER 135]** **Copyright:** Link out to all copyrighted content; do not embed restricted files. [cite: 135]
+### **Technical & Accessibility Compliance**
+* **[Criteria 7.8 / OER 144]** **Accessible Tables:** Must include assigned scope and captions.
+* **[OER 160]** **Modularity:** Text is divisible into smaller, remixable sections.
+* **[Criteria 9.1]** **Mobile Review:** Check layout in Canvas App (Light & Dark Mode).
