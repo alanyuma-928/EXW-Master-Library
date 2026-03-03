@@ -1,26 +1,27 @@
 ## **Module Metadata**
-* **Course:** EXW265 (Fall 2026)
-* **Author:** Coach Alan Pruitt
-* **Contact:** alan.pruitt@azwestern.edu (Preferred: Canvas Inbox/Chat) [cite: 318, 320]
-* **Safety Protocol:** 2018 PAGA (2nd Edition) [cite: 13]
+* **Course:** EXW265 (Fall 2026) [cite: 218]
+* **Author:** Coach Alan Pruitt [cite: 330]
+* **Contact:** Canvas Inbox/Chat (Preferred) [cite: 318, 320]
+* **Accreditation Mapping:** [Mandatory: Enter CLO 2.1, 2.2, 2.3, or 2.4] 
+* **Safety Protocol:** 2018 PAGA (2nd Edition)
 * **License:** CC BY 4.0 International [cite: 85, 94]
-* **AI Disclosure:** This course utilizes content partially created with generative AI (e.g., Google Gemini). All such content has been reviewed, edited, and verified by Coach Alan Pruitt for accuracy and bias.
+* **AI Disclosure:** [AWC Principle 5] This content was AI-enhanced and human-verified by Coach Alan Pruitt to ensure alignment with AWC Learning Objectives[cite: 205, 206, 273].
 
 ---
 
-## **Exemplary, OER, & AWC AI Standards (★★★)**
+## **Integrated Institutional Standards (★★★)**
 
-### **1. AI Human-in-the-Loop [AWC Principles 2, 5]**
-* **[AWC 2] Human-Centered:** AI is used to enhance, not replace, professional judgment and creativity[cite: 195, 196].
-* **[AWC 5] Accountability:** Every AI output is audited for accuracy, bias, and compliance before publication[cite: 206].
-* **[AWC 3] Integrity:** Respect for intellectual property and academic honesty is paramount in all AI prompts and outputs[cite: 199, 200].
+### **1. Human-in-the-Loop & AI Responsibility**
+* **[AWC 2] Human-Centered:** AI enhances creativity; Coach Alan Pruitt maintains final academic authority[cite: 196, 197].
+* **[AWC 5 / OER 114] Accuracy:** All AI outputs are reviewed for bias and validated against 2018 PAGA federal standards[cite: 115, 206].
+* **[Course Policy] Critical Analysis:** Students must evaluate AI content; assignments must reflect original work[cite: 275, 276].
 
-### **2. OER & Pedagogical Quality [OERizona / Canvas]**
-* **[OER 114] Fact Check:** Cross-reference all fitness and nutrition theories against the 2018 PAGA[cite: 115, 226].
-* **[OER 157] Inclusion:** Audit imagery and examples for diverse representation across age, gender, and disability[cite: 157, 219].
-* **[Criteria 2.3] Predictable Design:** Format: Directions > Guidelines > Technical Support[cite: 19].
+### **2. OER & Pedagogical Quality**
+* **[CLO Alignment]** Content must explicitly address the designated Course Learning Objective (2.1-2.4).
+* **[OER 157] Inclusion:** Imagery and examples reflect diversity in age, gender, and disability[cite: 157].
+* **[Criteria 2.3] Predictable Design:** Format: Directions > Guidelines > Tech Support[cite: 19].
 
-### **3. Technical & Mobile Compliance [WCAG 2.2 / OER 160]**
-* **[Criteria 7.1] Access Check:** Utilize the Canvas Accessibility Checker to maintain H2-H4 logical heading structures.
-* **[Criteria 7.8] Accessible Tables:** All tables must include assigned scopes, captions, and heading rows[cite: 45, 46].
-* **[Criteria 9.2] Mobile Length:** Audit text passage lengths to prevent excessive scrolling on mobile devices[cite: 52].
+### **3. Technical & Accessibility (WCAG 2.2)**
+* **[H1 Warning]** Do not use H1 tags in Markdown; Canvas Title Page is the only H1[cite: 40].
+* **[Criteria 7.8] Accessible Tables:** Must include captions and assigned scope[cite: 45].
+* **[Criteria 9.1] Mobile First:** Check passage length for mobile display (Light/Dark Mode)[cite: 52].
