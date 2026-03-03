@@ -78,6 +78,7 @@ out/
 # Ignore the HTML outputs generated for Canvas Paste
 html-builds/
 *.html
+!awc-template.html
 
 # Office & System Temp Files
 ~$*
