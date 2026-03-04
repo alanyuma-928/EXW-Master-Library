@@ -1,0 +1,1 @@
+## 🎓 Career Path Standards\n- Teaching: SHAPE America / NASPE Standards\n- Clinical: ACSM / Allied Health Pathways\n- Performance: NSCA / Strength & Conditioning\n- Growth Outlook: BLS 2024-2034 Projections
