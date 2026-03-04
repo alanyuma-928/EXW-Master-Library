@@ -3,9 +3,34 @@
         <h2 style="margin: 0; color: #ffffff; font-size: clamp(1.5rem, 5vw, 2.2rem); border: none; line-height: 1.2;">$title$</h2>
         <p style="margin: 10px 0 0 0; color: #eafffd; font-size: 1.1rem; font-style: italic;">$subtitle$</p>
     </header>
+
+    $if(audio-url)$
+    <div style="padding: clamp(15px, 5vw, 40px) clamp(15px, 5vw, 40px) 0 clamp(15px, 5vw, 40px);">
+        <section style="background-color: #f8f9fa; border: 1px solid #d1d5db; padding: 25px; border-radius: 12px; margin-bottom: 0px;" aria-labelledby="briefing-title">
+            <h3 id="briefing-title" style="margin-top: 0; color: #ba0c2f; text-align: center; font-size: 1.5rem;">🎙️ $if(audio-label)$$audio-label$$else$Clinical Handover$endif$</h3>
+            <p style="font-size: 1rem; color: #4b5563; text-align: center; margin-bottom: 20px;">$audio-description$</p>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <audio style="width: 100%; max-width: 500px;" controls="controls">
+                    <source src="$audio-url$" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            $if(transcript)$
+            <details style="background-color: #ffffff; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; margin: 15px 0;">
+                <summary style="cursor: pointer; color: #ba0c2f;">📝 Audio Transcript (Click to Expand)</summary>
+                <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #e1e4e8; font-size: 0.95rem; overflow-x: auto;">
+                    $transcript$
+                </div>
+            </details>
+            $endif$
+        </section>
+    </div>
+    $endif$
+
     <div class="awc-content-body" style="padding: 30px 40px;">
 $body$
     </div>
+
     <div style="margin-top: 0px; border-top: 5px solid #2CCCD3; background-color: #ba0c2f; color: #ffffff; padding: 30px 20px; text-align: center; font-size: 1rem; font-family: 'Segoe UI', Verdana, sans-serif;">
         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px;"><a style="flex: 1 1 200px; display: inline-block; padding: 12px 15px; background-color: #ba0c2f; color: #ffffff; text-decoration: none; border-radius: 6px; border: 1px solid #2CCCD3;" href="https://azwestern.instructure.com/courses/36466">🏠 Home</a> <a style="flex: 1 1 200px; display: inline-block; padding: 12px 15px; background-color: #ba0c2f; color: #ffffff; text-decoration: none; border-radius: 6px; border: 1px solid #2CCCD3;" href="https://azwestern.instructure.com/courses/36466/modules" data-api-endpoint="https://azwestern.instructure.com/api/v1/courses/36466/modules" data-api-returntype="[Module]">📚 Modules</a> <a style="flex: 1 1 200px; display: inline-block; padding: 12px 15px; background-color: #ba0c2f; color: #ffffff; text-decoration: none; border-radius: 6px; border: 1px solid #2CCCD3;" href="https://azwestern.instructure.com/courses/36466/assignments/syllabus">📜 Syllabus</a></div>
         <p style="margin: 0 0 20px 0; font-size: 0.95rem; color: #eafffd; font-style: italic;"><strong>Navigation Note:</strong> Use the "Previous" and "Next" buttons at the bottom of the screen to move through this Module.</p>
