@@ -79,6 +79,7 @@ out/
 html-builds/
 *.html
 !awc-template.html
+!awc-announcement.html
 
 # Office & System Temp Files
 ~$*
