@@ -80,6 +80,7 @@ html-builds/
 *.html
 !awc-template.html
 !awc-announcement.html
+!UNIFIED_MASTER_SYLLABUS.html
 
 # Office & System Temp Files
 ~$*
