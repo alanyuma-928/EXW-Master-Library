@@ -39,9 +39,9 @@ Use these snippets to maintain WCAG 2.1 AA compliance and professional branding 
         <table style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 1rem;">
             <caption style="text-align: left; padding: 10px; font-style: italic; color: #1a1a1a;">Table: Clinical Mastery Scale and Grading Criteria</caption>
             <thead>
-                <tr style="background-color: #ba0c2f; color: white; text-align: left;">
-                    <th style="padding: 12px; border: 1px solid #ddd; width: 30%;" scope="col">Mastery Level</th>
-                    <th style="padding: 12px; border: 1px solid #ddd;" scope="col">Clinical Criteria</th>
+                 <tr style="background-color: #ba0c2f; color: white; text-align: left;">
+                <th style="padding: 12px; border: 1px solid #ddd; width: 30%;" scope="col">Mastery Level</th>
+                 <th style="padding: 12px; border: 1px solid #ddd;" scope="col">Clinical Criteria</th>
                 </tr>
             </thead>
             <tbody>
