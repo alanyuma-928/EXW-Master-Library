@@ -28,4 +28,23 @@
 *   **Prompt 2 (Auditor):** "Check the following calculation for a $VO_2$ error: Speed = 50m/min; Grade = 10%."
 
 ---
+# EXW 245: Single Source of Truth (SSOT)
+**Primary Authority:** ACSM's Guidelines for Exercise Testing and Prescription, 12th Edition (2025).
+
+## 1. Clinical Aerobic Standards
+* **Moderate-Intensity:** 150+ min/week (30–60 min, 5 days/week).
+* **Vigorous-Intensity:** 75+ min/week (20–60 min, 3 days/week).
+
+## 2. Muscular & Functional Standards
+* **Resistance:** 2–3 days/week | 1–3 sets | 8–15 reps | All major muscle groups.
+* **Flexibility/Neuromotor:** 2–3 days/week for functional mobility.
+
+## 3. Mandatory Safety Gates (Pre-Participation)
+* Screening is the first "structural check" before any prescription.
+* Special Populations updates: Parkinson’s, CVD, POTS, and MASLD.
+
+## 4. 12th Edition Updates (Effective July 10, 2025)
+* Inclusion of sex differences and transgender/gender-diverse protocols.
+* Respiratory muscle testing protocols.
+* ---
 **Status: Ready for Phase 1 Scaffolding**
