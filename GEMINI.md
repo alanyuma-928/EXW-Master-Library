@@ -33,6 +33,7 @@ All content must be strictly aligned with the following "Sources of Truth":
 - **Accessibility Compliance:** All generated course content must strictly adhere to **WCAG 2.1 Level AA** standards (e.g., proper heading nesting, descriptive alt text for images, and high-contrast table structures).
 - **Quality Assurance:** All course content must align with the **Canvas Course Evaluation Checklist v3.0**, prioritizing **Foundational (★)** elements for accessibility and structure, while striving for **Best Practice (★★)** and **Exemplary (★★★)** standards in learner interaction and assessment.
 - **OER Standards:** All content must comply with the **OERizona Network OER Standards**, ensuring open licensing (e.g., CC BY-NC), source transparency, technical modularity for remixing, and high pedagogical quality (Criterion: Quality, Appropriateness & Alignment).
+- **AI Disclosure:** For all AI-generated or enhanced audio/video, the following disclosure is MANDATORY: *"AI Disclosure: This video/audio and transcript were synthesized using Google Gemini. Residents must audit all clinical claims against PAGA standards. Google Gemini can make mistakes."*
 
 ---
 

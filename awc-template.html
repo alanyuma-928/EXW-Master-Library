@@ -15,6 +15,11 @@
                     Your browser does not support the audio element.
                 </audio>
             </div>
+            $if(audio-ai-disclosure)$
+            <div style="background-color: #ffffff; border-left: 5px solid #BA0C2F; padding: 15px; border-radius: 4px; margin-bottom: 20px; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
+                <p style="margin: 0; font-size: 0.9rem; color: #1a1a1a; line-height: 1.4;">🤖 <strong>AI Disclosure:</strong> $audio-ai-disclosure$</p>
+            </div>
+            $endif$
             $if(transcript)$
             <details style="background-color: #ffffff; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; margin: 15px 0;">
                 <summary style="cursor: pointer; color: #ba0c2f;">📝 Audio Transcript (Click to Expand)</summary>
