@@ -16,3 +16,9 @@
 
 ## Tier 3: The Architect Phase (Synthesis)
 - [ ] Weeks 11-16: Mods 11-16 - Capstone & Certification -> **CLO 2.4/All**
+
+---
+
+## 🛠 Maintenance & Infrastructure
+- [ ] **Footer Update:** Replace placeholder '404' URLs in `awc-template.html` (Home, Modules, Syllabus) once the live Fall 2026 course shell is provisioned.
+
