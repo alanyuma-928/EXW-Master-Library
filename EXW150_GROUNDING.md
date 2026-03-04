@@ -8,11 +8,11 @@
 ---
 
 ### 🏛️ Standards Mapping
-| Standard | Criterion | Application |
-| :--- | :--- | :--- |
-| **Dietary Guidelines 2025-30** | Ch. 1: Healthy Eating Patterns | Baseline for all nutritional recommendations. |
-| **SEAL Philosophy** | Competent (7 pts) | Student identifies major macronutrient imbalances in audit. |
-| **WCAG 2.1** | AA Compliance | Accessible tables with appropriate captions. |
+| Standard                       | Criterion                      | Application                                                 |
+| :----------------------------- | :----------------------------- | :---------------------------------------------------------- |
+| **Dietary Guidelines 2025-30** | Ch. 1: Healthy Eating Patterns | Baseline for all nutritional recommendations.               |
+| **SEAL Philosophy**            | Competent (7 pts)              | Student identifies major macronutrient imbalances in audit. |
+| **WCAG 2.1**                   | AA Compliance                  | Accessible tables with appropriate captions.                |
 
 ---
 

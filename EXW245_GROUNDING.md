@@ -8,11 +8,11 @@
 ---
 
 ### 🏛️ Standards Mapping
-| Standard | Criterion | Application |
-| :--- | :--- | :--- |
-| **ACSM 11th Ed.** | Ch. 6: Metabolic Equations | Mathematical formula source of truth. |
-| **Metabolic Math** | $VO_2$ Calculations | Standardized physiological metrics. |
-| **SEAL Philosophy** | Exemplary (10 pts) | Student calculates $VO_2$ within 2% of the absolute value. |
+| Standard            | Criterion                  | Application                                                |
+| :------------------ | :------------------------- | :--------------------------------------------------------- |
+| **ACSM 11th Ed.**   | Ch. 6: Metabolic Equations | Mathematical formula source of truth.                      |
+| **Metabolic Math**  | $VO_2$ Calculations        | Standardized physiological metrics.                        |
+| **SEAL Philosophy** | Exemplary (10 pts)         | Student calculates $VO_2$ within 2% of the absolute value. |
 
 ---
 
