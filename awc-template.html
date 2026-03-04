@@ -27,6 +27,33 @@
     </div>
     $endif$
 
+    $if(video-url)$
+    <div style="padding: clamp(15px, 5vw, 40px) clamp(15px, 5vw, 40px) 0 clamp(15px, 5vw, 40px);">
+        <section style="background-color: #f8f9fa; border: 1px solid #d1d5db; padding: 25px; border-radius: 12px; margin-bottom: 0px;" aria-labelledby="video-title">
+            <h3 id="video-title" style="margin-top: 0; color: #ba0c2f; text-align: center; font-size: 1.5rem;">🎥 $if(video-label)$$video-label$$else$Clinical Briefing$endif$</h3>
+            <p style="font-size: 1rem; color: #4b5563; text-align: center; margin-bottom: 20px;">$video-description$</p>
+            <div style="margin: 25px 0; border-radius: 8px; overflow: hidden; border: 1px solid #000; background: #000;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" title="$video-title-attr$" src="$video-url$" loading="lazy" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+            </div>
+            $if(video-ai-disclosure)$
+            <div style="background-color: #ffffff; border-left: 5px solid #BA0C2F; padding: 15px; border-radius: 4px; margin-bottom: 20px; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
+                <p style="margin: 0; font-size: 0.9rem; color: #1a1a1a; line-height: 1.4;">🤖 <strong>AI Disclosure:</strong> $video-ai-disclosure$</p>
+            </div>
+            $endif$
+            $if(video-transcript)$
+            <details style="background-color: #f8f9fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; margin: 15px 0;">
+                <summary style="cursor: pointer; color: #ba0c2f;">📝 Verbatim Video Transcript (Click to Expand)</summary>
+                <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #e1e4e8; font-size: 0.95rem; background-color: #ffffff; overflow-x: auto;">
+                    $video-transcript$
+                </div>
+            </details>
+            $endif$
+        </section>
+    </div>
+    $endif$
+
     <div class="awc-content-body" style="padding: 30px 40px;">
 $body$
     </div>
