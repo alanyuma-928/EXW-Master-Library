@@ -116,3 +116,6 @@ out/
 *.bak
 *.tmp
 !modules/
+!modules/EXW150/
+!modules/EXW245/
+!modules/EXW265/
