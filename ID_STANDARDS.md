@@ -5,3 +5,4 @@ Guided Learning: Integrated Subject Mastery prompt with Placeholder logic [X, Y,
 Design Rule: All Role-Plays must include a 'Hidden Trap' safety violation for the student to detect.
 Scoping: Each module must declare its SSoT authority in the header to prevent cross-contamination.
 Tool Building: Students learn to build custom Gemini assistants (AdaptiveFit) for clinical task automation.
+Strategy: Meta-Prompting (using AI to critique its own instructions) is a core requirement for V5.37.
