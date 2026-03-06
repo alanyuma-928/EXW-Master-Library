@@ -120,3 +120,4 @@ out/
 !modules/EXW245/
 !modules/EXW265/
 !modules/EXW101/
+!modules/**/*.html
