@@ -122,3 +122,4 @@ out/
 !modules/EXW265/
 !modules/EXW101/
 !modules/**/*.html
+!MODULE_RESOURCES/
