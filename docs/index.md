@@ -1,5 +1,5 @@
 ---
-title: Home
+title: EXW AI Tool Box
 layout: home
 ---
 
