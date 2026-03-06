@@ -123,3 +123,4 @@ out/
 !modules/EXW101/
 !modules/**/*.html
 !MODULE_RESOURCES/
+!HOME_PAGES/
