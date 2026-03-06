@@ -1,15 +1,24 @@
-# EXW Master Content Library
-**Clinical AI Architecture & Documentation Standards**
+---
+title: Home
+layout: home
+---
 
-## 🏛️ Institutional Agility: Why Gemini?
-In this residency, we explicitly utilize **Google Gemini** as our clinical engine. While other enterprise tools (like Microsoft Copilot) are available, Gemini offers specific advantages for our **Centaur Protocol**:
+# 🧰 Welcome to the EXW Tool Box
+**The Matador Wellness Center | Clinical AI Residency**
 
-1.  **Clinical Simulation:** Gemini demonstrated superior performance in Socratic role-play and "Checkride" simulations.
-2.  **Filter Navigability:** Unlike many enterprise-filtered models, Gemini allows for robust stress-testing of clinical safety scenarios without premature censorship of "medical" terminology.
-3.  **Engine Transparency:** The P-T-C-F framework is optimized for Gemini's processing logic, ensuring high-fidelity outputs for our residents.
+This public portal serves as the documentation hub for the **Centaur Protocol** and our standardized clinical AI architecture. Here, you will find the verified components, Socratic prompts, and pedagogical frameworks used to train the next generation of Exercise Science Architects.
+
+## 🚀 Key Frameworks
+- **The Centaur Protocol:** Mastering the Pilot (Human) + Engine (AI) relationship.
+- **P-T-C-F Framework:** Persona, Task, Context, and Format prompting logic.
+- **The Einstein Defense:** High-friction design to prevent agentic offloading.
 
 ## 🧱 Component Library
-Access our standardized UI components and documentation protocols:
+Select a component below to view the standardized HTML and implementation guide:
 - [P-T-C-F Checklist](PTCF_Checklist.html)
-- [Universal Grading Protocol](Universal_Grading_Protocol.html)
 - [Universal AI Logic](Universal_AI_Logic.html)
+- [Universal Grading Protocol](Universal_Grading_Protocol.html)
+- [Universal Socratic Tutor](Universal_Socratic_Tutor.html)
+
+---
+**Institutional Authority:** Grounded in PAGA 2018 and AWC AI for All principles.
