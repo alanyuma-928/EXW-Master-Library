@@ -14,7 +14,7 @@
         }
 
         body {
-            font-family: 'Segoe UI', Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             color: #333;
@@ -24,7 +24,7 @@
         header {
             background: var(--matador-red);
             color: white;
-            padding: 2rem 1rem;
+            padding: 3rem 1rem;
             text-align: center;
             border-bottom: 6px solid var(--teal);
         }
@@ -36,20 +36,21 @@
             background: white;
             border-radius: 8px;
             border: 1px solid #ddd;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         }
 
-        .logic-card {
-            border-left: 8px solid var(--matador-red);
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 30px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         h2 {
             color: var(--matador-red);
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
+            margin-top: 2rem;
         }
 
         h3 {
@@ -57,38 +58,73 @@
             margin-top: 0;
         }
 
+        .logic-card {
+            border-left: 8px solid var(--matador-red);
+            background: #fefefe;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.03);
+            border-radius: 0 8px 8px 0;
+        }
+
         .highlight {
             color: var(--matador-red);
             font-weight: bold;
         }
 
-        .diagram-placeholder {
-            background: #eee;
-            padding: 40px;
-            text-align: center;
-            border: 2px dashed #ccc;
+        .code-block {
+            background: #222;
+            color: #2CCCD3;
+            padding: 25px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            border-left: 8px solid var(--teal);
+            line-height: 1.5;
             margin: 20px 0;
-            font-style: italic;
+        }
+
+        .architect-note {
+            background-color: #f0fbff;
+            padding: 15px;
+            border: 1px solid #d0e8f0;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            margin-top: 15px;
         }
 
         footer {
             background: var(--matador-red);
             color: white;
-            padding: 2rem;
+            padding: 3rem 1rem;
             text-align: center;
             border-top: 6px solid var(--teal);
-            margin-top: 3rem;
+            margin-top: 4rem;
+        }
+
+        .footer-nav {
+            margin-bottom: 20px;
+        }
+
+        .footer-nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
         }
 
         .back-link {
             text-align: center;
-            margin-top: 2rem;
+            margin-top: 3rem;
         }
 
         a {
             color: var(--matador-red);
             font-weight: bold;
             text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -103,38 +139,63 @@
     <div class="container">
         <section>
             <h2>The "Pilot" Philosophy</h2>
-            <p>In the EXW residency, we reject the "Black Box" approach to AI. We do not use AI to generate answers; we
-                use it to <strong>audit logic</strong>. This creates a "High-Friction" environment where the student
-                remains the <strong>Pilot in Command</strong>.</p>
+            <p>In the EXW residency, we reject the "Black Box" approach to AI. We do not use AI to simply generate
+                answers; we use it to <strong>audit logic</strong>. This creates a "High-Friction" environment where the
+                student remains the <strong>Pilot in Command</strong>.</p>
         </section>
 
-        <div style="margin-top: 15px; font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
-            <p><strong>🛠️ Architect's Note on Delimiters (###):</strong>
+        <div class="logic-card">
+            <h3>1. The P-T-C-F Framework</h3>
+            <p>Every student interaction with the "AI Engine" must utilize the <strong>P-T-C-F</strong> protocol to
+                ensure clinical precision:</p>
+            <ul>
+                <li><span class="highlight">[P] Persona:</span> Senior Clinical Exercise Specialist.</li>
+                <li><span class="highlight">[T] Task:</span> Conduct a clinical audit of this case study.</li>
+                <li><span class="highlight">[C] Context:</span> Reference the PAGA 2nd Ed (SSoT).</li>
+                <li><span class="highlight">[F] Format:</span> Markdown table with safety thresholds.</li>
+            </ul>
+
+            <p><strong>Sample P-T-C-F Prompt with Delimiters:</strong></p>
+            <div class="code-block">
+                [PERSONA]: Senior Clinical Exercise Specialist.<br>
+                [TASK]: Use the PAGA 2nd Ed (SSoT) to audit the client data provided below.<br>
+                [FORMAT]: List specific modifications required for safety.<br><br>
+
+                ### CLIENT DATA BEGINS ###<br>
+                Age: 68 | Condition: Hypertension & Osteoarthritis<br>
+                Current Routine: 30min brisk walking, 4x weekly.<br>
+                Goal: Add resistance training.<br>
+                ### CLIENT DATA ENDS ###<br><br>
+
+                [INSTRUCTION]: Compare the routine inside the delimiters against the SSoT and identify any missing
+                'Rules' for resistance training.
+            </div>
+
+            <div class="architect-note">
+                <strong>🛠️ Architect's Note on Delimiters (###):</strong>
                 We use triple-hashes as "Structural Bulkheads" to isolate raw client data from the Master Instructions.
                 This prevents <strong>Context Drift</strong> and ensures the AI treats the data as a static reference
-                point rather than a new set of commands.</p>
+                point rather than a new set of commands.
+            </div>
         </div>
-
-
-
-
 
         <div class="logic-card">
             <h3>2. The Mission Loop</h3>
-            <p>We move students through a recursive cycle of <strong>Pattern / Rule / Solve</strong>:</p>
+            <p>We move students through a recursive cycle of <strong>Pattern / Rule / Solve</strong> to ensure workforce
+                readiness:</p>
             <ul>
-                <li><strong>Pattern:</strong> Identify the unique physiological markers of the client.</li>
-                <li><strong>Rule:</strong> Match those markers against the Single Source of Truth (SSoT).</li>
-                <li><strong>Solve:</strong> Generate a PAGA-aligned exercise prescription.</li>
+                <li><strong>Pattern:</strong> Identify the unique physiological markers of the client (The Data).</li>
+                <li><strong>Rule:</strong> Match those markers against the Single Source of Truth / SSoT (The
+                    Regulation).</li>
+                <li><strong>Solve:</strong> Generate a PAGA-aligned exercise prescription (The Output).</li>
             </ul>
         </div>
 
         <section>
             <h2>Institutional Agility</h2>
-            <p>By using <strong>Infrastructure-as-Code (Markdown, GitHub, VS Code)</strong>, this curriculum is
-                mobile-responsive, version-controlled, and bypasses the administrative filters of standard enterprise AI
-                tools. This ensures our students are training on the actual clinical data they will use in the
-                workforce.</p>
+            <p>By using <strong>Infrastructure-as-Code (Markdown, GitHub, VS Code)</strong>, this curriculum remains
+                mobile-responsive and version-controlled. We prioritize tools that bypass administrative filters,
+                ensuring students train on the actual clinical standards used in modern healthcare.</p>
         </section>
 
         <div class="back-link">
@@ -156,7 +217,7 @@
         </div>
 
         <p><strong>Coach Alan Pruitt</strong> | Adjunct Faculty, Exercise Science</p>
-        <p>Arizona Western College</p>
+        <p>Arizona Western College & The University of Arizona</p>
 
         <div style="font-size: 0.85rem; color: #eafffd; margin-top: 15px; line-height: 1.5;">
             This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"
