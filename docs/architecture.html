@@ -108,27 +108,11 @@
                 remains the <strong>Pilot in Command</strong>.</p>
         </section>
 
-        <div class="logic-card">
-            <h3>1. The P-T-C-F Framework</h3>
-            <p>Every student interaction with the "AI Engine" must utilize the <strong>P-T-C-F</strong> protocol to
-                ensure clinical precision:</p>
-            <ul>
-                <li><span class="highlight">[P] Persona:</span> Senior Clinical Exercise Specialist.</li>
-                <li><span class="highlight">[T] Task:</span> Conduct a clinical audit of this case study.</li>
-                <li><span class="highlight">[C] Context:</span> Reference the PAGA 2nd Ed (SSoT).</li>
-                <li><span class="highlight">[F] Format:</span> Markdown table with safety thresholds.</li>
-            </ul>
-
-            <p><strong>Sample P-T-C-F Prompt Structure:</strong></p>
-            <div
-                style="background: #222; color: #2CCCD3; padding: 20px; border-radius: 8px; font-family: 'Courier New', monospace; border-left: 8px solid var(--teal); line-height: 1.4;">
-                [PERSONA]: Act as a Senior Clinical Exercise Specialist.<br>
-                [TASK]: Review the following client profile for a 65-year-old with Type 2 Diabetes.<br>
-                [CONTEXT]: Using the PAGA 2nd Edition guidelines for special populations, identify potential safety
-                contraindications for high-intensity interval training (HIIT).<br>
-                [FORMAT]: Provide your analysis in a structured Markdown table including "Guideline," "Risk Level," and
-                "Required Modification."
-            </div>
+        <div style="margin-top: 15px; font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 10px;">
+            <p><strong>🛠️ Architect's Note on Delimiters (###):</strong>
+                We use triple-hashes as "Structural Bulkheads" to isolate raw client data from the Master Instructions.
+                This prevents <strong>Context Drift</strong> and ensures the AI treats the data as a static reference
+                point rather than a new set of commands.</p>
         </div>
 
 
