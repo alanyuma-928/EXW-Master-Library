@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaptiveFit Setup Guide | EXW Tool Box</title>
+    <style>
+        :root {
+            --matador-red: #ba0c2f;
+            --teal: #2CCCD3;
+            --dark-grey: #2D3B45;
+            --light-grey: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: var(--light-grey);
+        }
+
+        header {
+            background: var(--matador-red);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 6px solid var(--teal);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .code-block {
+            background: #222;
+            color: #2CCCD3;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            border-left: 8px solid var(--teal);
+        }
+
+        .warning {
+            background: #fff0f3;
+            border-left: 5px solid var(--matador-red);
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        footer {
+            background: var(--matador-red);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-top: 6px solid var(--teal);
+            margin-top: 3rem;
+        }
+
+        a {
+            color: var(--matador-red);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🛠️ AdaptiveFit Assistant</h1>
+        <p>Setup Guide: Building Your Clinical AI Calculator</p>
+    </header>
+
+    <div class="container">
+        <h2>The Mission</h2>
+        <p>The <strong>AdaptiveFit Assistant</strong> is a custom framework designed to anchor Google Gemini to the
+            <em>Physical Activity Guidelines for Americans (PAGA), 2nd Edition</em>. This tool acts as a clinical
+            resident to help you identify safety red flags and exercise modifications.</p>
+
+        <div class="warning">
+            <strong>⚠️ AWC "AI for All" Caveat:</strong> This is a tool for verification and brainstorming. You are the
+            Pilot in Command; the final clinical prescription must be written in your own voice and cited correctly.
+        </div>
+
+        <h3>Step 1: The Master Initialization</h3>
+        <p>Copy the code block below and paste it into a new Google Gemini chat session.</p>
+
+        <div class="code-block">
+            Act as the 'AdaptiveFit Assistant,' a clinical exercise specialist at the Matador Wellness Center. Your
+            Single Source of Truth is the PAGA 2nd Edition. Your goal is to help me audit exercise prescriptions for
+            special populations. Always check for safety contraindications first. If I provide a client scenario, use
+            the [Pattern / Rule / Solve] framework to suggest modifications.
+        </div>
+
+        <h3>Step 2: Syncing the Data</h3>
+        <p>Once Gemini acknowledges the role, upload the PAGA 2nd Ed PDF (or provide the link) to ensure the "Engine" is
+            pulling from the correct clinical radar.</p>
+
+
+
+        <h3>Step 3: Verification</h3>
+        <p>Ask the assistant: <em>"What are the aerobic activity guidelines for an adult with Type 2 Diabetes?"</em> If
+            it references the 150-300 minute threshold from PAGA, the assistant is live.</p>
+
+        <hr>
+        <p style="text-align: center;"><a href="index.html">⬅️ Return to Tool Box Home</a></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Coach Alan Pruitt | Arizona Western College</p>
+    </footer>
+
+</body>
+
+</html>
