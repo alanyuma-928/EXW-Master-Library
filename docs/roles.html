@@ -76,6 +76,14 @@
             font-weight: 700;
         }
 
+        .universal-note {
+            background-color: #e3f2fd;
+            border-left: 8px solid #2196f3;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 0 8px 8px 0;
+        }
+
         .role-card {
             background: white;
             border: 2px solid #d1d1d1;
@@ -83,12 +91,6 @@
             padding: 30px;
             margin-bottom: 30px;
             border-left: 10px solid var(--accessible-teal);
-            transition: 0.3s;
-        }
-
-        .role-card:hover {
-            border-color: var(--accessible-teal);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
         .prompt-box {
@@ -121,7 +123,7 @@
 
     <header>
         <div style="font-size: 1.8rem; font-weight: 900; text-transform: uppercase;">THE GUIDED LEARNING TRIFECTA</div>
-        <p>Leveraging AI as a Master Tutor and Socratic Mentor</p>
+        <p>Universal AI Roles for Academic & Professional Mastery</p>
     </header>
 
     <nav>
@@ -131,32 +133,38 @@
     <main>
         <section>
             <h2>🎓 Why Guided Learning?</h2>
-            <p>In the <strong>EXW Master Library</strong>, we use AI to simulate the experience of 1-on-1 expert
-                tutoring. These roles are designed to move you past simple "fact-finding" and into deep **clinical
-                comprehension**.</p>
+            <p>These roles leverage the power of <strong>Generative AI</strong> to provide personalized, 1-on-1
+                mentorship. By structuring the AI's persona, we move from passive information retrieval to active,
+                high-friction learning.</p>
         </section>
+
+        <div class="universal-note">
+            <p><strong>🌎 Universal Application:</strong> While these prompts are demonstrated using Exercise Science
+                data, the <strong>P-T-C-F logic</strong> is universal. These roles can be adapted for any educational or
+                professional setting—from nursing and law to engineering and business—simply by swapping the uploaded
+                SSoT (Single Source of Truth) document.</p>
+        </div>
 
         <div
             style="background-color: #fff9c4; border: 2px solid #fbc02d; padding: 15px; border-radius: 8px; margin-bottom: 35px;">
             <p style="margin: 0; font-weight: bold;">🛑 STOP: Before using these roles, click the "Add File (+)" button
-                in Gemini or NotebookLM and upload the PAGA 2nd Edition PDF. These tutors cannot provide clinical
-                guidance without their SSoT "Radar."</p>
+                in Gemini or NotebookLM and upload your specific SSoT (e.g., PAGA 2nd Edition PDF). The roles cannot
+                function without their clinical or professional radar.</p>
         </div>
 
         <article class="role-card">
             <h3>1. The Socratic Professor</h3>
-            <p>This role is designed to test your critical thinking. Instead of giving you the answers, the Socratic
-                Professor will respond with probing questions that force you to cite the <strong>PAGA</strong> or
-                <strong>ACSM</strong> guidelines yourself.</p>
+            <p>This role tests your critical thinking. It will not give you answers; it will ask probing questions that
+                force you to find the logic within the data yourself.</p>
 
 
 
             <div class="prompt-box">
                 <span class="delimiter">### PERSONA ###</span><br>
-                Act as a Socratic Professor specializing in Exercise Science. <br><br>
+                Act as a Socratic Professor. <br><br>
                 <span class="delimiter">### TASK ###</span><br>
-                Based on the PAGA PDF I just uploaded, do not give me answers. Instead, ask me 3 challenging questions
-                that require me to identify the clinical contraindications for a client with Osteoporosis.<br><br>
+                Based on the document I just uploaded, do not give me answers. Instead, ask me 3 challenging questions
+                that require me to find and explain the core principles of [Insert Topic].<br><br>
                 <span class="delimiter">### FORMAT ###</span><br>
                 Wait for my response after each question.
             </div>
@@ -164,22 +172,38 @@
 
         <article class="role-card">
             <h3>2. The Mastery Tutor</h3>
-            <p>The Mastery Tutor specializes in <strong>Cognitive Load Management</strong>. If a concept like "Wolff's
-                Law" or "The Mechanostat Theory" feels overwhelming, use this role to break it down into professional,
-                workforce-ready analogies.</p>
+            <p>The Mastery Tutor specializes in breaking down complex concepts into professional, workforce-ready
+                analogies.</p>
+
+            <div class="prompt-box">
+                <span class="delimiter">### PERSONA ###</span><br>
+                Act as a Mastery Tutor specializing in [Insert Subject]. <br><br>
+                <span class="delimiter">### TASK ###</span><br>
+                Explain the relationship between [Concept A] and [Concept B] using a simple but professional
+                analogy.<br><br>
+                <span class="delimiter">### CONTEXT ###</span><br>
+                Anchor your explanation strictly to the document I just uploaded.<br><br>
+                <span class="delimiter">### FORMAT ###</span><br>
+                Use a 3-part bulleted list.
+            </div>
+        </article>
+
+        <article class="role-card">
+            <h3>3. The Quiz Master</h3>
+            <p>The Quiz Master provides low-stakes formative assessment. Use this role to verify your knowledge before a
+                high-stakes clinical or professional exam.</p>
 
 
 
             <div class="prompt-box">
                 <span class="delimiter">### PERSONA ###</span><br>
-                Act as a Mastery Tutor. <br><br>
+                Act as a Quiz Master. <br><br>
                 <span class="delimiter">### TASK ###</span><br>
-                Explain the relationship between mechanical loading and bone density using a professional but simple
-                analogy that I could explain to a client.<br><br>
-                <span class="delimiter">### CONTEXT ###</span><br>
-                Anchor your explanation to the PAGA 2nd Edition standards.<br><br>
+                Generate 5 multiple-choice questions based on the document I uploaded. Focus on high-level application
+                rather than simple memorization.<br><br>
                 <span class="delimiter">### FORMAT ###</span><br>
-                Use a 3-part bulleted list.
+                Provide the questions one at a time. After I answer, tell me if I am correct and provide the page
+                reference from the source for the answer.
             </div>
         </article>
 
