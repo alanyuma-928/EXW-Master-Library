@@ -8,17 +8,14 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
     <style>
         :root {
             --matador-red: #ba0c2f;
-            /* Darkened Teal for WCAG 2.2 AA Contrast (Passes 4.5:1 on white) */
             --accessible-teal: #007075;
             --dark-grey: #1a1a1a;
-            --light-grey: #f1f3f5;
+            --bg-light: #f1f3f5;
             --white: #ffffff;
         }
 
@@ -27,7 +24,7 @@
             line-height: 1.6;
             margin: 0;
             color: var(--dark-grey);
-            background-color: var(--light-grey);
+            background-color: var(--bg-light);
         }
 
         header {
@@ -44,10 +41,24 @@
             padding: 2rem;
         }
 
-        .hero {
-            text-align: center;
-            padding-bottom: 2rem;
-            border-bottom: 2px solid #ccc;
+        /* High-Contrast Info Blocks */
+        .info-block {
+            background: var(--white);
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .firewall-block {
+            border-left: 10px solid var(--matador-red);
+        }
+
+        .compliance-block {
+            background-color: var(--matador-red);
+            color: white;
+            border: 4px solid #7a081f;
         }
 
         .grid {
@@ -55,7 +66,6 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 25px;
             margin-top: 3rem;
-            padding: 0 2rem;
         }
 
         .card {
@@ -71,7 +81,7 @@
 
         .card:hover {
             border-color: var(--accessible-teal);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
         }
 
         h1 {
@@ -89,6 +99,12 @@
             font-weight: 700;
         }
 
+        .compliance-block h3 {
+            color: white;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 10px;
+        }
+
         .cta-button {
             display: inline-block;
             background: var(--matador-red);
@@ -101,36 +117,16 @@
             text-align: center;
         }
 
-        .cta-button:hover,
-        .cta-button:focus {
+        .cta-button:hover {
             background: var(--accessible-teal);
-            color: var(--white);
-            outline: 3px solid var(--dark-grey);
-            /* Focus visible for accessibility */
         }
 
         footer {
             background: var(--white);
-            color: var(--dark-grey);
             padding: 4rem 1rem;
             text-align: center;
             border-top: 6px solid var(--matador-red);
             margin-top: 4rem;
-        }
-
-        .footer-nav a {
-            color: var(--matador-red);
-            margin: 0 15px;
-            text-decoration: underline;
-            /* Underlines help distinguish links without color alone */
-            font-weight: bold;
-        }
-
-        .cc-block {
-            max-width: 700px;
-            margin: 30px auto;
-            color: #222;
-            /* Darker text for footer contrast */
         }
     </style>
 </head>
@@ -139,69 +135,70 @@
 
     <header>
         <h1>EXW Academic AI Tool Box</h1>
-        <p><strong>High-Friction Learning & Clinical AI Architecture</strong></p>
+        <p><strong>"High-Friction Learning & Clinical AI Architecture"</strong></p>
     </header>
 
     <div class="container">
-        <section class="hero">
-            <h2>Welcome, Pilot.</h2>
-            <p>This is the 24/7 flight manual for the <strong>Arizona Western College (AWC) Matador Wellness
-                    Center</strong>.</p>
-        </section>
-
-        <div
-            style="background-color: #ffffff; border: 3px solid var(--accessible-teal); border-radius: 12px; padding: 25px; margin: 30px 0;">
-            <h3 style="color: var(--accessible-teal);">⚖️ AWC "AI for All" Guiding Principles</h3>
-            <ul style="list-style-type: square; padding-left: 20px;">
+        <div class="info-block">
+            <h2 style="color: var(--accessible-teal);">⚖️ AWC "AI for All" Guiding Principles</h2>
+            <p><strong>Aligning Generative AI with the Modern Clinical Workforce:</strong></p>
+            <ul style="padding-left: 20px;">
                 <li><strong>👨‍✈️ Accountability:</strong> You are the Pilot in Command. AI hallucinations are not an
                     excuse.</li>
                 <li><strong>📝 Transparency:</strong> AI is a collaborator, not a ghostwriter. Citation is mandatory.
                 </li>
-                <li><strong>🔒 Privacy:</strong> Protect the HIPAA barrier. Never upload PHI.</li>
+                <li><strong>🔒 Privacy:</strong> Protect the HIPAA barrier. Never upload sensitive identifiers.</li>
+                <li><strong>🤝 Equity:</strong> We bridge the digital divide by utilizing only institutional or free AI
+                    tools.</li>
             </ul>
         </div>
-    </div>
 
-    <div class="grid">
-        <div class="card">
-            <div>
-                <h3>🏗️ The Architecture</h3>
-                <p>Explore the <strong>P-T-C-F Framework</strong> and the <strong>Mission Loop</strong> (Pattern / Rule
-                    / Solve).</p>
-            </div>
-            <a href="architecture.html" class="cta-button">View Strategy</a>
+        <div class="info-block firewall-block">
+            <h2>🛡️ The Agentic AI Firewall</h2>
+            <p>Modern "Agentic" tools are designed for shortcuts. The <strong>EXW AI Tool Box</strong> blunts these
+                exploits through <strong>High-Friction Architecture</strong>:</p>
+            <ul>
+                <li><strong>Contextual Anchoring:</strong> Mandatory SSoT (PAGA) uploads keep the pilot in control.</li>
+                <li><strong>Logic Auditing:</strong> The Mission Loop forces the AI to show its "work."</li>
+                <li><strong>Human-in-the-Loop:</strong> Rendering "set-and-forget" automation ineffective.</li>
+            </ul>
         </div>
 
-        <div class="card">
-            <div>
-                <h3>📂 Spring 2026 Coursework</h3>
-                <p>Access refactored modules for <strong>EXW 265: Exercise for Special Populations</strong>.</p>
+        <div class="info-block compliance-block">
+            <h3>⚖️ Institutional Compliance: HIPAA & FERPA</h3>
+            <p style="font-weight: bold; color: #ffeb3b;">THE GOLDEN RULE: NO SENSITIVE DATA UPLOADS.</p>
+            <p>AWC anchors all AI usage to federal privacy standards. Failure to de-identify data is a violation of
+                professional ethics. Use fictional placeholders for all simulations.</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>🏗️ The Architecture</h3>
+                <p>Explore the P-T-C-F Framework and the Mission Loop logic.</p>
+                <a href="architecture.html" class="cta-button">View Strategy</a>
             </div>
-            <a href="EXW265-Spring-2026/module-9.html" class="cta-button">Enter Module 9</a>
+            <div class="card">
+                <h3>🎓 Guided Learning</h3>
+                <p>Deploy the Socratic Professor and Mastery Tutor roles.</p>
+                <a href="roles.html" class="cta-button">Launch Roles</a>
+            </div>
+            <div class="card">
+                <h3>📂 Spring 2026</h3>
+                <p>Access refactored modules for EXW 265: Special Populations.</p>
+                <a href="EXW265-Spring-2026/module-9.html" class="cta-button">Enter Module 9</a>
+            </div>
         </div>
     </div>
 
     <footer>
-        <nav class="footer-nav" aria-label="Footer Navigation">
-            <a href="index.html">Home</a> |
-            <a href="https://github.com/alanyuma-928/EXW-Master-Library" target="_blank">GitHub Repo</a>
-        </nav>
-
-        <div class="cc-block">
-            <p><strong>EXW Master Content Library</strong> | Designed by Coach Alan Pruitt</p>
-            <p>
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                    <img alt="Creative Commons License" style="border-width:0; margin-bottom: 15px;"
-                        src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-                </a><br />
-                This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-                    style="color: var(--accessible-teal);">Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-                    International License</a>.
-            </p>
-            <p style="font-size: 0.95rem; margin-top: 15px;">
-                Arizona Western College | PAGA 2nd Ed & ACSM 12th Ed Standards<br>
-                <strong>HIPAA & FERPA Compliant Framework</strong>
-            </p>
+        <p><strong>EXW Master Content Library</strong> | Designed by Coach Alan Pruitt</p>
+        <div style="margin: 20px 0;">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img alt="Creative Commons License" style="border-width:0; margin-bottom: 10px;"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+            </a><br />
+            Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                style="color: var(--accessible-teal); font-weight: bold;">CC BY-NC-SA 4.0</a>.
         </div>
     </footer>
 
