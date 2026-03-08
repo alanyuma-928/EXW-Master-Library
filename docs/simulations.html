@@ -4,10 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinical Simulations | EXW Master Library</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Simulations | EXW Master Library</title>
     <link rel="stylesheet" href="style.css">
     <style>
         :root {
@@ -41,13 +38,6 @@
             border-radius: 8px;
         }
 
-        h2 {
-            color: var(--matador-red);
-            border-bottom: 2px solid var(--bg-light);
-            padding-bottom: 10px;
-            margin-top: 2rem;
-        }
-
         .briefing-box {
             border: 2px solid #ddd;
             padding: 25px;
@@ -61,40 +51,45 @@
             border-left: 6px solid var(--accessible-teal);
             padding: 20px;
             font-style: italic;
-            color: #1a1a1a;
             margin-top: 15px;
-            font-family: 'Courier New', monospace;
         }
 
         .delimiter {
             color: #ba0c2f;
             font-weight: bold;
         }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1rem;
+            border-top: 4px solid var(--matador-red);
+            margin-top: 4rem;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <div style="font-size: 1.8rem; font-weight: 900;">CLINICAL SIMULATIONS LIBRARY</div>
+        <h1>🎭 CLINICAL SIMULATIONS</h1>
     </header>
     <main>
         <div
             style="background-color: #fff9c4; border: 2px solid #fbc02d; padding: 15px; border-radius: 8px; margin-bottom: 30px;">
             <p style="margin: 0;"><strong>⚠️ RADAR CHECK:</strong> Click <strong>Add File (+)</strong> and upload the
-                PAGA 2nd Ed PDF <em>before</em> starting these simulations.</p>
+                PAGA 2nd Ed PDF first.</p>
         </div>
-        <section>
-            <h2>🏥 Clinical Heavy Hitters</h2>
-            <div class="briefing-box">
-                <h3>Scenario: Mrs. Miller (Osteoporosis)</h3>
-                <p><strong>Profile:</strong> 68-year-old | T-score: -2.8 (Spine) | Goal: Weighted Spinal Flexion.</p>
+        <div class="briefing-box">
+            <h3>Scenario: Mrs. Miller (Osteoporosis)</h3>
 
-                <div class="simulation-prompt">
-                    <span class="delimiter">### PERSONA ###</span><br>Act as Mrs. Miller. I am your Exercise
-                    Physiologist. Tell me about your fear of fracturing your spine while lifting...
-                </div>
-            </div>
-        </section>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as Mrs. Miller...</div>
+        </div>
+
+        <div
+            style="background-color: #f8f9fa; border: 2px solid #ba0c2f; padding: 20px; border-radius: 8px; margin-top: 40px;">
+            <p style="margin: 0;"><strong>⚠️ Disclaimer:</strong> The content provided in this course is for
+                informational and educational purposes only. It is not intended to substitute for professional medical
+                advice, diagnosis, or treatment.</p>
+        </div>
     </main>
     <footer>
         <p>Designed by Coach Alan Pruitt | CC BY-NC-SA 4.0</p>
