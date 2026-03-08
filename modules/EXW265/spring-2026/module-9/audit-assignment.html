@@ -11,6 +11,8 @@
             --teal-dark: #007075;
             --off-white: #f8f9fa;
             --text-dark: #1a1a1a;
+            --success-green: #2e7d32;
+            --success-bg: #e8f5e9;
         }
 
         body {
@@ -95,6 +97,32 @@
             border: 2px solid var(--teal);
             padding: 1.5rem;
             border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        /* Exemplar Box */
+        .exemplar-box {
+            background-color: var(--success-bg);
+            border: 2px solid var(--success-green);
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+        }
+
+        .exemplar-box h3 {
+            margin-top: 0;
+            color: var(--success-green);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .exemplar-content {
+            font-size: 0.95rem;
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 4px;
+            border: 1px solid #ddd;
         }
 
         /* V5.18 Centered Footer */
@@ -171,7 +199,17 @@
             <div class="submission-standard">
                 <p><strong>Part 1 (The Engine):</strong> Submit your <strong>P-T-C-F Prompt</strong> used to generate the initial routine.</p>
                 <p><strong>Part 2 (The Audit):</strong> Submit a <strong>150-word Clinical Audit</strong>. You must explicitly critique the AI's output against <strong>PAGA 2018 Chapter 6</strong> standards for bone health.</p>
-                <p><strong>Part 3 (The Presence-Check):</strong> Submit a <strong>2-minute Canvas Audio Podcast</strong> defending your P-T-C-F Clinical Prescription. You must justify why your selected exercises are clinically superior to non-weight-bearing alternatives for this specific patient. <em>Include the AI-generated transcript of your audio below the recording.</em></p>
+                <p><strong>Part 3 (The Presence-Check):</strong> Submit a <strong>2-minute Canvas Audio Podcast</strong> defending your P-T-C-F Clinical Prescription. <em>Include the AI-generated transcript of your audio below the recording.</em></p>
+            </div>
+        </section>
+
+        <!-- Student Exemplar -->
+        <section class="exemplar-box">
+            <h3>✅ Student Exemplar (Mastery Level)</h3>
+            <div class="exemplar-content">
+                <p><strong>Part 1 (Prompt):</strong> "Act as a Clinical Exercise Physiologist. Create a 3-day weight-bearing routine for a client with a T-score of -2.8. Focus on multicomponent physical activity as defined by PAGA 2018 Chapter 6. Exclude high-impact loading."</p>
+                <p><strong>Part 2 (The Audit):</strong> "The AI output correctly identified the need for weight-bearing activity, but it initially suggested 'box jumps' for power. I am auditing this against PAGA 2018 Chapter 6 (page 81), which states that for individuals with low bone mass, the risk of fracture must be balanced. I have modified the output to replace jumps with 'weighted step-ups' to maintain axial loading while eliminating the high-impact landing phase. Additionally, the AI missed the PAGA recommendation for multicomponent training (balance + resistance); I have integrated tandem stands to satisfy the balance requirement for fall prevention..." [150 words total]</p>
+                <p><strong>Part 3 (Audio Note):</strong> [Student would attach their 2-minute defense audio here along with the transcript].</p>
             </div>
         </section>
 
