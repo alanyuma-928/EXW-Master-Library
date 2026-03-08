@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulations | EXW Master Library</title>
+    <title>Clinical Simulations | EXW Master Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
         :root {
@@ -25,74 +28,181 @@
         header {
             background-color: var(--matador-red);
             color: white;
-            padding: 2rem 1rem;
+            padding: 2.5rem 1rem;
             text-align: center;
             border-bottom: 6px solid var(--accessible-teal);
         }
 
+        nav {
+            max-width: 950px;
+            margin: 1.5rem auto;
+            padding: 0 40px;
+        }
+
+        .back-link {
+            color: var(--accessible-teal);
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 1.1rem;
+            border: 2px solid var(--accessible-teal);
+            padding: 8px 15px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .back-link:hover {
+            background: var(--accessible-teal);
+            color: white;
+        }
+
         main {
             max-width: 950px;
-            margin: 2rem auto;
-            padding: 30px;
+            margin: 1.5rem auto;
+            padding: 40px;
             background: white;
-            border-radius: 8px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: var(--matador-red);
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 10px;
+            margin-top: 2.5rem;
+            font-weight: 700;
         }
 
         .briefing-box {
             border: 2px solid #ddd;
-            padding: 25px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-            border-left: 8px solid var(--matador-red);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border-left: 12px solid var(--matador-red);
+            background-color: #ffffff;
         }
 
         .simulation-prompt {
-            background: #f1f3f5;
-            border-left: 6px solid var(--accessible-teal);
-            padding: 20px;
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 25px;
+            border-radius: 8px;
             font-style: italic;
-            margin-top: 15px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            border-left: 8px solid var(--accessible-teal);
         }
 
         .delimiter {
-            color: #ba0c2f;
+            color: #fd971f;
             font-weight: bold;
+        }
+
+        .tag {
+            background: var(--matador-red);
+            color: white;
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            display: inline-block;
         }
 
         footer {
             text-align: center;
-            padding: 3rem 1rem;
-            border-top: 4px solid var(--matador-red);
-            margin-top: 4rem;
+            padding: 4rem 1rem;
+            border-top: 6px solid var(--matador-red);
+            margin-top: 5rem;
+            background: white;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>🎭 CLINICAL SIMULATIONS</h1>
+        <div style="font-size: 2rem; font-weight: 900; text-transform: uppercase;">CLINICAL SIMULATIONS LIBRARY</div>
+        <p>Standardized Patient Encounters & Environmental Audits</p>
     </header>
+    <nav><a href="index.html" class="back-link">← RETURN TO MASTER HUB</a></nav>
     <main>
-        <div
-            style="background-color: #fff9c4; border: 2px solid #fbc02d; padding: 15px; border-radius: 8px; margin-bottom: 30px;">
-            <p style="margin: 0;"><strong>⚠️ RADAR CHECK:</strong> Click <strong>Add File (+)</strong> and upload the
-                PAGA 2nd Ed PDF first.</p>
-        </div>
-        <div class="briefing-box">
-            <h3>Scenario: Mrs. Miller (Osteoporosis)</h3>
-
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as Mrs. Miller...</div>
-        </div>
+        <section>
+            <h2>🏥 Why Use Simulations?</h2>
+            <p>In the <strong>EXW Master Library</strong>, simulations are used to bridge the gap between textbook
+                theory and clinical reality. These scenarios force you to audit patient safety using the
+                <strong>PAGA</strong> and <strong>ACSM</strong> standards in a low-stakes, high-friction environment.
+            </p>
+        </section>
 
         <div
-            style="background-color: #f8f9fa; border: 2px solid #ba0c2f; padding: 20px; border-radius: 8px; margin-top: 40px;">
+            style="background-color: #fff9c4; border: 3px solid #fbc02d; padding: 20px; border-radius: 10px; margin: 35px 0;">
+            <p style="margin: 0; font-weight: bold; font-size: 1.1rem; color: #333;">⚠️ RADAR CHECK: You MUST click "Add
+                File (+)" and upload the PAGA 2nd Ed PDF before starting these simulations. The AI cannot simulate a
+                clinical outcome without its data anchor.</p>
+        </div>
+
+        <section>
+            <h2>🏥 The Clinical "Heavy Hitters"</h2>
+
+            <div class="briefing-box">
+                <span class="tag">Osteoporosis</span>
+                <h3>Scenario: Mrs. Miller</h3>
+                <p><strong>Profile:</strong> 68-year-old female | T-score: -2.8 (Lumbar Spine) | Post-menopausal |
+                    Fearful of falling.</p>
+                <p><strong>The Challenge:</strong> Mrs. Miller wants to begin a core-strengthening program that includes
+                    weighted "crunches" and spinal flexion exercises she saw on social media.</p>
+
+
+
+                <div class="simulation-prompt">
+                    <span class="delimiter">### PERSONA ###</span><br>
+                    Act as Mrs. Miller. I am your Exercise Physiologist. I am going to explain why we need to modify
+                    your core program based on your DXA scan results. Tell me about your fear of fracturing your spine
+                    while lifting and ask me if "spinal flexion" is safe for you.<br><br>
+                    <span class="delimiter">### GOAL ###</span><br>
+                    Challenge the student to explain the risk of vertebral compression fractures using PAGA standards.
+                </div>
+            </div>
+
+            <div class="briefing-box">
+                <span class="tag">Hyperthermia Risk</span>
+                <h3>Scenario: The Yuma 110° Audit</h3>
+                <p><strong>Profile:</strong> 45-year-old male | Type 2 Diabetes | Hypertension | Working outdoors in
+                    Yuma, AZ.</p>
+                <p><strong>The Challenge:</strong> The client wants to perform a high-intensity rucking workout at 2:00
+                    PM in July. Ambient temperature is 112°F with 15% humidity.</p>
+
+
+
+                <div class="simulation-prompt">
+                    <span class="delimiter">### PERSONA ###</span><br>
+                    Act as a "Skeptic Client." I am your Exercise Science Auditor. I am going to suggest we move your
+                    workout indoors or change the time. Argue with me, saying "I've lived in Yuma my whole life, I'm
+                    used to the heat."<br><br>
+                    <span class="delimiter">### GOAL ###</span><br>
+                    Force the student to cite the ACSM/PAGA environmental guidelines regarding metabolic heat gain and
+                    hydration.
+                </div>
+            </div>
+        </section>
+
+        <div
+            style="background-color: #f8f9fa; border: 2px solid #ba0c2f; padding: 25px; border-radius: 8px; margin-top: 50px; font-size: 0.95rem; color: #1a1a1a;">
             <p style="margin: 0;"><strong>⚠️ Disclaimer:</strong> The content provided in this course is for
                 informational and educational purposes only. It is not intended to substitute for professional medical
                 advice, diagnosis, or treatment.</p>
         </div>
     </main>
     <footer>
-        <p>Designed by Coach Alan Pruitt | CC BY-NC-SA 4.0</p>
+        <p><strong>EXW Master Content Library</strong> | Designed by Coach Alan Pruitt</p>
+        <div style="margin: 25px 0;">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img alt="Creative Commons License" style="border-width:0; margin-bottom: 12px;"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+            </a><br />
+            Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                style="color: var(--accessible-teal); font-weight: bold;">CC BY-NC-SA 4.0</a>.
+        </div>
     </footer>
 </body>
 
