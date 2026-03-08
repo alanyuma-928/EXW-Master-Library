@@ -17,7 +17,7 @@
             --matador-red: #ba0c2f;
             --accessible-teal: #007075;
             --dark-grey: #1a1a1a;
-            --bg-light: #f1f3f5;
+            --bg-light: #f8f9fa;
         }
 
         body {
@@ -36,9 +36,26 @@
             border-bottom: 6px solid var(--accessible-teal);
         }
 
+        nav {
+            max-width: 900px;
+            margin: 1rem auto;
+            padding: 0 40px;
+        }
+
+        .back-link {
+            color: var(--accessible-teal);
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 1.1rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
         main {
             max-width: 900px;
-            margin: 2rem auto;
+            margin: 1rem auto;
             padding: 40px;
             background: white;
             border-radius: 8px;
@@ -59,24 +76,32 @@
             font-weight: 700;
         }
 
+        .universal-note {
+            background-color: #e3f2fd;
+            border-left: 8px solid #2196f3;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 0 8px 8px 0;
+        }
+
         .setup-step {
             background-color: #ffffff;
             border: 2px solid #ddd;
             padding: 25px;
             border-radius: 8px;
             margin-bottom: 25px;
-            border-left: 8px solid var(--accessible-teal);
+            border-left: 10px solid var(--accessible-teal);
         }
 
         .code-snippet {
             background: #2d2d2d;
             color: #f8f8f2;
-            padding: 20px;
+            padding: 25px;
             border-radius: 5px;
             font-family: 'Courier New', Courier, monospace;
             overflow-x: auto;
             margin-top: 15px;
-            border-left: 5px solid #fd971f;
+            border-left: 8px solid #fd971f;
         }
 
         .delimiter {
@@ -98,58 +123,72 @@
 
     <header>
         <div style="font-size: 1.8rem; font-weight: 900; text-transform: uppercase;">ADAPTIVEFIT ASSISTANT SETUP</div>
-        <p>Engineering your Personal Clinical AI Calculator</p>
+        <p>Engineering Persistent Clinical AI Agents</p>
     </header>
+
+    <nav>
+        <a href="index.html" class="back-link">← RETURN TO MASTER HUB</a>
+    </nav>
 
     <main>
         <section>
             <h2>🛠️ What is the AdaptiveFit Assistant?</h2>
-            <p>The <strong>AdaptiveFit Assistant</strong> is a customized Gemini "Gem" or System Instruction set. By
-                hard-wiring these rules, you ensure the AI ignores general internet trends and focuses exclusively on
-                the <strong>SSoT (PAGA & ACSM)</strong> standards required for clinical practice.</p>
+            <p>While standard prompting works for one-off tasks, the <strong>AdaptiveFit Assistant</strong> is a
+                specialized system instruction set (or Gemini "Gem"). By hard-wiring your clinical rules, you ensure the
+                AI remains anchored to the <strong>SSoT</strong> across every conversation without having to re-prompt
+                every time.</p>
         </section>
+
+        <div class="universal-note">
+            <p><strong>🌎 Universal Engineering:</strong> These instructions can be applied to any professional field.
+                Whether you are building an <em>"AuditFit Legal Assistant"</em> or an <em>"EngineeringFit Safety
+                    Auditor,"</em> the <strong>### Delimiter</strong> logic ensures your professional standards remain
+                the AI's primary "operating system."</p>
+        </div>
+
+        <div
+            style="background-color: #fff9c4; border: 2px solid #fbc02d; padding: 15px; border-radius: 8px; margin-bottom: 35px;">
+            <p style="margin: 0; font-weight: bold;">⚠️ RADAR CHECK: When building your Assistant, you MUST still use
+                the "Add File (+)" or "Knowledge" upload button to provide the PAGA 2nd Ed PDF. System instructions
+                without a source document are empty engines.</p>
+        </div>
+
+
+
+        <div class="setup-step">
+            <h3>Step 1: The System Prompt</h3>
+            <p>Copy and paste the following into your "System Instructions" or "Gem Description." This defines the
+                <strong>Agentic Firewall</strong> that prevents the AI from using unverified internet data.</p>
+
+            <div class="code-snippet">
+                <span class="delimiter">### PERSONA ###</span><br>
+                Act as my AdaptiveFit Assistant. You are a clinical exercise science expert hard-wired to the Physical
+                Activity Guidelines for Americans (PAGA) 2nd Edition.<br><br>
+                <span class="delimiter">### CORE LOGIC ###</span><br>
+                1. Always prioritize structural safety (e.g., bone density, joint health) over generic fitness
+                gains.<br>
+                2. If I provide a patient profile, you MUST audit it against the PAGA standards before making any
+                recommendations.<br>
+                3. Use the 2-Hour Pain Rule for all arthritis-related inquiries.<br><br>
+                <span class="delimiter">### FORMAT ###</span><br>
+                Always provide your output in the Mission Loop format: Pattern, Rule, Solve.
+            </div>
+        </div>
 
         <section>
-            <h2>🚀 Setup Guide: Creating your Assistant</h2>
-            <div
-                style="background-color: #fff9c4; border: 2px solid #fbc02d; padding: 15px; border-radius: 8px; margin-bottom: 25px;">
-                <p style="margin: 0; font-weight: bold;">⚠️ RADAR CHECK: When creating a "Gem" or Custom GPT, you must
-                    still click the "Add File (+)" or "Knowledge" button and upload the PAGA 2nd Ed PDF to anchor the
-                    assistant's memory.</p>
-            </div>
-
-            <div class="setup-step">
-                <h3>Step 1: System Instructions</h3>
-                <p>Paste the following into the "Instructions" box of your AI tool. Notice the <strong>###
-                        Delimiters</strong> that separate the Persona from the Logic.</p>
-
-                <div class="code-snippet">
-                    <span class="delimiter">### PERSONA ###</span><br>
-                    Act as my AdaptiveFit Assistant. You are a clinical calculator hard-wired to the PAGA 2nd Ed and
-                    ACSM 12th Ed standards.<br><br>
-                    <span class="delimiter">### CORE LOGIC ###</span><br>
-                    1. Always prioritize structural safety (Bone density, Joint health).<br>
-                    2. If a user asks for a prescription, always ask for the "Pattern" first (Age, T-score, Meds).<br>
-                    3. Never suggest weighted spinal flexion for T-scores below -2.5.<br><br>
-                    <span class="delimiter">### FORMAT ###</span><br>
-                    Always deliver results in the Mission Loop format: Pattern, Rule, Solve.
-                </div>
-            </div>
-
-            <div class="setup-step">
-                <h3>Step 2: Testing the Firewall</h3>
-                <p>Once your Assistant is built, test it by asking a "low-friction" question like: <em>"Can my client
-                        with Osteoporosis do sit-ups?"</em></p>
-                <p>A properly engineered Assistant will respond with the **ACSM Rule** and the **Vertebral Fracture**
-                    warning, rather than a generic fitness answer.</p>
-            </div>
+            <h2>🚀 Testing Your Firewall</h2>
+            <p>Once established, test your Assistant with a "Trap" question: <em>"Can a client with a T-score of -3.0 do
+                    weighted crunches?"</em> A properly engineered Assistant will catch the <strong>structural integrity
+                    risk</strong> and provide a safer alternative without being prompted to check the PAGA.</p>
         </section>
 
-        <section>
-            <h2>🔒 The HIPAA/FERPA Filter</h2>
-            <p>Even with a custom Assistant, the <strong>Golden Rule</strong> remains: Never upload real patient names
-                or medical records. Use fictional identifiers to keep the environment secure.</p>
-        </section>
+        <div
+            style="background-color: #f8f9fa; border: 2px solid #ba0c2f; padding: 20px; border-radius: 8px; margin-top: 40px; font-size: 0.95rem; color: #1a1a1a;">
+            <p style="margin: 0;"><strong>⚠️ Disclaimer:</strong> The content provided in this course is for
+                informational and educational purposes only. It is not intended to substitute for professional medical
+                advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health
+                provider with any questions you may have regarding a medical condition.</p>
+        </div>
     </main>
 
     <footer>
