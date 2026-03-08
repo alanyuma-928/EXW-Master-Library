@@ -1,16 +1,117 @@
-<section>
-    <h2>🎓 The Guided Learning Trifecta</h2>
-    <div
-        style="background-color: #fff9c4; border: 2px solid #fbc02d; padding: 15px; border-radius: 8px; margin-bottom: 25px;">
-        <p style="margin: 0; font-weight: bold;">🛑 STOP: Did you click "Add File (+)" and upload the PAGA PDF? The
-            Socratic Professor cannot challenge your logic if it doesn't have the clinical ruleset.</p>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="role-card">
-        <h3>1. The Socratic Professor</h3>
-        <div class="prompt-box">
-            ### PERSONA ###<br>Act as a Socratic Professor. Based on the PAGA PDF I just uploaded, ask me 3 challenging
-            questions about contraindications...
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guided Learning Trifecta | EXW Master Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --matador-red: #ba0c2f;
+            --accessible-teal: #007075;
+            --dark-grey: #1a1a1a;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-grey);
+            background-color: var(--bg-light);
+            margin: 0;
+        }
+
+        header {
+            background-color: var(--matador-red);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 6px solid var(--accessible-teal);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: var(--matador-red);
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 10px;
+            margin-top: 2rem;
+        }
+
+        .role-card {
+            background: white;
+            border: 2px solid #d1d1d1;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 8px solid var(--accessible-teal);
+        }
+
+        .prompt-box {
+            background-color: #f1f3f5;
+            border: 1px solid #ddd;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            color: #1a1a1a;
+            margin-top: 15px;
+        }
+
+        .delimiter {
+            color: #ba0c2f;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1rem;
+            border-top: 4px solid var(--matador-red);
+            margin-top: 4rem;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>🎓 THE GUIDED LEARNING TRIFECTA</h1>
+    </header>
+    <main>
+        <div
+            style="background-color: #fff9c4; border: 2px solid #fbc02d; padding: 15px; border-radius: 8px; margin-bottom: 25px;">
+            <p style="margin: 0; font-weight: bold;">🛑 STOP: Did you click "Add File (+)" and upload the PAGA PDF?
+                These roles require the clinical ruleset to function.</p>
         </div>
-    </div>
-</section>
+        <article class="role-card">
+            <h3>1. The Socratic Professor</h3>
+            <p>This role tests your comprehension. It won't give you answers; it will ask the right questions.</p>
+            <div class="prompt-box">
+                <span class="delimiter">### PERSONA ###</span><br>Act as a Socratic Professor. Based on the PAGA PDF I
+                just uploaded, ask me 3 challenging questions about contraindications for osteoporosis...
+            </div>
+        </article>
+        <article class="role-card">
+            <h3>2. The Mastery Tutor</h3>
+            <p>The Tutor breaks down complex physiological concepts into digestible, workforce-ready explanations.</p>
+            <div class="prompt-box">
+                <span class="delimiter">### PERSONA ###</span><br>Act as a Mastery Tutor. Explain the Mechanostat Theory
+                and Wolff's Law using a simple analogy...
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>Designed by Coach Alan Pruitt | CC BY-NC-SA 4.0</p>
+    </footer>
+</body>
+
+</html>

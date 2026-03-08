@@ -39,7 +39,7 @@
         main {
             max-width: 900px;
             margin: 2rem auto;
-            padding: 30px;
+            padding: 40px;
             background: white;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -50,19 +50,21 @@
             border-bottom: 2px solid var(--bg-light);
             padding-bottom: 10px;
             margin-top: 2rem;
+            font-weight: 700;
         }
 
         h3 {
             color: var(--accessible-teal);
             margin-top: 1.5rem;
+            font-weight: 700;
         }
 
         .setup-step {
             background-color: #ffffff;
             border: 2px solid #ddd;
-            padding: 20px;
+            padding: 25px;
             border-radius: 8px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             border-left: 8px solid var(--accessible-teal);
         }
 
@@ -73,7 +75,13 @@
             border-radius: 5px;
             font-family: 'Courier New', Courier, monospace;
             overflow-x: auto;
-            margin-top: 10px;
+            margin-top: 15px;
+            border-left: 5px solid #fd971f;
+        }
+
+        .delimiter {
+            color: #fd971f;
+            font-weight: bold;
         }
 
         footer {
@@ -89,56 +97,58 @@
 <body>
 
     <header>
-        <div style="font-size: 1.8rem; font-weight: 900;">ADAPTIVEFIT ASSISTANT</div>
+        <div style="font-size: 1.8rem; font-weight: 900; text-transform: uppercase;">ADAPTIVEFIT ASSISTANT SETUP</div>
         <p>Engineering your Personal Clinical AI Calculator</p>
     </header>
 
     <main>
         <section>
             <h2>🛠️ What is the AdaptiveFit Assistant?</h2>
-            <p>The <strong>AdaptiveFit Assistant</strong> is a customized Gemini "Gem" or System Instruction set that
-                you engineer to act as your co-pilot in the clinic. It is hard-wired to ignore general internet "noise"
-                and focus exclusively on the <strong>SSoT (PAGA & ACSM)</strong> standards you provide.</p>
+            <p>The <strong>AdaptiveFit Assistant</strong> is a customized Gemini "Gem" or System Instruction set. By
+                hard-wiring these rules, you ensure the AI ignores general internet trends and focuses exclusively on
+                the <strong>SSoT (PAGA & ACSM)</strong> standards required for clinical practice.</p>
         </section>
-
-
 
         <section>
             <h2>🚀 Setup Guide: Creating your Assistant</h2>
-            <p>Follow these steps to initialize your clinical calculator. This process ensures your AI remains
-                <strong>Human-in-the-Loop</strong> and clinically accurate.</p>
+            <div
+                style="background-color: #fff9c4; border: 2px solid #fbc02d; padding: 15px; border-radius: 8px; margin-bottom: 25px;">
+                <p style="margin: 0; font-weight: bold;">⚠️ RADAR CHECK: When creating a "Gem" or Custom GPT, you must
+                    still click the "Add File (+)" or "Knowledge" button and upload the PAGA 2nd Ed PDF to anchor the
+                    assistant's memory.</p>
+            </div>
 
             <div class="setup-step">
-                <h3>Step 1: The Persona Initialization</h3>
-                <p>In Gemini (or your preferred AI model), start by defining the role. You are not asking for a
-                    "workout"; you are asking for a <strong>Clinical Audit</strong>.</p>
+                <h3>Step 1: System Instructions</h3>
+                <p>Paste the following into the "Instructions" box of your AI tool. Notice the <strong>###
+                        Delimiters</strong> that separate the Persona from the Logic.</p>
+
                 <div class="code-snippet">
-                    "Act as my AdaptiveFit Assistant. Your primary goal is to help me audit exercise prescriptions for
-                    special populations using the PAGA 2nd Ed and ACSM 12th Ed standards."
+                    <span class="delimiter">### PERSONA ###</span><br>
+                    Act as my AdaptiveFit Assistant. You are a clinical calculator hard-wired to the PAGA 2nd Ed and
+                    ACSM 12th Ed standards.<br><br>
+                    <span class="delimiter">### CORE LOGIC ###</span><br>
+                    1. Always prioritize structural safety (Bone density, Joint health).<br>
+                    2. If a user asks for a prescription, always ask for the "Pattern" first (Age, T-score, Meds).<br>
+                    3. Never suggest weighted spinal flexion for T-scores below -2.5.<br><br>
+                    <span class="delimiter">### FORMAT ###</span><br>
+                    Always deliver results in the Mission Loop format: Pattern, Rule, Solve.
                 </div>
             </div>
 
             <div class="setup-step">
-                <h3>Step 2: The Data Anchor (SSoT)</h3>
-                <p>Upload the <strong>Physical Activity Guidelines for Americans (PAGA)</strong> PDF. Instruct the
-                    assistant to never hallucinate data outside of this document.</p>
-            </div>
-
-            <div class="setup-step">
-                <h3>Step 3: The Mission Loop Output</h3>
-                <p>Ensure your assistant follows the <strong>Pattern / Rule / Solve</strong> logic for every response.
-                </p>
-                <div class="code-snippet">
-                    "Always format your output using the Mission Loop: First, identify the client PATTERN. Second, cite
-                    the SSoT RULE. Third, provide the clinical SOLVE."
-                </div>
+                <h3>Step 2: Testing the Firewall</h3>
+                <p>Once your Assistant is built, test it by asking a "low-friction" question like: <em>"Can my client
+                        with Osteoporosis do sit-ups?"</em></p>
+                <p>A properly engineered Assistant will respond with the **ACSM Rule** and the **Vertebral Fracture**
+                    warning, rather than a generic fitness answer.</p>
             </div>
         </section>
 
         <section>
-            <h2>🔒 The Firewall Check</h2>
-            <p>Before every session, verify that your AdaptiveFit Assistant is not using personal client identifiers.
-                Use fictional placeholders like <strong>"Client 265-A"</strong> to maintain HIPAA compliance.</p>
+            <h2>🔒 The HIPAA/FERPA Filter</h2>
+            <p>Even with a custom Assistant, the <strong>Golden Rule</strong> remains: Never upload real patient names
+                or medical records. Use fictional identifiers to keep the environment secure.</p>
         </section>
     </main>
 
