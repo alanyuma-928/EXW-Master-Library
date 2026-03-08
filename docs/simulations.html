@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinical Simulations | EXW Master Library</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -34,7 +33,7 @@
         }
 
         nav {
-            max-width: 950px;
+            max-width: 1000px;
             margin: 1.5rem auto;
             padding: 0 40px;
         }
@@ -56,7 +55,7 @@
         }
 
         main {
-            max-width: 950px;
+            max-width: 1000px;
             margin: 1.5rem auto;
             padding: 40px;
             background: white;
@@ -68,8 +67,10 @@
             color: var(--matador-red);
             border-bottom: 2px solid var(--bg-light);
             padding-bottom: 10px;
-            margin-top: 2.5rem;
+            margin-top: 3rem;
             font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .briefing-box {
@@ -126,83 +127,98 @@
     </header>
     <nav><a href="index.html" class="back-link">← RETURN TO MASTER HUB</a></nav>
     <main>
-        <section>
-            <h2>🏥 Why Use Simulations?</h2>
-            <p>In the <strong>EXW Master Library</strong>, simulations are used to bridge the gap between textbook
-                theory and clinical reality. These scenarios force you to audit patient safety using the
-                <strong>PAGA</strong> and <strong>ACSM</strong> standards in a low-stakes, high-friction environment.
-            </p>
-        </section>
-
         <div
-            style="background-color: #fff9c4; border: 3px solid #fbc02d; padding: 20px; border-radius: 10px; margin: 35px 0;">
+            style="background-color: #fff9c4; border: 3px solid #fbc02d; padding: 20px; border-radius: 10px; margin-bottom: 40px;">
             <p style="margin: 0; font-weight: bold; font-size: 1.1rem; color: #333;">⚠️ RADAR CHECK: You MUST click "Add
-                File (+)" and upload the PAGA 2nd Ed PDF before starting these simulations. The AI cannot simulate a
-                clinical outcome without its data anchor.</p>
+                File (+)" and upload the PAGA 2nd Ed PDF before starting these simulations.</p>
         </div>
 
-        <section>
-            <h2>🏥 The Clinical "Heavy Hitters"</h2>
+        <h2>☀️ Metabolic & Environmental Stress</h2>
 
-            <div class="briefing-box">
-                <span class="tag">Osteoporosis</span>
-                <h3>Scenario: Mrs. Miller</h3>
-                <p><strong>Profile:</strong> 68-year-old female | T-score: -2.8 (Lumbar Spine) | Post-menopausal |
-                    Fearful of falling.</p>
-                <p><strong>The Challenge:</strong> Mrs. Miller wants to begin a core-strengthening program that includes
-                    weighted "crunches" and spinal flexion exercises she saw on social media.</p>
+        <div class="briefing-box">
+            <span class="tag">The Yuma 110° Audit</span>
+            <p><strong>Profile:</strong> 45-year-old male | Type 2 Diabetes | Hypertension | Working outdoors in Yuma,
+                AZ. Wants a 2:00 PM ruck in 112°F heat.</p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as a "Skeptic Client."
+                Argue that you're "used to the heat." Force me to cite ACSM/PAGA heat gain standards.</div>
+        </div>
 
+        <div class="briefing-box">
+            <span class="tag">The Hypoglycemic Shift</span>
+            <p><strong>Profile:</strong> T2DM Patient on Insulin. Mid-workout, they become clammy, confused, and
+                irritable.</p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as "John." You are
+                starting to feel "off" and dizzy. Describe your symptoms and wait for my clinical intervention.</div>
+        </div>
 
+        <h2>🦴 Bone & Joint Integrity</h2>
 
-                <div class="simulation-prompt">
-                    <span class="delimiter">### PERSONA ###</span><br>
-                    Act as Mrs. Miller. I am your Exercise Physiologist. I am going to explain why we need to modify
-                    your core program based on your DXA scan results. Tell me about your fear of fracturing your spine
-                    while lifting and ask me if "spinal flexion" is safe for you.<br><br>
-                    <span class="delimiter">### GOAL ###</span><br>
-                    Challenge the student to explain the risk of vertebral compression fractures using PAGA standards.
-                </div>
-            </div>
+        <div class="briefing-box">
+            <span class="tag">Mrs. Miller (Osteoporosis)</span>
+            <p><strong>Profile:</strong> 68-year-old | T-score: -2.8 (Spine). Wants to do weighted "crunches."</p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as Mrs. Miller. Ask if
+                "spinal flexion" is safe. Challenge me to explain the risk of vertebral fractures.</div>
+        </div>
 
-            <div class="briefing-box">
-                <span class="tag">Hyperthermia Risk</span>
-                <h3>Scenario: The Yuma 110° Audit</h3>
-                <p><strong>Profile:</strong> 45-year-old male | Type 2 Diabetes | Hypertension | Working outdoors in
-                    Yuma, AZ.</p>
-                <p><strong>The Challenge:</strong> The client wants to perform a high-intensity rucking workout at 2:00
-                    PM in July. Ambient temperature is 112°F with 15% humidity.</p>
+        <div class="briefing-box">
+            <span class="tag">The Arthritis Pivot</span>
+            <p><strong>Profile:</strong> 55-year-old with Severe Osteoarthritis in the knees. Pain is 7/10 today.</p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. Tell me
+                your knees hurt too much to walk. Wait for me to apply the "2-Hour Pain Rule."</div>
+        </div>
 
+        <h2>🛡️ Special Populations</h2>
 
+        <div class="briefing-box">
+            <span class="tag">Prenatal Safety</span>
+            <p><strong>Profile:</strong> 30-year-old | 2nd Trimester. Wants to perform supine (flat on back) exercises.
+            </p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. Ask why
+                I'm making you use a wedge/incline. Express concern about "overheating" the baby.</div>
+        </div>
 
-                <div class="simulation-prompt">
-                    <span class="delimiter">### PERSONA ###</span><br>
-                    Act as a "Skeptic Client." I am your Exercise Science Auditor. I am going to suggest we move your
-                    workout indoors or change the time. Argue with me, saying "I've lived in Yuma my whole life, I'm
-                    used to the heat."<br><br>
-                    <span class="delimiter">### GOAL ###</span><br>
-                    Force the student to cite the ACSM/PAGA environmental guidelines regarding metabolic heat gain and
-                    hydration.
-                </div>
-            </div>
-        </section>
+        <div class="briefing-box">
+            <span class="tag">Adaptive Design (SCI)</span>
+            <p><strong>Profile:</strong> Client with a T10 Spinal Cord Injury. Wants to perform high-intensity upper
+                body ergometry.</p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. Ask me
+                about the risk of Autonomic Dysreflexia and how it relates to my exercise intensity.</div>
+        </div>
+
+        <div class="briefing-box">
+            <span class="tag">The Pediatric Audit</span>
+            <p><strong>Profile:</strong> 12-year-old athlete. Parents want a heavy max-strength program to "get ahead."
+            </p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the "Pushy Parent."
+                Demand to know why we aren't doing 1-Rep Max testing on your child.</div>
+        </div>
+
+        <h2>🫁 Multi-Morbidity & Complex Cases</h2>
+
+        <div class="briefing-box">
+            <span class="tag">The COPD Obstacle</span>
+            <p><strong>Profile:</strong> Client with COPD and Grade 1 Obesity. Dyspnea (shortness of breath) is
+                triggered early.</p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. You are
+                struggling for breath. Ask me to explain the "Dyspnea Scale" and why we are stopping.</div>
+        </div>
+
+        <div class="briefing-box">
+            <span class="tag">The Hypertension Trap</span>
+            <p><strong>Profile:</strong> Stage 2 Hypertension. Client wants to perform the "Valsalva Maneuver" during
+                heavy lifting.</p>
+            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. Tell me
+                you feel more powerful when you hold your breath. Ask why I'm insisting on "exhale on exertion."</div>
+        </div>
 
         <div
-            style="background-color: #f8f9fa; border: 2px solid #ba0c2f; padding: 25px; border-radius: 8px; margin-top: 50px; font-size: 0.95rem; color: #1a1a1a;">
-            <p style="margin: 0;"><strong>⚠️ Disclaimer:</strong> The content provided in this course is for
-                informational and educational purposes only. It is not intended to substitute for professional medical
-                advice, diagnosis, or treatment.</p>
+            style="background-color: #f8f9fa; border: 2px solid #ba0c2f; padding: 25px; border-radius: 8px; margin-top: 50px;">
+            <p style="margin: 0;"><strong>⚠️ Disclaimer:</strong> Content for educational purposes only. Not a
+                substitute for professional medical advice.</p>
         </div>
     </main>
     <footer>
-        <p><strong>EXW Master Content Library</strong> | Designed by Coach Alan Pruitt</p>
-        <div style="margin: 25px 0;">
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                <img alt="Creative Commons License" style="border-width:0; margin-bottom: 12px;"
-                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-            </a><br />
-            Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-                style="color: var(--accessible-teal); font-weight: bold;">CC BY-NC-SA 4.0</a>.
-        </div>
+        <p>Designed by Coach Alan Pruitt | CC BY-NC-SA 4.0</p>
     </footer>
 </body>
 
