@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Architecture | EXW Master Library</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
-
     <style>
         :root {
             --matador-red: #ba0c2f;
@@ -39,11 +36,10 @@
         main {
             max-width: 900px;
             margin: 2rem auto;
-            padding: 0 1.5rem;
+            padding: 40px;
             background: white;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            padding: 40px;
         }
 
         h2 {
@@ -51,11 +47,7 @@
             border-bottom: 2px solid var(--bg-light);
             padding-bottom: 10px;
             margin-top: 2rem;
-        }
-
-        h3 {
-            color: var(--accessible-teal);
-            margin-top: 1.5rem;
+            font-weight: 700;
         }
 
         .loop-box {
@@ -65,94 +57,88 @@
             margin: 20px 0;
         }
 
-        .code-block {
+        .exemplar-container {
             background: #2d2d2d;
             color: #f8f8f2;
-            padding: 15px;
-            border-radius: 5px;
+            padding: 25px;
+            border-radius: 8px;
             font-family: 'Courier New', Courier, monospace;
-            overflow-x: auto;
+            line-height: 1.5;
+            border-left: 10px solid var(--accessible-teal);
+            position: relative;
+            margin: 30px 0;
         }
 
+        .exemplar-badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--accessible-teal);
+            color: white;
+            padding: 5px 12px;
+            font-size: 0.8rem;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+        }
+
+        .delimiter {
+            color: #fd971f;
+            font-weight: bold;
+        }
+
+        /* Orange for visibility */
         footer {
             text-align: center;
             padding: 3rem 1rem;
             border-top: 4px solid var(--matador-red);
             margin-top: 4rem;
+            background: white;
         }
     </style>
 </head>
 
 <body>
-
     <header>
-        <div style="font-size: 1.8rem; font-weight: 900;">THE ARCHITECT'S BLUEPRINT</div>
-        <p>High-Friction Instructional Design & Clinical AI Logic</p>
+        <div style="font-size: 1.8rem; font-weight: 900; text-transform: uppercase;">THE ARCHITECT'S BLUEPRINT</div>
     </header>
-
     <main>
         <section>
-            <h2>🏗️ The High-Friction Philosophy</h2>
-            <p>In the <strong>AWC Exercise Science</strong> program, we do not use Generative AI as a "shortcut." We use
-                it as a <strong>Clinical Simulator</strong>. By introducing "High-Friction" steps—such as mandatory SSoT
-                uploads and manual logic auditing—we ensure that the student remains the <strong>Pilot in
-                    Command</strong>.</p>
-        </section>
-
-
-
-        <section>
             <h2>🔄 The Mission Loop (Pattern / Rule / Solve)</h2>
-            <p>Every clinical audit in this course follows the <strong>Mission Loop</strong>. This framework prevents
-                "lazy" AI usage by forcing the student to verify the machine's logic against professional standards.</p>
-
             <div class="loop-box">
-                <h3>1. Pattern (The Intake)</h3>
-                <p>Identify the specific client variables (e.g., T-score, Age, Medications) that define the clinical
-                    situation.</p>
-
-                <h3>2. Rule (The SSoT)</h3>
-                <p>Cite the <strong>Single Source of Truth</strong>. What does the PAGA 2nd Ed or ACSM 12th Ed say about
-                    this specific pattern?</p>
-
-                <h3>3. Solve (The Prescription)</h3>
-                <p>Synthesize the Pattern and Rule to create a safe, effective exercise intervention.</p>
+                <p><strong>Pattern:</strong> Client variables. | <strong>Rule:</strong> SSoT Citation. |
+                    <strong>Solve:</strong> Prescription.</p>
             </div>
         </section>
 
         <section>
-            <h2>🛡️ The P-T-C-F Prompting Framework</h2>
-            <p>To communicate effectively with the <strong>EXW AI Tool Box</strong>, students use the P-T-C-F method to
-                ensure high-fidelity outputs:</p>
-            <ul>
-                <li><strong>Persona:</strong> (e.g., "Act as a Socratic Professor...")</li>
-                <li><strong>Task:</strong> (e.g., "Audit this exercise for spinal flexion safety...")</li>
-                <li><strong>Context:</strong> (e.g., "Based on the ACSM 12th Ed guidelines...")</li>
-                <li><strong>Format:</strong> (e.g., "Provide the output in a bulleted list.")</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>🔒 HIPAA & FERPA Compliance</h2>
-            <p>The architecture is built on a <strong>Privacy-First</strong> foundation. Students are strictly
-                prohibited from uploading any sensitive identifiers (PHI) into public AI models. We use
-                <strong>Standardized Patients</strong> (e.g., Mrs. Miller) to practice clinical logic without
-                compromising real-world data safety.</p>
+            <h2>🚀 The Master P-T-C-F Exemplar (with Delimiters)</h2>
+            <p>Notice the use of <span class="delimiter">###</span>. These delimiters act as a "firewall" to keep the AI
+                focused on your specific instructions.</p>
+            <div class="exemplar-container">
+                <div class="exemplar-badge">CLINICAL PROMPT</div>
+                <span class="delimiter">### PERSONA ###</span><br>
+                Act as a Clinical Exercise Physiologist specializing in Geriatric Bone Health.<br><br>
+                <span class="delimiter">### TASK ###</span><br>
+                Audit the safety of a 1-Rep Max (1RM) Back Squat for a 70-year-old client with a T-score of -2.9 in the
+                lumbar spine.<br><br>
+                <span class="delimiter">### CONTEXT ###</span><br>
+                Use the ACSM 12th Edition Guidelines for Special Populations and the PAGA 2nd Edition standards as your
+                exclusive radar.<br><br>
+                <span class="delimiter">### FORMAT ###</span><br>
+                Provide your findings in the Mission Loop format: 1. Pattern, 2. Rule, 3. Solve.
+            </div>
         </section>
     </main>
-
     <footer>
         <p><strong>EXW Master Content Library</strong> | Designed by Coach Alan Pruitt</p>
         <div style="margin: 20px 0;">
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                <img alt="Creative Commons License" style="border-width:0; margin-bottom: 10px;"
-                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
-            </a><br />
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                    alt="Creative Commons License" style="border-width:0; margin-bottom: 10px;"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
             Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
                 style="color: var(--accessible-teal); font-weight: bold;">CC BY-NC-SA 4.0</a>.
         </div>
     </footer>
-
 </body>
 
 </html>
