@@ -8,3 +8,7 @@
 - SSoT: PAGA 2018 Chapter 6
 - LOs: 2.1 (Arthritis) & 2.2 (Osteoporosis)
 - Grading: 10/7/0 Scale
+## NotebookLM Focus Prompt: Module 9
+Focus: Arthritis (LO 2.1) & Osteoporosis (LO 2.2).
+SSoT: PAGA 2018.
+Warning: Emphasize NO spinal flexion for Osteoporosis.
