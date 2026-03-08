@@ -70,7 +70,6 @@
             margin-top: 3rem;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 1px;
         }
 
         .briefing-box {
@@ -91,6 +90,7 @@
             margin-top: 20px;
             font-family: 'Courier New', monospace;
             border-left: 8px solid var(--accessible-teal);
+            font-size: 0.9rem;
         }
 
         .delimiter {
@@ -123,7 +123,7 @@
 <body>
     <header>
         <div style="font-size: 2rem; font-weight: 900; text-transform: uppercase;">CLINICAL SIMULATIONS LIBRARY</div>
-        <p>Standardized Patient Encounters & Environmental Audits</p>
+        <p>Full P-T-C-F Standardized Patient Scenarios</p>
     </header>
     <nav><a href="index.html" class="back-link">← RETURN TO MASTER HUB</a></nav>
     <main>
@@ -133,88 +133,127 @@
                 File (+)" and upload the PAGA 2nd Ed PDF before starting these simulations.</p>
         </div>
 
-        <h2>☀️ Metabolic & Environmental Stress</h2>
+        <h2>☀️ Metabolic & Environmental</h2>
 
         <div class="briefing-box">
             <span class="tag">The Yuma 110° Audit</span>
-            <p><strong>Profile:</strong> 45-year-old male | Type 2 Diabetes | Hypertension | Working outdoors in Yuma,
-                AZ. Wants a 2:00 PM ruck in 112°F heat.</p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as a "Skeptic Client."
-                Argue that you're "used to the heat." Force me to cite ACSM/PAGA heat gain standards.</div>
+
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a "Skeptic Client" in Yuma, AZ.<br>
+                <span class="delimiter">### TASK ###</span> Argue that you are "heat acclimated" and insist on a 2:00 PM
+                outdoor ruck.<br>
+                <span class="delimiter">### CONTEXT ###</span> Force the student to cite ACSM/PAGA heat gain standards
+                before you agree to move indoors.<br>
+                <span class="delimiter">### FORMAT ###</span> Use the Mission Loop: Pattern, Rule, Solve.
+            </div>
         </div>
 
         <div class="briefing-box">
             <span class="tag">The Hypoglycemic Shift</span>
-            <p><strong>Profile:</strong> T2DM Patient on Insulin. Mid-workout, they become clammy, confused, and
-                irritable.</p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as "John." You are
-                starting to feel "off" and dizzy. Describe your symptoms and wait for my clinical intervention.</div>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as "John," a T2DM patient on insulin.<br>
+                <span class="delimiter">### TASK ###</span> Start the workout feeling fine, but mid-session, describe
+                feeling "shaky and cold."<br>
+                <span class="delimiter">### CONTEXT ###</span> Do not accept a snack unless the student identifies the
+                clinical "Rule" for blood glucose levels.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
         </div>
 
         <h2>🦴 Bone & Joint Integrity</h2>
 
         <div class="briefing-box">
             <span class="tag">Mrs. Miller (Osteoporosis)</span>
-            <p><strong>Profile:</strong> 68-year-old | T-score: -2.8 (Spine). Wants to do weighted "crunches."</p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as Mrs. Miller. Ask if
-                "spinal flexion" is safe. Challenge me to explain the risk of vertebral fractures.</div>
+
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as Mrs. Miller (T-score -2.8).<br>
+                <span class="delimiter">### TASK ###</span> Ask if you can start doing weighted sit-ups to "strengthen
+                your core."<br>
+                <span class="delimiter">### CONTEXT ###</span> Cite the risk of vertebral fracture if the student
+                doesn't pivot you to neutral spine exercises.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
         </div>
 
         <div class="briefing-box">
             <span class="tag">The Arthritis Pivot</span>
-            <p><strong>Profile:</strong> 55-year-old with Severe Osteoarthritis in the knees. Pain is 7/10 today.</p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. Tell me
-                your knees hurt too much to walk. Wait for me to apply the "2-Hour Pain Rule."</div>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a client with severe OA in the knees.<br>
+                <span class="delimiter">### TASK ###</span> Complain that your pain is 7/10 and you want to skip the
+                workout.<br>
+                <span class="delimiter">### CONTEXT ###</span> Wait for the student to apply the "2-Hour Pain Rule" from
+                the PAGA guidelines.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
         </div>
 
         <h2>🛡️ Special Populations</h2>
 
         <div class="briefing-box">
             <span class="tag">Prenatal Safety</span>
-            <p><strong>Profile:</strong> 30-year-old | 2nd Trimester. Wants to perform supine (flat on back) exercises.
-            </p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. Ask why
-                I'm making you use a wedge/incline. Express concern about "overheating" the baby.</div>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a 30-year-old in her 2nd Trimester.<br>
+                <span class="delimiter">### TASK ###</span> Ask why you can no longer do flat bench press or floor-based
+                ab work.<br>
+                <span class="delimiter">### CONTEXT ###</span> Force the student to explain supine hypotensive syndrome
+                using SSoT standards.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
         </div>
 
         <div class="briefing-box">
             <span class="tag">Adaptive Design (SCI)</span>
-            <p><strong>Profile:</strong> Client with a T10 Spinal Cord Injury. Wants to perform high-intensity upper
-                body ergometry.</p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. Ask me
-                about the risk of Autonomic Dysreflexia and how it relates to my exercise intensity.</div>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a client with a T10 SCI.<br>
+                <span class="delimiter">### TASK ###</span> Ask about the safety of high-intensity training and BP
+                spikes.<br>
+                <span class="delimiter">### CONTEXT ###</span> Challenge the student to cite the risk of Autonomic
+                Dysreflexia.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
         </div>
 
         <div class="briefing-box">
             <span class="tag">The Pediatric Audit</span>
-            <p><strong>Profile:</strong> 12-year-old athlete. Parents want a heavy max-strength program to "get ahead."
-            </p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the "Pushy Parent."
-                Demand to know why we aren't doing 1-Rep Max testing on your child.</div>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a "Pushy Parent" of a 12-year-old athlete.<br>
+                <span class="delimiter">### TASK ###</span> Demand that your child starts a 1-Rep Max powerlifting
+                program today.<br>
+                <span class="delimiter">### CONTEXT ###</span> Refuse to back down until the student cites the PAGA
+                pediatric strength guidelines.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
         </div>
 
-        <h2>🫁 Multi-Morbidity & Complex Cases</h2>
+        <h2>🫁 Multi-Morbidity</h2>
 
         <div class="briefing-box">
             <span class="tag">The COPD Obstacle</span>
-            <p><strong>Profile:</strong> Client with COPD and Grade 1 Obesity. Dyspnea (shortness of breath) is
-                triggered early.</p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. You are
-                struggling for breath. Ask me to explain the "Dyspnea Scale" and why we are stopping.</div>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a client with COPD and Obesity.<br>
+                <span class="delimiter">### TASK ###</span> Stop exercising because you are gasping for breath.<br>
+                <span class="delimiter">### CONTEXT ###</span> Ask the student to explain the Dyspnea Scale (1-4) and
+                the PAGA rest-to-work ratio.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
         </div>
 
         <div class="briefing-box">
             <span class="tag">The Hypertension Trap</span>
-            <p><strong>Profile:</strong> Stage 2 Hypertension. Client wants to perform the "Valsalva Maneuver" during
-                heavy lifting.</p>
-            <div class="simulation-prompt"><span class="delimiter">### PERSONA ###</span><br>Act as the client. Tell me
-                you feel more powerful when you hold your breath. Ask why I'm insisting on "exhale on exertion."</div>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a client with Stage 2 Hypertension.<br>
+                <span class="delimiter">### TASK ###</span> Tell the student you prefer holding your breath (Valsalva)
+                to lift heavier.<br>
+                <span class="delimiter">### CONTEXT ###</span> Don't stop until the student explains the BP risk and
+                proper exhalation technique.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
         </div>
 
         <div
             style="background-color: #f8f9fa; border: 2px solid #ba0c2f; padding: 25px; border-radius: 8px; margin-top: 50px;">
-            <p style="margin: 0;"><strong>⚠️ Disclaimer:</strong> Content for educational purposes only. Not a
-                substitute for professional medical advice.</p>
+            <p style="margin: 0;"><strong>⚠️ Disclaimer:</strong> Content for educational purposes only. Always seek
+                professional medical advice.</p>
         </div>
     </main>
     <footer>
