@@ -41,3 +41,4 @@ We utilize a competency-based **10/7/0 Mastery Scale**:
 - `/EXW265`: Special Populations & Adaptive Design.
 - `GEMINI.md`: Master system instructions for the AI ID Factory.
 - `UNIFIED_MASTER_SYLLABUS.html`: Standardized Canvas HTML template.
+
