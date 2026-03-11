@@ -13,7 +13,59 @@
     </header>
     <section style="padding: 30px;">
         <h3 style="color: #ba0c2f; border-bottom: 3px solid #1a1a1a; padding-bottom: 10px; font-size: 1.5rem;">Clinical Data Sets</h3>
-        <p>[Infrastructure Placeholder for Simulation Matrix]</p>
+        <p>Use the data sets below to conduct your clinical simulations. Each case contains a deliberate <strong>"Logic Trap"</strong> that violates the <strong>ACSM 12th Ed</strong> safety redlines.</p>
+
+        <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 1px solid #d1d1d1;">
+                <thead>
+                    <tr style="background-color: #1a1a1a; color: #ffffff;">
+                        <th style="padding: 15px; border: 1px solid #444;">Callsign</th>
+                        <th style="padding: 15px; border: 1px solid #444;">Primary Data Set</th>
+                        <th style="padding: 15px; border: 1px solid #444;">The Yuma Variable</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 15px; border: 1px solid #d1d1d1; font-weight: bold;">Pilot ALPHA</td>
+                        <td style="padding: 15px; border: 1px solid #d1d1d1;">
+                            <strong>Age:</strong> 72 | <strong>Resting BP:</strong> 162/98 mmHg<br>
+                            <strong>Morbidity:</strong> Severe Osteoporosis + Stage 2 HTN<br>
+                            <strong>Meds:</strong> Lisinopril, Alendronate.
+                        </td>
+                        <td style="padding: 15px; border: 1px solid #d1d1d1; background-color: #f8fafc;">
+                            Exercises outdoors at <strong>West Wetlands Park</strong> (104°F, 10% Humidity). High risk of orthostatic hypotension during postural shifts.
+                        </td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 15px; border: 1px solid #d1d1d1; font-weight: bold;">Pilot BRAVO</td>
+                        <td style="padding: 15px; border: 1px solid #d1d1d1;">
+                            <strong>Age:</strong> 58 | <strong>Resting HR:</strong> 54 bpm<br>
+                            <strong>Morbidity:</strong> T2DM + CVD (Post-MI, Stable)<br>
+                            <strong>Meds:</strong> Metoprolol (Beta-Blocker), Metformin.
+                        </td>
+                        <td style="padding: 15px; border: 1px solid #d1d1d1; background-color: #f8fafc;">
+                            Blunted HR response makes %HRR math invalid. Must pivot to <strong>RPE (6-20)</strong> monitoring for high-intensity glucose clearance sorties.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px; border: 1px solid #d1d1d1; font-weight: bold;">Pilot CHARLIE</td>
+                        <td style="padding: 15px; border: 1px solid #d1d1d1;">
+                            <strong>Age:</strong> 65 | <strong>FEV1/FVC:</strong> 0.62<br>
+                            <strong>Morbidity:</strong> COPD + Chronic Kidney Disease (CKD)<br>
+                            <strong>Meds:</strong> Symbicort, Diuretics.
+                        </td>
+                        <td style="padding: 15px; border: 1px solid #d1d1d1; background-color: #f8fafc;">
+                            Severe dehydration risk in <strong>Imperial Valley</strong> heat. Electrolyte imbalance triggers premature exercise termination.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div style="background-color: #fff1f2; padding: 20px; border-left: 6px solid #ba0c2f; margin-top: 30px;">
+            <p style="margin: 0; font-weight: bold; color: #ba0c2f;">⚠️ AUDITOR ADVISORY:</p>
+            <p style="margin: 10px 0 0 0;">Do not accept generic AI outputs for these cases. If the AI suggests %HRR for Pilot BRAVO or heavy Valsalva-prone loading for Pilot ALPHA, the simulation has <strong>failed</strong> structural integrity.</p>
+        </div>
     </section>
     <footer
         style="background-color: #f8fafc; padding: 2.5rem 1.5rem; text-align: center; border-top: 8px solid #ba0c2f; margin-top: 40px;">
