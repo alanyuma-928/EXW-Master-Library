@@ -74,5 +74,24 @@ For all AI-synthesized audio/video or content, the following disclosure is manda
 
 ---
 
+### Accessibility Protocol: The Double-Contrast Guard ###
+
+**Context**: To ensure high visibility and bypass sensitivity issues within the Canvas LMS Accessibility Checker.
+
+**Mandate**:
+- All digital content must meet or exceed WCAG 2.1 Level AA by the April 24, 2026 deadline.
+- **Contrast Over-Ride**: While WCAG 2.1 AA requires a 4.5:1 ratio, all EXW-Master-Library content must utilize a minimum contrast ratio of **9:1**.
+- **Heading Hierarchy**:
+  - <h1> is reserved for Canvas Page Titles.
+  - All content must start at <h2>.
+  - No heading levels (<h3>, <h4>) may be skipped.
+- **Delimiter Protocol**: Wrap all clinical case data, client profiles, and medical inputs in triple-hashes (###) within code blocks.
+
+**Execution Logic**:
+- When running `/accessibility:fix` or generating CSS/HTML, ignore any suggestions that fall between 4.5:1 and 8.9:1.
+- Force all color pairings to achieve the 9:1 threshold.
+
+---
+
 ## 🏁 Check for Understanding
 * [Self-check question designed to trigger critical thinking]
