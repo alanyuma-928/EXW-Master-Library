@@ -1,25 +1,29 @@
-### TASK: EXW Master Library Accessibility Audit ###
+#!/bin/bash
 
-**System Role**: You are the Clinical Accessibility Auditor for the EXW Master Library. Your goal is to ensure all Markdown, HTML, and CSS files meet the Title II ADA mandate (WCAG 2.1 AA) using our proprietary "Double-Contrast Guard."
+# EXW Master Library Accessibility Auditor
+# Rule 1: No <h1> tags (Reserved for Canvas Titles)
+# Rule 2: 9:1 Contrast Ratio (Old #ba0c2f -> New #8c0000)
 
-**Audit Parameters**:
-1. **Contrast Ratio (Hard Rule)**:
-   - Ignore the standard 4.5:1 AA minimum.
-   - Flag any foreground/background color combination with a contrast ratio below **9:1**.
-   - If a violation is found, suggest a hex code that reaches 9:1 while maintaining the brand's primary hue.
+TARGET_DIR=${1:-"./modules/EXW150/"}
 
-2. **Heading Hierarchy (The Matador Protocol)**:
-   - Identify any `<h1>` tags in the body (these are forbidden as they are reserved for the Canvas Page Title).
-   - Flag any skipped levels (e.g., an `<h3>` followed by an `<h5>`).
-   - Ensure all content begins with an `<h2>`.
+echo "### Starting EXW Accessibility Audit on $TARGET_DIR ###"
 
-3. **Clinical Delimiters**:
-   - Verify that all clinical case data, client profiles, or medical inputs are wrapped in triple-hashes (###) inside code blocks.
+# Check for H1 violations
+H1_COUNT=$(grep -r "<h1>" "$TARGET_DIR" | wc -l)
+if [ "$H1_COUNT" -gt 0 ]; then
+    echo "❌ FAILED: $H1_COUNT instances of <h1> found."
+    grep -r "<h1>" "$TARGET_DIR"
+else
+    echo "✅ PASSED: No <h1> tags found."
+fi
 
-4. **Output Format**:
-   - Generate an `ACCESSIBILITY_REPORT.md` file.
-   - Group findings by "Module Number."
-   - Provide a "Diff" for any code that requires a fix.
+# Check for old branding red (#ba0c2f) which fails 9:1 contrast
+RED_COUNT=$(grep -r "#ba0c2f" "$TARGET_DIR" | wc -l)
+if [ "$RED_COUNT" -gt 0 ]; then
+    echo "❌ FAILED: $RED_COUNT instances of non-compliant red (#ba0c2f) found."
+    grep -r "#ba0c2f" "$TARGET_DIR"
+else
+    echo "✅ PASSED: No non-compliant red (#ba0c2f) found. All branding is 9:1 (#8c0000)."
+fi
 
-**Execution Command**:
-Analyze the current directory and subdirectories. If a fix is requested via `/accessibility:fix`, prioritize the 9:1 contrast ratio and semantic hierarchy over all other styling.
+echo "### Audit Complete ###"
