@@ -7,6 +7,8 @@
 !COURSES/**/*.md
 !_ENGINE_ROOM/**/*.html
 !_ENGINE_ROOM/**/*.md
+!_PROJECT_ADMIN/**/*.html
+!_PROJECT_ADMIN/**/*.md
 
 # Office & System Temp Files
 ~$*
@@ -75,77 +77,6 @@ out/
 !.yarn/sdks
 !.yarn/versions
 
-# --- EXW Course Specifics ---
-# Ensure Master Context and Markdown are NOT ignored
-!GEMINI.md
-!*.md
-
-# Ignore the HTML outputs generated for Canvas Paste
-html-builds/
-*.html
-!awc-template.html
-!awc-announcement.html
-!UNIFIED_MASTER_SYLLABUS.html
-!UNIFIED_HOME_PAGE.html
-!index.html
-!EXW265/Fall_2026/EXW265_Syllabus_Fall2026.html
-!EXW245/Fall_2026/EXW245_Syllabus_Fall2026.html
-!EXW101/Fall_2026/EXW101_Syllabus_Fall2026.html
-
-# Office & System Temp Files
-~$*
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# --- Gemini CLI & AI Context ---
-.gemini_session_history
-.env
-.env.*
-!.env.example
-
-# --- Node.js Standard (Cleaned) ---
-logs
-*.log
-npm-debug.log*
-node_modules/
-.node_repl_history
-
-# --- Build & Output Folders ---
-dist/
-out/
-.next/
-
-# --- IDE & Editors ---
-.vscode/
-.idea/
-*.swp
-*.bak
-*.tmp
-!modules/
-!modules/EXW150/
-!modules/EXW245/
-!modules/EXW265/
-!modules/EXW101/
-!modules/**/*.html
-!canvas/
-!canvas/**/*.html
-!MODULE_RESOURCES/
-!HOME_PAGES/
-!MODULE_RESOURCES/Module_0/Module0_3_AILogic.html
-!MODULE_RESOURCES/Components/Universal_Grading_Protocol.html
-!MODULE_RESOURCES/Module_0/Module0_2_PilotsManual.html
-!MODULE_RESOURCES/Module_0/Module0_3_EngineRoom_Master.html
-!MODULE_RESOURCES/Templates/Master_Mission_Template_V5.27.html
-!MODULE_RESOURCES/Components/Universal_Socratic_Tutor.html
-!MODULE_RESOURCES/Components/Socratic_Tutor_Mastery_V5.30.html
-!MODULE_RESOURCES/Templates/Immediate_Assessment_Template_V5.32.html
-!MODULE_RESOURCES/Components/SSoT/PAGA_2nd_Ed.html
-!MODULE_RESOURCES/Components/Universal_AdaptiveFit_Launch.html
-!MODULE_RESOURCES/Components/Universal_Mastery_Scale.html
-!MODULE_RESOURCES/Components/Universal_Prompt_Library.html
-!docs/
-!docs/**/*.html
-!assets/
-!assets/templates/
-!assets/templates/*.html
+# --- Legacy Patterns (Pruned) ---
+# We no longer use 'modules/' or 'canvas/' directories.
+# All content is in 'COURSES/'

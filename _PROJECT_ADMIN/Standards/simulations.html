@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Simulations | EXW Master Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --matador-red: #ba0c2f;
+            --accessible-teal: #007075;
+            --dark-grey: #1a1a1a;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-grey);
+            background-color: var(--bg-light);
+            margin: 0;
+        }
+
+        header {
+            background-color: var(--matador-red);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            border-bottom: 6px solid var(--accessible-teal);
+        }
+
+        nav {
+            max-width: 1000px;
+            margin: 1.5rem auto;
+            padding: 0 40px;
+        }
+
+        .back-link {
+            color: var(--accessible-teal);
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 1.1rem;
+            border: 2px solid var(--accessible-teal);
+            padding: 8px 15px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .back-link:hover {
+            background: var(--accessible-teal);
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 1.5rem auto;
+            padding: 40px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: var(--matador-red);
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 10px;
+            margin-top: 3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .briefing-box {
+            border: 2px solid #ddd;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border-left: 12px solid var(--matador-red);
+            background-color: #ffffff;
+        }
+
+        .simulation-prompt {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 25px;
+            border-radius: 8px;
+            font-style: italic;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            border-left: 8px solid var(--accessible-teal);
+            font-size: 0.9rem;
+        }
+
+        .delimiter {
+            color: #fd971f;
+            font-weight: bold;
+        }
+
+        .tag {
+            background: var(--matador-red);
+            color: white;
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 4rem 1rem;
+            border-top: 6px solid var(--matador-red);
+            margin-top: 5rem;
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="font-size: 2rem; font-weight: 900; text-transform: uppercase;">CLINICAL SIMULATIONS LIBRARY</div>
+        <p>Full P-T-C-F Standardized Patient Scenarios</p>
+    </header>
+    <nav><a href="index.html" class="back-link">← RETURN TO MASTER HUB</a></nav>
+    <main>
+        <div
+            style="background-color: #fff9c4; border: 3px solid #fbc02d; padding: 20px; border-radius: 10px; margin-bottom: 40px;">
+            <p style="margin: 0; font-weight: bold; font-size: 1.1rem; color: #333;">⚠️ RADAR CHECK: You MUST click "Add
+                File (+)" and upload the PAGA 2nd Ed PDF before starting these simulations.</p>
+        </div>
+
+        <h2>☀️ Metabolic & Environmental</h2>
+
+        <div class="briefing-box">
+            <span class="tag">The Yuma 110° Audit</span>
+
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a "Skeptic Client" in Yuma, AZ.<br>
+                <span class="delimiter">### TASK ###</span> Argue that you are "heat acclimated" and insist on a 2:00 PM
+                outdoor ruck.<br>
+                <span class="delimiter">### CONTEXT ###</span> Force the student to cite ACSM/PAGA heat gain standards
+                before you agree to move indoors.<br>
+                <span class="delimiter">### FORMAT ###</span> Use the Mission Loop: Pattern, Rule, Solve.
+            </div>
+        </div>
+
+        <div class="briefing-box">
+            <span class="tag">The Hypoglycemic Shift</span>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as "John," a T2DM patient on insulin.<br>
+                <span class="delimiter">### TASK ###</span> Start the workout feeling fine, but mid-session, describe
+                feeling "shaky and cold."<br>
+                <span class="delimiter">### CONTEXT ###</span> Do not accept a snack unless the student identifies the
+                clinical "Rule" for blood glucose levels.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
+        </div>
+
+        <h2>🦴 Bone & Joint Integrity</h2>
+
+        <div class="briefing-box">
+            <span class="tag">Mrs. Miller (Osteoporosis)</span>
+
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as Mrs. Miller (T-score -2.8).<br>
+                <span class="delimiter">### TASK ###</span> Ask if you can start doing weighted sit-ups to "strengthen
+                your core."<br>
+                <span class="delimiter">### CONTEXT ###</span> Cite the risk of vertebral fracture if the student
+                doesn't pivot you to neutral spine exercises.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
+        </div>
+
+        <div class="briefing-box">
+            <span class="tag">The Arthritis Pivot</span>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a client with severe OA in the knees.<br>
+                <span class="delimiter">### TASK ###</span> Complain that your pain is 7/10 and you want to skip the
+                workout.<br>
+                <span class="delimiter">### CONTEXT ###</span> Wait for the student to apply the "2-Hour Pain Rule" from
+                the PAGA guidelines.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
+        </div>
+
+        <h2>🛡️ Special Populations</h2>
+
+        <div class="briefing-box">
+            <span class="tag">Prenatal Safety</span>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a 30-year-old in her 2nd Trimester.<br>
+                <span class="delimiter">### TASK ###</span> Ask why you can no longer do flat bench press or floor-based
+                ab work.<br>
+                <span class="delimiter">### CONTEXT ###</span> Force the student to explain supine hypotensive syndrome
+                using SSoT standards.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
+        </div>
+
+        <div class="briefing-box">
+            <span class="tag">Adaptive Design (SCI)</span>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a client with a T10 SCI.<br>
+                <span class="delimiter">### TASK ###</span> Ask about the safety of high-intensity training and BP
+                spikes.<br>
+                <span class="delimiter">### CONTEXT ###</span> Challenge the student to cite the risk of Autonomic
+                Dysreflexia.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
+        </div>
+
+        <div class="briefing-box">
+            <span class="tag">The Pediatric Audit</span>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a "Pushy Parent" of a 12-year-old athlete.<br>
+                <span class="delimiter">### TASK ###</span> Demand that your child starts a 1-Rep Max powerlifting
+                program today.<br>
+                <span class="delimiter">### CONTEXT ###</span> Refuse to back down until the student cites the PAGA
+                pediatric strength guidelines.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
+        </div>
+
+        <h2>🫁 Multi-Morbidity</h2>
+
+        <div class="briefing-box">
+            <span class="tag">The COPD Obstacle</span>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a client with COPD and Obesity.<br>
+                <span class="delimiter">### TASK ###</span> Stop exercising because you are gasping for breath.<br>
+                <span class="delimiter">### CONTEXT ###</span> Ask the student to explain the Dyspnea Scale (1-4) and
+                the PAGA rest-to-work ratio.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
+        </div>
+
+        <div class="briefing-box">
+            <span class="tag">The Hypertension Trap</span>
+            <div class="simulation-prompt">
+                <span class="delimiter">### PERSONA ###</span> Act as a client with Stage 2 Hypertension.<br>
+                <span class="delimiter">### TASK ###</span> Tell the student you prefer holding your breath (Valsalva)
+                to lift heavier.<br>
+                <span class="delimiter">### CONTEXT ###</span> Don't stop until the student explains the BP risk and
+                proper exhalation technique.<br>
+                <span class="delimiter">### FORMAT ###</span> Mission Loop.
+            </div>
+        </div>
+
+        <div
+            style="background-color: #f8f9fa; border: 2px solid #ba0c2f; padding: 25px; border-radius: 8px; margin-top: 50px;">
+            <p style="margin: 0;"><strong>⚠️ Disclaimer:</strong> Content for educational purposes only. Always seek
+                professional medical advice.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Designed by Coach Alan Pruitt | CC BY-NC-SA 4.0</p>
+    </footer>
+</body>
+
+</html>

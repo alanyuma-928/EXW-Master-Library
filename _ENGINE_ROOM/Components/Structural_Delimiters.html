@@ -1,0 +1,10 @@
+<div style="background-color: #f8f9fa; border: 1px solid #ddd; padding: 25px; border-radius: 8px; margin: 25px 0;">
+    <h3 style="margin-top: 0; color: #ba0c2f;">🧱 The Structural Delimiter</h3>
+    <p>Use delimiters to keep the AI "Engine" organized. When providing large datasets or specific guidelines, wrap them in clear markers:</p>
+    <div style="background: #ffffff; border: 1px solid #ddd; padding: 15px; font-family: monospace; font-size: 0.9rem;">
+        ### BEGIN SOURCE OF TRUTH ###<br>
+        [Insert PAGA or ACSM Text Here]<br>
+        ### END SOURCE OF TRUTH ###
+    </div>
+    <p style="margin-top: 15px; margin-bottom: 0; font-style: italic;">"Brick by brick, we build the prompt."</p>
+</div>
