@@ -1,7 +1,12 @@
-# --- EXW Course Specifics ---
-# Ensure Master Context and Markdown are NOT ignored
-!GEMINI.md
-!*.md
+# --- EXW Course Specifics (Unified Structure) ---
+!COURSES/
+!_ENGINE_ROOM/
+!_PROJECT_ADMIN/
+!scripts/
+!COURSES/**/*.html
+!COURSES/**/*.md
+!_ENGINE_ROOM/**/*.html
+!_ENGINE_ROOM/**/*.md
 
 # Office & System Temp Files
 ~$*
