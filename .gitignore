@@ -18,6 +18,8 @@ desktop.ini
 
 # --- Gemini CLI & AI Context ---
 .gemini_session_history
+.gemini/
+update_gemini.sh
 .env
 .env.*
 !.env.example
