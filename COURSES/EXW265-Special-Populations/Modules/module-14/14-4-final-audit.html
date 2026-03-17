@@ -6,6 +6,29 @@
         &rarr;</a>
 </nav>
 
+<!-- Interactive Styles: Course Footer High-Contrast Protocol -->
+<style>
+    #exw-standard-footer a:focus, 
+    #exw-standard-footer a:focus-visible {
+        outline: 3px solid #2CCCD3 !important;
+        outline-offset: 4px !important;
+        background-color: #2CCCD3 !important;
+        color: #1a1a1a !important;
+        box-shadow: 0 0 15px rgba(44, 204, 211, 0.5) !important;
+    }
+    #exw-standard-footer a:hover {
+        background-color: #ffffff !important;
+        color: #7c0920 !important;
+        border-color: #ffffff !important;
+        text-decoration: underline !important;
+    }
+    #exw-standard-footer section a:focus {
+        outline: 2px solid #ffffff !important;
+        background-color: #ffffff !important;
+        color: #7c0920 !important;
+    }
+</style>
+
 <div id="awc-canvas-wrapper"
     style="font-family: 'Segoe UI', sans-serif; max-width: 1000px; margin: 0 auto; color: #1a1a1a; line-height: 1.6; border: 1px solid #d1d1d1; background-color: #ffffff; overflow: hidden; border-radius: 8px;">
 
@@ -57,22 +80,55 @@
         </blockquote>
     </section>
 
-    <footer style="background-color: #f8fafc; padding: 2.5rem 1.5rem; text-align: center; border-top: 8px solid #8c0000; margin-top: 40px;">
-        <p style="font-size: 1.1rem; color: rgba(39, 53, 64, 1); margin: 0 0 20px 0;">🚀 Certification Phase: Active.</p>
-        <div style="background-color: #ffffff; border: 2px solid rgba(39, 53, 64, 1); padding: 12px; display: inline-block; border-radius: 4px; margin-bottom: 25px;">
-            <p style="font-size: 0.9rem; color: #8c0000; margin: 0;">Verified | Summative Audit Standard</p>
-        </div>
-        <p style="font-size: 1rem; color: rgba(39, 53, 64, 1);">Arizona Western College | Wellness & Physical Education</p>
-        <div style="margin: 20px 0;">
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-                <img alt="Creative Commons License" style="border-width:0; height: 35px;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" />
-            </a>
-        </div>
-        <p style="font-size: 0.9rem; color: rgba(39, 53, 64, 1); font-style: italic; border-top: 1px solid #cbd5e1; padding-top: 15px;">
-            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="color: #8c0000; text-decoration: underline;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+    <!-- Standard Course Footer (Final Master Version v1.2) -->
+    <footer id="exw-standard-footer" role="contentinfo"
+        style="margin-top: 0px; border-top: 6px solid #2CCCD3; background-color: #7c0920; color: #ffffff; padding: 40px 20px; text-align: center; font-family: 'Segoe UI', Verdana, sans-serif;">
+
+        <!-- Accessibility: Nav landmark for keyboard/screen reader users -->
+        <nav aria-label="Footer Course Navigation" style="margin-bottom: 30px;">
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+                <a style="flex: 1 1 200px; min-width: 200px; max-width: 300px; min-height: 48px; display: flex; align-items: center; justify-content: center; padding: 12px 18px; background-color: #7c0920; color: #ffffff; text-decoration: none; border-radius: 6px; border: 2px solid #2CCCD3; font-weight: bold; font-size: 1.1rem; transition: all 0.2s ease-in-out;"
+                    href="/courses/current/modules" title="Go to Course Home">
+                    <span aria-hidden="true" style="margin-right: 10px;">🏠</span> Home
+                </a>
+                <a style="flex: 1 1 200px; min-width: 200px; max-width: 300px; min-height: 48px; display: flex; align-items: center; justify-content: center; padding: 12px 18px; background-color: #7c0920; color: #ffffff; text-decoration: none; border-radius: 6px; border: 2px solid #2CCCD3; font-weight: bold; font-size: 1.1rem; transition: all 0.2s ease-in-out;"
+                    href="/courses/current/modules" title="View All Modules">
+                    <span aria-hidden="true" style="margin-right: 10px;">📚</span> Modules
+                </a>
+                <a style="flex: 1 1 200px; min-width: 200px; max-width: 300px; min-height: 48px; display: flex; align-items: center; justify-content: center; padding: 12px 18px; background-color: #7c0920; color: #ffffff; text-decoration: none; border-radius: 6px; border: 2px solid #2CCCD3; font-weight: bold; font-size: 1.1rem; transition: all 0.2s ease-in-out;"
+                    href="/courses/current/syllabus" title="View Course Syllabus">
+                    <span aria-hidden="true" style="margin-right: 10px;">📜</span> Syllabus
+                </a>
+            </div>
+        </nav>
+
+        <!-- Accessibility: Fluid typography (clamp) for responsive readability -->
+        <p style="margin: 0 auto 30px; font-size: clamp(0.95rem, 2.5vw, 1.1rem); color: #ffffff; font-style: italic; max-width: 800px; line-height: 1.6;">
+            <strong>Navigation Note:</strong> Use the "Previous" and "Next" buttons at the bottom of the screen to move through this Module.
         </p>
-        <p style="font-size: 0.8rem; color: #666; margin-top: 10px;">
-            AI Disclosure: This content was synthesized using Google Gemini. Residents must audit all clinical claims against the Source of Truth. AI can make mistakes.
-        </p>
+
+        <hr style="border: 0; border-top: 2px solid #2CCCD3; margin: 0 auto 30px; width: clamp(50%, 80%, 90%);" aria-hidden="true" />
+
+        <div style="padding: 0 10px;">
+            <p style="margin: 0; font-size: clamp(1.1rem, 4vw, 1.3rem); font-weight: bold; letter-spacing: 0.5px; line-height: 1.3; color: #ffffff;">Arizona Western College | Matador Wellness Center</p>
+            <p style="margin: 8px 0 30px 0; font-size: clamp(0.9rem, 3vw, 1.05rem); color: #ffffff; opacity: 0.9;">The AI Architect | Coach Alan Pruitt</p>
+        </div>
+
+        <!-- Standard Licensing & Attribution -->
+        <section aria-label="Licensing and Attribution"
+            style="background-color: rgba(0, 0, 0, 0.35); padding: clamp(15px, 4vw, 25px); border-radius: 8px; border: 2px solid #2CCCD3; font-size: clamp(0.85rem, 2.5vw, 0.95rem); color: #ffffff; max-width: 900px; margin: 0 auto; text-align: left; line-height: 1.6;">
+            <p style="margin-bottom: 12px;">
+                This work, <strong>EXW 265 Course Content</strong>, is a derivative of the 
+                <em>Matador Wellness Center Clinical AI Residency</em> and is licensed under a 
+                <a style="color: #ffffff; text-decoration: underline; font-weight: bold;"
+                    href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">
+                    Creative Commons Attribution 4.0 International License
+                </a>.
+            </p>
+            <p style="font-size: 0.8rem; margin: 0; opacity: 0.95; border-top: 1px solid rgba(255, 255, 255, 0.3); padding-top: 12px;">
+                <strong>Attribution:</strong> Includes elements from the 
+                <strong>Canvas Course Evaluation Checklist v3.0</strong> and <strong>OERizona Network OER Standards</strong>.
+            </p>
+        </section>
     </footer>
 </div>
