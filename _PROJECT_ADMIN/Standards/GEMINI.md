@@ -25,10 +25,11 @@ All content must be strictly grounded in these specific sources:
 
 ## 🏁 The Mastery Standard (SEAL Philosophy)
 **Grading Scale: 10/7/0**
-Every assignment generated must include the **Three-Part Submission Standard**:
+Every assignment generated must include the **Four-Part Submission Standard**:
 1. **Part 1 (The Engine):** P-T-C-F Engineered Prompt (Persona, Task, Context, Format).
 2. **Part 2 (The Audit):** 150-word Clinical Audit/Critique of the AI output against the SSOT.
-3. **Part 3 (The Presence-Check):** Mandatory 2-minute Audio/Video Defense justifying the PAGA/ACSM clinical logic in the student's own voice.
+3. **Part 3 (The Presence-Check):** Mandatory 150-word Verbatim Text Defense justifying the PAGA/ACSM clinical logic in the student's own voice (Text-Only).
+4. **Part 4 (The Exemplar):** A high-fidelity 10/10 model submission demonstrating the exact standard required for full points.
 
 ---
 
@@ -69,8 +70,13 @@ For all AI-synthesized audio/video or content, the following disclosure is manda
 ## 🧪 Laboratory/Practical Application
 1. **The P-T-C-F Prompt:** [Template for student use]
 2. **The Clinical Audit:** [Instruction for student to audit against SSOT]
-3. [cite_start]**The Presence Defense:** [Instructions for Audio/Video upload justifying PAGA/ACSM compliance][cite: 52, 61].
-4. **Safety Gate:** > [Specific PAGA/Dietary Guideline/ACSM safety protocol]
+3. [cite_start]**The Presence Defense:** [Instructions for 150-word Verbatim Text Defense justifying PAGA/ACSM compliance][cite: 52, 61].
+4. **The 10/10 Student Exemplar:** 
+   > ### 🌟 Exemplar: 10/10 Submission Standard
+   > **Part 1 (Engine):** [Draft Prompt following P-T-C-F]
+   > **Part 2 (Audit):** [150-word Clinical Audit identifying specific AI errors]
+   > **Part 3 (Presence):** [150-word Verbatim Text Defense justifying clinical priority]
+5. **Safety Gate:** > [Specific PAGA/Dietary Guideline/ACSM safety protocol]
 
 ---
 
