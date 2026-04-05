@@ -22,7 +22,7 @@
 </style>
 
 <div id="awc-canvas-wrapper" style="font-family: 'Segoe UI', Verdana, sans-serif; max-width: 1000px; margin: 20px auto; width: 100%; font-size: 1.1rem; line-height: 1.6; color: #1a1a1a; border: 1px solid #e1e4e8; border-radius: 8px; overflow: hidden; background-color: #ffffff;">
-    <header style="background-color: #ba0c2f; padding: 40px 25px; border-bottom: 6px solid #2CCCD3; text-align: center;">
+    <header style="background-color: #8c0000; padding: 40px 25px; border-bottom: 6px solid #2CCCD3; text-align: center;">
         <h2 style="margin: 0; color: #ffffff; font-size: clamp(1.5rem, 5vw, 2.2rem); border: none; line-height: 1.2;">$title$</h2>
         <p style="margin: 10px 0 0 0; color: #eafffd; font-size: 1.1rem; font-style: italic;">$subtitle$</p>
     </header>
@@ -30,7 +30,7 @@
     $if(audio-url)$
     <div style="padding: clamp(15px, 5vw, 40px) clamp(15px, 5vw, 40px) 0 clamp(15px, 5vw, 40px);">
         <section style="background-color: #f8f9fa; border: 1px solid #d1d5db; padding: 25px; border-radius: 12px; margin-bottom: 0px;" aria-labelledby="briefing-title">
-            <h3 id="briefing-title" style="margin-top: 0; color: #ba0c2f; text-align: center; font-size: 1.5rem;">🎙️ $if(audio-label)$$audio-label$$else$Clinical Handover$endif$</h3>
+            <h3 id="briefing-title" style="margin-top: 0; color: #8c0000; text-align: center; font-size: 1.5rem;">🎙️ $if(audio-label)$$audio-label$$else$Clinical Handover$endif$</h3>
             <p style="font-size: 1rem; color: #4b5563; text-align: center; margin-bottom: 20px;">$audio-description$</p>
             <div style="text-align: center; margin-bottom: 20px;">
                 <audio style="width: 100%; max-width: 500px;" controls="controls">
@@ -39,13 +39,13 @@
                 </audio>
             </div>
             $if(audio-ai-disclosure)$
-            <div style="background-color: #ffffff; border-left: 5px solid #BA0C2F; padding: 15px; border-radius: 4px; margin-bottom: 20px; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
+            <div style="background-color: #ffffff; border-left: 5px solid #8c0000; padding: 15px; border-radius: 4px; margin-bottom: 20px; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
                 <p style="margin: 0; font-size: 0.9rem; color: #1a1a1a; line-height: 1.4;">🤖 <strong>AI Disclosure:</strong> $audio-ai-disclosure$</p>
             </div>
             $endif$
             $if(transcript)$
             <details style="background-color: #ffffff; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; margin: 15px 0;">
-                <summary style="cursor: pointer; color: #ba0c2f;">📝 Audio Transcript (Click to Expand)</summary>
+                <summary style="cursor: pointer; color: #8c0000;">📝 Audio Transcript (Click to Expand)</summary>
                 <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #e1e4e8; font-size: 0.95rem; overflow-x: auto;">
                     $transcript$
                 </div>
@@ -58,7 +58,7 @@
     $if(video-url)$
     <div style="padding: clamp(15px, 5vw, 40px) clamp(15px, 5vw, 40px) 0 clamp(15px, 5vw, 40px);">
         <section style="background-color: #f8f9fa; border: 1px solid #d1d5db; padding: 25px; border-radius: 12px; margin-bottom: 0px;" aria-labelledby="video-title">
-            <h3 id="video-title" style="margin-top: 0; color: #ba0c2f; text-align: center; font-size: 1.5rem;">🎥 $if(video-label)$$video-label$$else$Clinical Briefing$endif$</h3>
+            <h3 id="video-title" style="margin-top: 0; color: #8c0000; text-align: center; font-size: 1.5rem;">🎥 $if(video-label)$$video-label$$else$Clinical Briefing$endif$</h3>
             <p style="font-size: 1rem; color: #4b5563; text-align: center; margin-bottom: 20px;">$video-description$</p>
             <div style="margin: 25px 0; border-radius: 8px; overflow: hidden; border: 1px solid #000; background: #000;">
                 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -66,13 +66,13 @@
                 </div>
             </div>
             $if(video-ai-disclosure)$
-            <div style="background-color: #ffffff; border-left: 5px solid #BA0C2F; padding: 15px; border-radius: 4px; margin-bottom: 20px; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
+            <div style="background-color: #ffffff; border-left: 5px solid #8c0000; padding: 15px; border-radius: 4px; margin-bottom: 20px; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
                 <p style="margin: 0; font-size: 0.9rem; color: #1a1a1a; line-height: 1.4;">🤖 <strong>AI Disclosure:</strong> $video-ai-disclosure$</p>
             </div>
             $endif$
             $if(video-transcript)$
             <details style="background-color: #f8f9fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; margin: 15px 0;">
-                <summary style="cursor: pointer; color: #ba0c2f;">📝 Verbatim Video Transcript (Click to Expand)</summary>
+                <summary style="cursor: pointer; color: #8c0000;">📝 Verbatim Video Transcript (Click to Expand)</summary>
                 <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #e1e4e8; font-size: 0.95rem; background-color: #ffffff; overflow-x: auto;">
                     $video-transcript$
                 </div>

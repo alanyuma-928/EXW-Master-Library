@@ -88,7 +88,7 @@ For all AI-synthesized audio/video or content, the following disclosure is manda
 - All digital content must meet or exceed WCAG 2.1 Level AA by the April 24, 2026 deadline.
 - **Contrast Over-Ride**: While WCAG 2.1 AA requires a 4.5:1 ratio, all EXW-Master-Library content must utilize a minimum contrast ratio of **9:1**.
 - **Heading Hierarchy**:
-  - <h1> is reserved for Canvas Page Titles.
+  - H1 is reserved for Canvas Page Titles.
   - All content must start at <h2>.
   - No heading levels (<h3>, <h4>) may be skipped.
 - **Delimiter Protocol**: Wrap all clinical case data, client profiles, and medical inputs in triple-hashes (###) within code blocks.

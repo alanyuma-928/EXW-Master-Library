@@ -35,7 +35,7 @@ All course workflows utilize the **Pattern / Rule / Solve** framework to priorit
 ## <h2>Technical Specifications</h2>
 
 ### <h3>Accessibility & Semantic Hierarchy</h3>
-* **Heading Logic:** Per institutional standards, all Markdown starts at the `<h2>` level (reserving `<h1>` for Canvas Page Titles).
+* **Heading Logic:** Per institutional standards, all Markdown starts at the `<h2>` level (reserving `H1` for Canvas Page Titles).
 * **Strict Hierarchy:** Subsequent headings must follow a logical flow (`<h3>`, `<h4>`) without skipping levels.
 * **WCAG 2.1 AA:** All integrated CSS or HTML must maintain a minimum **4.5:1** contrast ratio and utilize ARIA-compliant semantic structures.
 

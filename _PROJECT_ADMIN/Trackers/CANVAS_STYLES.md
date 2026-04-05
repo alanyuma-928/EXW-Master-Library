@@ -5,10 +5,10 @@ Use these snippets to maintain WCAG 2.1 AA compliance and professional branding 
 ---
 
 ## 1. Professional Header (The Flight Manual)
-*Standardized Cardinal Red (#ba0c2f) with Teal (#2CCCD3) accent.*
+*Standardized Cardinal Red (#8c0000) with Teal (#2CCCD3) accent.*
 
 ```html
-<header style="background-color: #ba0c2f; padding: 2rem 1.5rem; border-bottom: 6px solid #2CCCD3; text-align: center;">
+<header style="background-color: #8c0000; padding: 2rem 1.5rem; border-bottom: 6px solid #2CCCD3; text-align: center;">
     <h2 style="color: #ffffff; margin: 0; font-size: 2rem;">[MODULE TITLE]</h2>
     <p style="margin: 10px 0 0 0; color: #eafffd; font-style: italic;">"The Centaur Protocol: AI-Enhanced Clinical Care"</p>
 </header>
@@ -32,13 +32,13 @@ Use these snippets to maintain WCAG 2.1 AA compliance and professional branding 
 ```html
 <div style="margin-top: 25px; margin-bottom: 25px; border: 1px solid #e1e1e1; border-radius: 8px; overflow: hidden; color: #1a1a1a;">
     <div style="background-color: #f5f5f5; padding: 15px 20px; border-bottom: 1px solid #ddd;">
-        <h3 style="margin: 0; color: #ba0c2f; font-size: 1.4rem;">📊 Evaluation: The Clinical Mastery Scale</h3>
+        <h3 style="margin: 0; color: #8c0000; font-size: 1.4rem;">📊 Evaluation: The Clinical Mastery Scale</h3>
     </div>
     <div style="padding: 20px;">
         <table style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 1rem;">
             <caption style="text-align: left; padding: 10px; font-style: italic; color: #1a1a1a;">Table: Clinical Mastery Scale and Grading Criteria</caption>
             <thead>
-                <tr style="background-color: #ba0c2f; color: white; text-align: left;">
+                <tr style="background-color: #8c0000; color: white; text-align: left;">
                     <th style="padding: 12px; border: 1px solid #ddd; width: 30%;" scope="col">Mastery Level</th>
                     <th style="padding: 12px; border: 1px solid #ddd;" scope="col">Clinical Criteria</th>
                 </tr>
@@ -53,7 +53,7 @@ Use these snippets to maintain WCAG 2.1 AA compliance and professional branding 
                     <td style="padding: 12px; border: 1px solid #ddd;">Safe to Practice. Audit is descriptive rather than analytical.</td>
                 </tr>
                 <tr style="background-color: #fff0f3;">
-                    <td style="padding: 12px; border: 1px solid #ddd; border-left: 5px solid #ba0c2f;"><strong>🔧 Recalibrate (0 pts)</strong></td>
+                    <td style="padding: 12px; border: 1px solid #ddd; border-left: 5px solid #8c0000;"><strong>🔧 Recalibrate (0 pts)</strong></td>
                     <td style="padding: 12px; border: 1px solid #ddd;">Critical safety error or PII leak. Resubmission required.</td>
                 </tr>
             </tbody>
