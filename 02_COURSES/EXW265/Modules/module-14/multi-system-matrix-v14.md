@@ -1,5 +1,5 @@
 # 📊 MULTI-SYSTEM SIMULATION MATRIX: PILOT OMEGA
-## Identity: Chief Medical Auditor | SSoT: ACSM 12th Ed / PAGA 2018
+## Identity: Chief Medical Auditor | SSoT: PAGA 2018 (2nd Ed) / Clinical Safety (Strict)
 
 ### ### SYSTEM OVERVIEW ###
 * **Subject:** Pilot Omega (72M)
@@ -35,7 +35,7 @@
 
 ## 📝 CHIEF AUDITOR VERIFICATION CHECKLIST
 1.  [ ] **Delimiter Protocol:** Are all radioactive variables wrapped in `###`?
-2.  [ ] **SSoT Grounding:** Does the modification cite ACSM 12th Ed page-level logic?
+2.  [ ] **SSoT Grounding:** Does the modification cite PAGA 2018 (2nd Ed) page-level logic?
 3.  [ ] **Anti-Valsalva:** Is there documented zero-tolerance for breath-holding?
 4.  [ ] **Institutional Sign-off:** Does this solve for the *Collision*, not just the *Performance*?
 

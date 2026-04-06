@@ -27,7 +27,7 @@
             <p style="font-size: 1.1rem; font-weight: 700;">Before initiating the Tool Box protocol:</p>
             <ol>
                 <li>Locate the <strong>Add File (+)</strong> or <strong>Upload</strong> button in your AI tool (Gemini/NotebookLM).</li>
-                <li>Upload the <strong>ACSM 12th Edition Guidelines</strong> and the <strong>PAGA 2nd Edition</strong> PDF files.</li>
+                <li>Upload the <strong>PAGA 2018 (2nd Ed)ition Guidelines</strong> and the <strong>PAGA 2nd Edition</strong> PDF files.</li>
                 <li>This ensures the AI prioritizes clinical redlines over generic fitness advice.</li>
             </ol>
         </div>
@@ -35,8 +35,8 @@
         <div
             style="background-color: #222; color: #2CCCD3; padding: 25px; border-radius: 8px; font-family: 'Courier New', monospace; margin: 20px 0; border-left: 10px solid #8c0000;">
             <p style="margin: 0; line-height: 1.4;">"Act as a clinical exercise physiologist. Audit the patient data
-                delimited by triple-hashes (###) below. Using <strong>ACSM 12th Edition</strong> as the safety priority
-                and <strong>PAGA 2018</strong> for activity goals, identify the <strong>Interference Pattern</strong>.
+                delimited by triple-hashes (###) below. Using <strong>PAGA 2018 (2nd Ed)ition</strong> as the safety priority
+                and <strong>Clinical Safety (Strict)</strong> for activity goals, identify the <strong>Interference Pattern</strong>.
                 Provide a modified 3-day exercise prescription that avoids the Valsalva maneuver.<br><br>
                 ###<br>
                 Client Profile: 68 y/o Female<br>
@@ -59,7 +59,7 @@
             <p>Submit the raw prompt used. Clinical variables (HTN, Osteo) must be wrapped in <strong>###</strong>.</p>
 
             <h4 style="color: #1a1a1a; margin-top: 20px;">Part 2: The Audit (150-Word Critique)</h4>
-            <p>Critique the AI's prescription. Did it correctly manage the Valsalva risk? Did it suggest high-impact loading that might compromise the Stage 2 HTN redline? Cite <strong>ACSM 12th Ed</strong>.</p>
+            <p>Critique the AI's prescription. Did it correctly manage the Valsalva risk? Did it suggest high-impact loading that might compromise the Stage 2 HTN redline? Cite <strong>PAGA 2018 (2nd Ed)</strong>.</p>
 
             <h4 style="color: #1a1a1a; margin-top: 20px;">Part 3: The Presence-Check (Text-Only Transcript)</h4>
             <p>Submit the <strong>verbatim text transcript</strong>. Demonstrate your own clinical voice by correcting any AI drift regarding the hemodynamic-skeletal collision.</p>
@@ -100,17 +100,17 @@
                 <div style="background-color: #ffffff; padding: 15px; border: 1px solid #d1d1d1; border-radius: 4px; font-family: monospace; font-size: 0.95rem;">
                     <strong>PERSONA:</strong> Senior Clinical Exercise Physiologist.<br>
                     <strong>TASK:</strong> Audit patient data delimited by ### and provide a 3-day bone-density prescription.<br>
-                    <strong>CONTEXT:</strong> Client has ### Stage 2 HTN (165/102) ### and ### Severe Osteoporosis (-2.7) ###. Safety priority: ACSM 12th Ed.<br>
+                    <strong>CONTEXT:</strong> Client has ### Stage 2 HTN (165/102) ### and ### Severe Osteoporosis (-2.7) ###. Safety priority: PAGA 2018 (2nd Ed).<br>
                     <strong>FORMAT:</strong> Professional audit and prescription.
                 </div>
 
                 <h4 style="color: #8c0000; margin-top: 25px;">PART 2: THE AUDIT (150-WORD CRITIQUE)</h4>
-                <p>The AI correctly identified the need for weight-bearing exercise for ### Osteoporosis ### but failed the <strong>Hemodynamic Safety Gate</strong>. It suggested a "maximal resistance" protocol to maximize bone loading. However, per ACSM 12th Ed (Ch. 11), a patient with resting BP of ### 165/102 ### (Stage 2 HTN) is at high risk for acute hypertensive spikes. Maximal resistance often triggers a subconscious Valsalva maneuver, which can spike SBP >250 mmHg. My audit corrected this by capping resistance at 60-70% 1RM and mandating audible exhalation on the concentric phase. I also flagged the "Impact Drift"—the AI suggested jumping jacks for BMD, but with a T-score of ### -2.7 ###, the fracture risk during a landing (if balance is compromised by HTN medication side effects) is too high. I pivoted to progressive resistance training (PRT) and low-impact loading, grounding the "Solve" in acute safety over chronic goals.</p>
+                <p>The AI correctly identified the need for weight-bearing exercise for ### Osteoporosis ### but failed the <strong>Hemodynamic Safety Gate</strong>. It suggested a "maximal resistance" protocol to maximize bone loading. However, per PAGA 2018 (2nd Ed) (Ch. 11), a patient with resting BP of ### 165/102 ### (Stage 2 HTN) is at high risk for acute hypertensive spikes. Maximal resistance often triggers a subconscious Valsalva maneuver, which can spike SBP >250 mmHg. My audit corrected this by capping resistance at 60-70% 1RM and mandating audible exhalation on the concentric phase. I also flagged the "Impact Drift"—the AI suggested jumping jacks for BMD, but with a T-score of ### -2.7 ###, the fracture risk during a landing (if balance is compromised by HTN medication side effects) is too high. I pivoted to progressive resistance training (PRT) and low-impact loading, grounding the "Solve" in acute safety over chronic goals.</p>
 
                 <h4 style="color: #8c0000; margin-top: 25px;">PART 3: THE PRESENCE-CHECK (SOCRATIC TRANSCRIPT)</h4>
                 <div style="background-color: #f8fafc; padding: 20px; border: 1px solid #d1d1d1; border-radius: 4px; font-style: italic;">
                     <p><strong>[Socratic Professor]:</strong> Why did you reject the AI's recommendation for high-impact jumping?</p>
-                    <p><strong>[Resident Defense]:</strong> While high-impact is standard for bone density, this client has ### Stage 2 HTN ###. The risk of a dizziness-induced fall during a high-impact landing outweighs the bone-loading benefit. ACSM 12th Ed mandates hemodynamic stability before aggressive skeletal loading.</p>
+                    <p><strong>[Resident Defense]:</strong> While high-impact is standard for bone density, this client has ### Stage 2 HTN ###. The risk of a dizziness-induced fall during a high-impact landing outweighs the bone-loading benefit. PAGA 2018 (2nd Ed) mandates hemodynamic stability before aggressive skeletal loading.</p>
                     <p><strong>[Socratic Professor]:</strong> How did the delimiter protocol change your analysis?</p>
                     <p><strong>[Resident Defense]:</strong> By isolating ### 165/102 ### in hashes, I couldn't ignore the BP redline. The AI tried to focus on the 'Goal' (BMD), but the delimiters kept my focus on the 'Constraint' (HTN). It prevented me from accepting a prescription that was skeletal-smart but hemodynamic-dangerous.</p>
                 </div>
@@ -121,7 +121,7 @@
     <footer style="background-color: #f8fafc; padding: 2.5rem 1.5rem; text-align: center; border-top: 8px solid #8c0000; margin-top: 40px;">
         <p style="font-size: 1.1rem; color: rgba(39, 53, 64, 1); margin: 0 0 20px 0;">🚀 Pilot's Tool Box: Active.</p>
         <div style="background-color: #ffffff; border: 2px solid rgba(39, 53, 64, 1); padding: 12px; display: inline-block; border-radius: 4px; margin-bottom: 25px;">
-            <p style="font-size: 0.9rem; color: #8c0000; margin: 0;">Verified | ACSM 12th Ed Redlines</p>
+            <p style="font-size: 0.9rem; color: #8c0000; margin: 0;">Verified | PAGA 2018 (2nd Ed) Redlines</p>
         </div>
         <p style="font-size: 1rem; color: rgba(39, 53, 64, 1);">Arizona Western College | Wellness & Physical Education</p>
         <div style="margin: 20px 0;">

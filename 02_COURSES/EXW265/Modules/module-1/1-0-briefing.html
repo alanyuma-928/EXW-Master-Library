@@ -19,123 +19,49 @@
         background-color: #ffffff !important;
         color: #7c0920 !important;
     }
-    /* 9:1 Contrast Force */
-    .high-friction-box {
-        background-color: #002D62 !important; /* Deep Navy */
-        color: #FFFFFF !important;
-        border-left: 8px solid #2CCCD3 !important;
-        padding: 25px;
-        margin: 30px 0;
-    }
 </style>
 
-<div id="awc-canvas-wrapper" style="font-family: 'Segoe UI', Verdana, sans-serif; max-width: 1000px; margin: 20px auto; width: 100%; font-size: 1.1rem; line-height: 1.6; color: #1a1a1a; border: 1px solid #e1e4e8; border-radius: 8px; overflow: hidden; background-color: #ffffff;">
-    <header style="background-color: #8c0000; padding: 40px 25px; border-bottom: 6px solid #2CCCD3; text-align: center;">
-        <h2 style="margin: 0; color: #ffffff; font-size: clamp(1.5rem, 5vw, 2.2rem); border: none; line-height: 1.2;">EXW 265: Guardian I</h2>
-        <p style="margin: 10px 0 0 0; color: #eafffd; font-size: 1.1rem; font-style: italic;">Privacy, Ethics, and the Clinical Handover</p>
+<div id="awc-canvas-wrapper" style="font-family: 'Segoe UI', 'Verdana', sans-serif; max-width: 1000px; margin: 0 auto; color: #1a1a1a; line-height: 1.6; font-size: 1.125rem; border: 1px solid #e1e1e1; border-radius: 8px; background-color: #ffffff; overflow: hidden;">
+    <header style="background-color: #8c0000; padding: 2rem 1.5rem; border-bottom: 6px solid #2CCCD3; text-align: center;">
+        <h2 style="color: #ffffff; margin: 0; font-size: clamp(1.8rem, 4vw, 2.5rem); line-height: 1.2;">Module 1.0: Energy Balance</h2>
+        <p style="margin: 10px 0 0 0; color: #eafffd; font-size: 1.2rem; font-style: italic;">"The First Law of Performance."</p>
     </header>
 
-    <div style="padding: clamp(15px, 5vw, 40px) clamp(15px, 5vw, 40px) 0 clamp(15px, 5vw, 40px);">
-        <section style="background-color: #f8f9fa; border: 1px solid #d1d5db; padding: 25px; border-radius: 12px; margin-bottom: 0px;" aria-labelledby="briefing-title">
-            <h3 id="briefing-title" style="margin-top: 0; color: #8c0000; text-align: center; font-size: 1.5rem;">🎙️ Clinical Handover: The Ethics of AI in Yuma</h3>
-            <p style="font-size: 1rem; color: #4b5563; text-align: center; margin-bottom: 20px;">Listen to the briefing on HIPAA, PII, and the "Human-in-the-Loop" requirement for regional health demographics.</p>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <audio style="width: 100%; max-width: 500px;" controls="controls">
-                    <source src="https://path-to-audio-placeholder.mp3" type="audio/mpeg" />
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-            <div style="background-color: #ffffff; border-left: 5px solid #8c0000; padding: 15px; border-radius: 4px; margin-bottom: 20px; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
-                <p style="margin: 0; font-size: 0.9rem; color: #1a1a1a; line-height: 1.4;">🤖 <strong>AI Disclosure:</strong> This audio briefing was synthesized using Google Gemini. Residents must audit all clinical claims against the Source of Truth. AI can make mistakes.</p>
-            </div>
-            <details style="background-color: #ffffff; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; margin: 15px 0;">
-                <summary style="cursor: pointer; color: #8c0000;">📝 Verbatim Transcript (Click to Expand)</summary>
-                <div style="margin-top: 10px; padding: 10px; border-top: 1px solid #e1e4e8; font-size: 0.95rem; overflow-x: auto;">
-                    <p><strong>[Coach Alan]:</strong> Welcome to Module 1, Residents. In the Imperial Valley, we don't just deal with clinical data; we deal with neighbors. When using AI to process health screenings for our farm-working populations or elderly residents in the Yuma heat, privacy isn't just a legal check-box—it's a community trust mandate. Today, we define the 'Guardian' role. You are the filter. If the AI suggests a protocol that violates HIPAA or exposes PII, it's your signature that's on the line, not the algorithm's.</p>
-                </div>
-            </details>
-        </section>
+    <div style="padding: 30px 40px;">
+        <h2 style="color: #8c0000; border-bottom: 2px solid #e1e1e1; padding-bottom: 0.6rem; font-size: 1.6rem;">🎯 Learning Objectives</h2>
+        <ul>
+            <li>Define Energy Balance and its components: intake, expenditure, and storage.</li>
+            <li>Calculate Estimated Energy Requirements (EER) using DGA 2025-2030 guidelines.</li>
+            <li>Identify the physiological impact of prolonged energy surplus or deficit.</li>
+            <li>Apply Clinical Safety (Strict) standards to correlate physical activity intensity with caloric demand.</li>
+        </ul>
+        <h2 style="color: #8c0000; border-bottom: 2px solid #e1e1e1; padding-bottom: 0.6rem; font-size: 1.6rem;">📖 Instructional Content</h2>
+        <p>In this module, we establish the fundamental baseline for all nutritional performance: **Energy Balance**. Before we can optimize macronutrients for muscle synthesis or glycogen loading, we must ensure the "Engine" has enough fuel to operate without breaking down its own structural components. Grounded in the **2025-2030 Dietary Guidelines for Americans**, we will explore how caloric needs are calculated based on individualized variables like BMR, the Thermic Effect of Food (TEF), and physical activity levels.</p>
     </div>
 
-    <div class="awc-content-body" style="padding: 30px 40px;">
-        <h3 style="color: #7c0920; border-bottom: 2px solid #2CCCD3; padding-bottom: 10px;">🎯 Learning Objectives</h3>
-        <ul>
-            <li>Define Protected Health Information (PHI) and Personally Identifiable Information (PII) within a clinical AI workflow (CLO 2.2).</li>
-            <li>Apply HIPAA privacy standards to localized Yuma-based health simulations.</li>
-            <li>Execute the "Human-in-the-Loop" protocol to verify AI-generated exercise recommendations.</li>
-        </ul>
-
-        <div class="high-friction-box" role="region" aria-labelledby="friction-title">
-            <h3 id="friction-title" style="margin-top: 0; color: #2CCCD3;">🛡️ The Einstein Protocol: High-Friction Audit</h3>
-            <p>To prevent "one-and-done" AI offloading, this module requires a multi-step clinical defense. You cannot proceed to the lab until the following scenario is audited.</p>
-        </div>
-
-        <h3 style="color: #7c0920;">📖 Instructional Content</h3>
-        <p>In the <strong>Matador Wellness Center</strong>, we utilize the <strong>Centaur Protocol</strong>. This means the AI provides the processing power (The Engine), but the Resident provides the judgment (The Pilot). In this module, we focus on the first pillar: <strong>Privacy</strong>.</p>
-        
-        <h4 style="color: #8c0000;">Key Concept: The Privacy Gate</h4>
-        <p>Before any data is fed into a Large Language Model (LLM), it must be scrubbed of PII. This includes:</p>
-        <ul>
-            <li>Full Names and Birthdays.</li>
-            <li>Specific GPS locations (Yuma neighborhoods).</li>
-            <li>Social Security Numbers or Medical Record Numbers (MRN).</li>
-        </ul>
-
-        <hr style="border: 0; border-top: 2px solid #e1e4e8; margin: 40px 0;" />
-
-        <h3 style="color: #7c0920;">🧪 Laboratory: The Guardian Audit</h3>
-        
-        <p><strong>1. The P-T-C-F Prompt:</strong></p>
-        <pre style="background-color: #f4f4f4; padding: 15px; border-radius: 4px; border: 1px solid #ddd; overflow-x: auto;"><code>###
-Persona: You are a Clinical Privacy Auditor.
-Task: Scrub the following data for PII/PHI.
-Context: A health screening conducted at the AWC Matador Wellness Center.
-Format: Bulleted list of violations.
-###</code></pre>
-
-        <p><strong>2. The Clinical Audit:</strong> Audit the AI output against the <strong>PAGA 2nd Edition (2018)</strong> and federal HIPAA standards. Identify if the AI accidentally "hallucinated" or retained sensitive data.</p>
-
-        <p><strong>3. The Presence Defense:</strong> Submit a 150-word Verbatim Text Defense. In your own clinical voice, justify why your scrubbed data set is safe for public LLM processing, specifically addressing the risk of "re-identification" in small communities like Yuma.</p>
-
-        <div style="background-color: #f8fafc; border: 2px solid #2CCCD3; padding: 25px; border-radius: 8px; margin: 30px 0;">
-            <h3 style="margin-top: 0; color: #007075;">🌟 Exemplar: 10/10 Submission Standard</h3>
-            
-            <p><strong>Part 1 (The Engine):</strong><br>
-            "Persona: You are a Clinical Privacy Auditor. Task: Scrub the following data for PII/PHI. Context: A health screening conducted at the AWC Matador Wellness Center. Format: Bulleted list of violations."</p>
-
-            <p><strong>Part 2 (The Audit):</strong><br>
-            "The AI successfully identified the removal of the patient's full name and exact birth date. However, the initial output failed to scrub the specific neighborhood mention ('Ocotillo Desert Ridge'), which violates the HIPAA 'Safe Harbor' method regarding small geographic regions where re-identification is possible. I have retrofitted the data set to use 'Yuma County Region' only. All medical record numbers have been correctly replaced with generic ### [SCRUBBED_MRN] ### tokens."</p>
-
-            <p><strong>Part 3 (The Presence-Check):</strong><br>
-            "I justify the safety of this data set because all 18 HIPAA identifiers have been neutralized. In a community like Yuma, re-identification risk is high due to the unique intersection of occupation (migrant farm work) and specific health conditions. By removing granular GPS data and replacing identifiable timestamps with year-only markers, I have created an 'Ethical Quarantine' that allows for clinical processing without exposing the individual's identity to the LLM's training set."</p>
-        </div>
-
-        <div style="background-color: #fff9e6; border-left: 5px solid #ffcc00; padding: 15px; margin-top: 30px;">
-            <p style="margin: 0;"><strong>⚠️ Safety Gate:</strong> Never upload raw medical records to any AI platform. All data must be anonymized per the AWC Data Ethics Policy.</p>
-        </div>
-    </div>
-
-    <!-- Standard Course Footer (Final Master Version v1.2) -->
+        <!-- Standard Course Footer (Final Master Version v1.2) -->
     <footer id="exw-standard-footer" role="contentinfo"
         style="margin-top: 0px; border-top: 6px solid #2CCCD3; background-color: #7c0920; color: #ffffff; padding: 40px 20px; text-align: center; font-family: 'Segoe UI', Verdana, sans-serif;">
         
+        <!-- Accessibility: Nav landmark for keyboard/screen reader users -->
         <nav aria-label="Footer Course Navigation" style="margin-bottom: 30px;">
             <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
                 <a style="flex: 1 1 200px; min-width: 200px; max-width: 300px; min-height: 48px; display: flex; align-items: center; justify-content: center; padding: 12px 18px; background-color: #7c0920; color: #ffffff; text-decoration: none; border-radius: 6px; border: 2px solid #2CCCD3; font-weight: bold; font-size: 1.1rem; transition: all 0.2s ease-in-out;"
-                    href="https://azwestern.instructure.com/courses/36466" title="Go to Course Home">
+                    href="/courses/39322" title="Go to Course Home">
                     <span aria-hidden="true" style="margin-right: 10px;">🏠</span> Home
                 </a>
                 <a style="flex: 1 1 200px; min-width: 200px; max-width: 300px; min-height: 48px; display: flex; align-items: center; justify-content: center; padding: 12px 18px; background-color: #7c0920; color: #ffffff; text-decoration: none; border-radius: 6px; border: 2px solid #2CCCD3; font-weight: bold; font-size: 1.1rem; transition: all 0.2s ease-in-out;"
-                    href="https://azwestern.instructure.com/courses/36466/modules" title="View All Modules">
+                    href="/courses/38156/modules" title="View All Modules">
                     <span aria-hidden="true" style="margin-right: 10px;">📚</span> Modules
                 </a>
                 <a style="flex: 1 1 200px; min-width: 200px; max-width: 300px; min-height: 48px; display: flex; align-items: center; justify-content: center; padding: 12px 18px; background-color: #7c0920; color: #ffffff; text-decoration: none; border-radius: 6px; border: 2px solid #2CCCD3; font-weight: bold; font-size: 1.1rem; transition: all 0.2s ease-in-out;"
-                    href="https://azwestern.instructure.com/courses/36466/assignments/syllabus" title="View Course Syllabus">
+                    href="/courses/38156/assignments/syllabus" title="View Course Syllabus">
                     <span aria-hidden="true" style="margin-right: 10px;">📜</span> Syllabus
                 </a>
             </div>
         </nav>
 
+        <!-- Accessibility: Fluid typography (clamp) for responsive readability -->
         <p style="margin: 0 auto 30px; font-size: clamp(0.95rem, 2.5vw, 1.1rem); color: #ffffff; font-style: italic; max-width: 800px; line-height: 1.6;">
             <strong>Navigation Note:</strong> Use the "Previous" and "Next" buttons at the bottom of the screen to move through this Module.
         </p>
@@ -147,6 +73,7 @@ Format: Bulleted list of violations.
             <p style="margin: 8px 0 30px 0; font-size: clamp(0.9rem, 3vw, 1.05rem); color: #ffffff; opacity: 0.9;">The AI Architect | Coach Alan Pruitt</p>
         </div>
 
+        <!-- Standard Licensing & Attribution -->
         <section aria-label="Licensing and Attribution"
             style="background-color: rgba(0, 0, 0, 0.35); padding: clamp(15px, 4vw, 25px); border-radius: 8px; border: 2px solid #2CCCD3; font-size: clamp(0.85rem, 2.5vw, 0.95rem); color: #ffffff; max-width: 900px; margin: 0 auto; text-align: left; line-height: 1.6;">
             <p style="margin-bottom: 12px;">
