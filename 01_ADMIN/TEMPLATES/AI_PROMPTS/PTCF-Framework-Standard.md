@@ -1,0 +1,10 @@
+<div style="background-color: #f8f9fa; border: 1px solid #ddd; padding: 25px; border-radius: 8px; margin: 25px 0;">
+    <h3 style="margin-top: 0; color: #ba0c2f;">✅ P-T-C-F Engine Checklist</h3>
+    <p>Before you "Launch" your prompt, verify it against these four flight controls:</p>
+    <ul style="list-style-type: none; padding: 0;">
+        <li style="margin-bottom: 10px;"><strong>🟢 Persona:</strong> Did you tell the AI who to be? (e.g., "Act as a Dietitian").</li>
+        <li style="margin-bottom: 10px;"><strong>🔵 Task:</strong> Is your command specific? (e.g., "Analyze this menu").</li>
+        <li style="margin-bottom: 10px;"><strong>🟠 Context:</strong> Did you include the clinical environment? (e.g., "Yuma heat").</li>
+        <li style="margin-bottom: 10px;"><strong>🟣 Format:</strong> Did you request a specific layout? (e.g., "A numbered list").</li>
+    </ul>
+</div>
