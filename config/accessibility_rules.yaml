@@ -1,0 +1,11 @@
+### WCAG 2.1 AA ACCESSIBILITY GUARD ###
+background_color: "#FDFCF0" # Creme
+
+text_rules:
+  headers_primary: "#003366" # AWC Navy
+  headers_secondary: "#8B0000" # Deep Red (Use instead of Matador Red)
+  body_text: "#1A1A1A" # Near Black for maximum readability
+  links: "#003366" # Navy (Underlined)
+
+border_rules:
+  accents: "#BA0C2F" # Matador Red (Allowed for non-text borders)

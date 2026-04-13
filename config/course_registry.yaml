@@ -1,0 +1,24 @@
+### COURSE ID REGISTRY ###
+# Use this file to map course IDs across environments.
+# Antigravity agents will use these variables to refactor links.
+
+institution: "Arizona Western College"
+term: "Fall 2026"
+
+courses:
+  EXW101:
+    name: "Concepts of Kinesiology"
+    sandbox_id: "38157"
+    production_id: "TBD"
+  EXW150:
+    name: "Nutrition for Sports"
+    sandbox_id: "38147" 
+    production_id: "39322"
+  EXW245:
+    name: "Exercise Testing"
+    sandbox_id: "38148"
+    production_id: "39580"
+  EXW265:
+    name: "Exercise for Special Populations"
+    sandbox_id: "38156"
+    production_id: "38769"

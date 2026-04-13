@@ -1,0 +1,26 @@
+{
+  "module": 1,
+  "course": "EXW101",
+  "checklist": [
+    {
+      "sop": "01–02",
+      "task_description": "Review Narrative & Case Study: Defining the Physical Activity Pattern."
+    },
+    {
+      "sop": "03",
+      "task_description": "The Authority: Accessing PAGA 2018 Chapter 2 Rules."
+    },
+    {
+      "sop": "04–05",
+      "task_description": "Lab 01: Socratic Audit (Part A) & Practitioner Solve (Part B)."
+    },
+    {
+      "sop": "06–07",
+      "task_description": "Pilots' Lounge Discussion & Flight Manual Check (Quiz Master)."
+    },
+    {
+      "sop": "08",
+      "task_description": "Summary & Workplace Intelligence: Professional Data Handling."
+    }
+  ]
+}
