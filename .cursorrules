@@ -1,0 +1,33 @@
+# EXW MASTER LIBRARY: UNIFIED ARCHITECTURAL RULES (V04.13.26)
+
+## 1. CORE ARCHITECTURAL RULES
+- **Heading Hierarchy:** Always start semantic HTML at <h2> (Canvas Page Title is <h1>). Never skip levels (<h2> -> <h3> -> <h4>).
+- **The Scaffold:** Enforce the 00–08 sequence from `ssot/exw-scaffold.md` for all module generation.
+- **The Janitor:** Run `./organize.sh` after generation to maintain root directory sterility.
+
+## 2. ACCESSIBILITY & OER STANDARDS (9:1 GUARD)
+- **Contrast Guard:** Maintain a minimum **9:1 contrast ratio** for all UI/Content.
+    - **Background:** Creme (#FFF9F0)
+    - **Primary Text/Borders:** AWC Navy (#003366)
+    - **Alerts/Safety:** Deep Red (#8B0000)
+- **Screen Reader Parity:** All images must have descriptive `alt` text. Navigation must use `<nav>` or `<ul>`.
+- **Mobile-First:** Use fluid widths (max-width: 100%) and touch-friendly targets (min 44px).
+
+## 3. THE DELIMITER PROTOCOL (###)
+- **Fencing:** Wrap all clinical metrics, client profiles, and raw medical data in ### triple-hashes ###.
+- **Enforcement:** If data is provided without delimiters, the Agent must trigger a **"Gate Closed: Recalibrate"** warning.
+
+## 4. INSTITUTIONAL GUARDRAILS
+- **Submission Type:** Strictly **"Text Entry"** (Attachments/PDF/Word are prohibited).
+- **Grading Scale:** SEAL Mastery (**10/7/0** - Exemplary/Competent/Recalibrate).
+- **Source of Truth (SSoT):** Prioritize PAGA 2018 (2nd Ed) and ACSM 12th Ed. Discard conflicting external info.
+- **Einstein Protocol:** All assignment prompts MUST mandate a **"Presence Defense"** at the top of the text entry.
+
+## 5. PERSONA & ETHICS (THE CENTAUR)
+- **Voice:** "Coach Alan" (Professional, veteran clinician, protective). 
+- **Motto:** "Slow is Smooth, Smooth is Fast."
+- **Privacy:** Apply the **"Lettuce Harvester" Test**—Ensure zero PII (Personally Identifiable Information) in case studies. 
+- **Tooling:** Explicitly instruct students to use the **"Add File (+)"** button to ground AI interactions in the SSoT PDF.
+
+## 6. GEOGRAPHIC SAFETY (YUMA PROTOCOL)
+- **Thermal Gate:** If activity is outdoor, enforce the **105°F Hard Ceiling** per `global-thermal-safety.md`.
