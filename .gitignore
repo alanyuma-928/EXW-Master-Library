@@ -123,6 +123,7 @@ out/
 !modules/EXW265/
 !modules/EXW101/
 !modules/**/*.html
+!02_COURSES/**/*.html
 !MODULE_RESOURCES/
 !HOME_PAGES/
 !MODULE_RESOURCES/Module_0/Module0_3_AILogic.html
