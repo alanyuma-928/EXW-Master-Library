@@ -8,46 +8,60 @@
 
 <div style="background-color: #FFF9F0; color: #003366; padding: 30px; border: 2px solid #003366; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: auto;">
 
-  <p style="background-color: #003366; color: #FFF9F0; padding: 10px; font-size: 0.9em; text-align: center; border-radius: 5px;">
-    <strong>NAV NOTE:</strong> Use the buttons at the bottom of this page to return to the Course Home, Syllabus, or Modules list.
-  </p>
+  <header style="border-bottom: 3px solid #003366; margin-bottom: 30px; padding-bottom: 10px;">
+    <h2 style="color: #003366; margin: 0; font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px;">
+      1.0 Overview & Objectives
+    </h2>
+    <p style="font-weight: bold; color: #003366;">Welcome to Module 1</p>
+  </header>
 
-  <hr style="border: 0; height: 1px; background: #003366; margin: 20px 0;">
+  <section id="module-narrative">
+    <p>
+      In this opening flight of <strong>EXW101: Concepts of Kinesiology</strong>, we move beyond the simple definition of "exercise" to explore the professional architecture of human movement. As your Narrator, I will guide you through the transition from being a passive observer of movement to becoming a Clinical Architect capable of identifying patterns and applying federal rules.
+    </p>
+  </section>
 
-  <div class="module-content">
-    
-    <!-- [INSERT YOUR MODULE CONTENT HERE] -->
-    
-  </div>
-    <header style="border-bottom: 3px solid #003366; margin-bottom: 30px; padding-bottom: 10px;">
-        <h2 style="color: #003366; margin: 0; font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px;">
-            Module 1: The Evolution of Movement
-        </h2>
-        <p style="font-weight: bold; color: #003366;">History & Sociology of Kinesiology</p>
-    </header>
+  <section id="mission-briefing" style="margin-top: 30px;">
+    <h3 style="color: #003366; border-left: 5px solid #003366; padding-left: 15px;">The Mission Briefing</h3>
+    <p>By the end of this module, you will be able to:</p>
+    <ul>
+      <li>Identify the multi-disciplinary pillars that define the field of Kinesiology.</li>
+      <li>Recall the primary federal authority for physical activity (PAGA 2018).</li>
+      <li>Articulate the difference between "Physical Activity" and "Exercise" according to the Single Source of Truth (SSoT).</li>
+    </ul>
+  </section>
 
-    <section id="system-evolution">
-        <h3 style="color: #003366; border-left: 5px solid #003366; padding-left: 15px;">The Pattern: From Survival to Sedation</h3>
-        <p>
-            Humanity has shifted through a profound <strong>Pattern</strong>: we have moved from a species that moved to survive to a species that must choose to move in a world designed for sedentary comfort.
-        </p>
-        <p>
-            By the end of this module, you will understand the impact of <strong>Industrialization</strong> on human health and how societal rules influence the movement patterns of entire populations.
-        </p>
-    </section>
+  <section id="flight-plan" style="margin-top: 30px;">
+    <h3 style="color: #003366; border-left: 5px solid #003366; padding-left: 15px;">Your Flight Plan (Module 1 Scaffold)</h3>
+    <p>To ensure predictable navigation and reduce student anxiety, every module in this course follows the same 7-step sequence:</p>
+    <ol>
+      <li><strong>1.0 Overview:</strong> Your weekly mission briefing.</li>
+      <li><strong>1.1 Narrative:</strong> The core lesson delivered in the "Narrator" voice.</li>
+      <li><strong>1.2 The Pattern:</strong> Identifying the "Gap" in community health.</li>
+      <li><strong>1.3 The Rule:</strong> Applying the PAGA 2018 Single Source of Truth.</li>
+      <li><strong>1.4 The Solve:</strong> Designing a professional intervention.</li>
+      <li><strong>1.5 AI Tool Box:</strong> Math verification and clinical auditing with Gemini.</li>
+      <li><strong>1.6 The Drill:</strong> A low-stakes Knowledge Check to confirm mastery.</li>
+    </ol>
+  </section>
+
+  <section id="guardrails" style="margin-top: 30px; background-color: #fefce8; padding: 20px; border-left: 5px solid #ca8a04;">
+    <h4 style="margin-top: 0; color: #854d0e;">Technical Guardrails</h4>
+    <p><strong>Submission Format:</strong> All assignments are Text-Only to ensure sustainable grading and mobile-first accessibility.</p>
+    <p><strong>SSoT Authority:</strong> All content is grounded strictly in the Physical Activity Guidelines for Americans (PAGA) 2nd Edition.</p>
+  </section>
 
   <hr style="border: 0; height: 2px; background: #003366; margin: 40px 0;">
 
-  <div style="text-align: center; margin-bottom: 30px;">
-    <a href="/courses/38157" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">HOME</a>
-    <a href="/courses/38157/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">SYLLABUS</a>
-    <a href="/courses/38157/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">MODULES</a>
-  </div>
+  <nav class="nav-footer" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+    <a href="/courses/38157" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">🏠 HOME</a>
+    <a href="/courses/38157/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">📄 SYLLABUS</a>
+    <a href="/courses/38157/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">📚 MODULES</a>
+    <a href="/courses/38157/pages/1.1-narrative" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">NEXT: 1.1 NARRATIVE ➡️</a>
+  </nav>
 
-  <footer style="font-size: 0.8em; text-align: center; border-top: 1px solid #003366; padding-top: 20px;">
+  <footer style="margin-top: 40px; font-size: 0.8em; text-align: center; border-top: 1px solid #003366; padding-top: 20px;">
     <p>© 2026 Webcognita LLC | Coach Alan Pruitt</p>
-    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" style="color: #003366; font-weight: bold;">Creative Commons Attribution 4.0 International License</a>.</p>
-    <p><em>Grounded in PAGA 2018 (2nd Ed) standards for clinical integrity.</em></p>
   </footer>
 
 </div>

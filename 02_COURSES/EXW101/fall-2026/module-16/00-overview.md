@@ -8,46 +8,54 @@
 
 <div style="background-color: #FFF9F0; color: #003366; padding: 30px; border: 2px solid #003366; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: auto;">
 
-  <p style="background-color: #003366; color: #FFF9F0; padding: 10px; font-size: 0.9em; text-align: center; border-radius: 5px;">
-    <strong>NAV NOTE:</strong> Use the buttons at the bottom of this page to return to the Course Home, Syllabus, or Modules list.
-  </p>
+  <header style="border-bottom: 3px solid #003366; margin-bottom: 30px; padding-bottom: 10px;">
+    <h2 style="color: #003366; margin: 0; font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px;">
+      16.0 Overview & Objectives
+    </h2>
+    <p style="font-weight: bold; color: #003366;">Portfolio Audit (The Gate)</p>
+  </header>
 
-  <hr style="border: 0; height: 1px; background: #003366; margin: 20px 0;">
+  <section id="module-narrative">
+    <p>
+      Welcome to Module 16. In this phase of <strong>EXW101: Concepts of Kinesiology</strong>, we focus on <strong>Portfolio Audit (The Gate)</strong>. You will apply the Mission Loop (Pattern | Rule | Solve) to understand the underlying principles of human movement in this specific domain.
+    </p>
+  </section>
 
-  <div class="module-content">
-    
-    <!-- [INSERT YOUR MODULE CONTENT HERE] -->
-    
-  </div>
-    <header style="border-bottom: 3px solid #003366; margin-bottom: 30px; padding-bottom: 10px;">
-        <h2 style="color: #003366; margin: 0; font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px;">
-            Module 16: The Kinesiology Portfolio & Career Audit
-        </h2>
-        <p style="font-weight: bold; color: #003366;">The "Practitioner Pattern" Exit Mission</p>
-    </header>
+  <section id="mission-briefing" style="margin-top: 30px;">
+    <h3 style="color: #003366; border-left: 5px solid #003366; padding-left: 15px;">The Mission Briefing</h3>
+    <p>By the end of this module, you will be able to:</p>
+    <ul>
+      <li>Identify the primary patterns associated with Portfolio Audit (The Gate).</li>
+      <li>Recall the relevant SSoT rules (e.g., PAGA 2018) for this domain.</li>
+      <li>Propose a logical "Solve" for a common challenge in Portfolio Audit (The Gate).</li>
+    </ul>
+  </section>
 
-    <section id="exit-mission">
-        <h3 style="color: #003366; border-left: 5px solid #003366; padding-left: 15px;">The Final Gate: Professional Transformation</h3>
-        <p>
-            You have completed the foundational logic of the movement sciences. Module 16 marks the <strong>Exit Gate</strong>, where you shift from a "Student" to a <strong>Practitioner-in-Training</strong>.
-        </p>
-        <p>
-            The objective of this final task is to migrate your "Solves" from this semester—your audits, blueprints, and math—into a <strong>Professional Portfolio</strong> that will serve as the anchor for your 200-level clinical sequence.
-        </p>
-    </section>
+  <section id="flight-plan" style="margin-top: 30px;">
+    <h3 style="color: #003366; border-left: 5px solid #003366; padding-left: 15px;">Your Flight Plan (Module 16 Scaffold)</h3>
+    <p>Following our established instructional rhythm:</p>
+    <ol>
+      <li><strong>16.0 Overview:</strong> Your weekly mission briefing.</li>
+      <li><strong>16.1 Narrative:</strong> The core lesson delivered in the "Narrator" voice.</li>
+      <li><strong>16.2 The Pattern:</strong> Identifying the clinical or technical "Gap."</li>
+      <li><strong>16.3 The Rule:</strong> Applying the appropriate Single Source of Truth.</li>
+      <li><strong>16.4 The Solve:</strong> Designing a professional intervention.</li>
+      <li><strong>16.5 AI Tool Box:</strong> Leveraging data verification with Gemini.</li>
+      <li><strong>16.6 The Drill:</strong> Knowledge Check to confirm mastery.</li>
+    </ol>
+  </section>
 
   <hr style="border: 0; height: 2px; background: #003366; margin: 40px 0;">
 
-  <div style="text-align: center; margin-bottom: 30px;">
-    <a href="/courses/38157" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">HOME</a>
-    <a href="/courses/38157/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">SYLLABUS</a>
-    <a href="/courses/38157/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">MODULES</a>
-  </div>
+  <nav class="nav-footer" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+    <a href="/courses/38157" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">🏠 HOME</a>
+    <a href="/courses/38157/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">SYLLABUS</a>
+    <a href="/courses/38157/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">📚 MODULES</a>
+    <a href="/courses/38157/pages/16.1-narrative" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">NEXT: 16.1 NARRATIVE ➡️</a>
+  </nav>
 
-  <footer style="font-size: 0.8em; text-align: center; border-top: 1px solid #003366; padding-top: 20px;">
+  <footer style="margin-top: 40px; font-size: 0.8em; text-align: center; border-top: 1px solid #003366; padding-top: 20px;">
     <p>© 2026 Webcognita LLC | Coach Alan Pruitt</p>
-    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" style="color: #003366; font-weight: bold;">Creative Commons Attribution 4.0 International License</a>.</p>
-    <p><em>Grounded in PAGA 2018 (2nd Ed) standards for clinical integrity.</em></p>
   </footer>
 
 </div>
