@@ -52,9 +52,9 @@
   <hr style="border: 0; height: 2px; background: #003366; margin: 40px 0;">
 
   <div style="text-align: center; margin-bottom: 30px;">
-    <a href="/courses/your-course-id" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">HOME</a>
-    <a href="/courses/your-course-id/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">SYLLABUS</a>
-    <a href="/courses/your-course-id/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">MODULES</a>
+    <a href="/courses/38147" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">HOME</a>
+    <a href="/courses/38147/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">SYLLABUS</a>
+    <a href="/courses/38147/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">MODULES</a>
   </div>
 
   <footer style="font-size: 0.8em; text-align: center; border-top: 1px solid #003366; padding-top: 20px;">

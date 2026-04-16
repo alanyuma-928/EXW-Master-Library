@@ -48,10 +48,10 @@
   <hr style="border: 0; height: 2px; background: #003366; margin: 40px 0;">
 
   <nav class="nav-footer" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
-    <a href="/courses/your-course-id" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">🏠 HOME</a>
-    <a href="/courses/your-course-id/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">📄 SYLLABUS</a>
-    <a href="/courses/your-course-id/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">📚 MODULES</a>
-    <a href="/courses/your-course-id/pages/0.1-narrative" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">NEXT: 0.1 NARRATIVE ➡️</a>
+    <a href="/courses/38147" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">🏠 HOME</a>
+    <a href="/courses/38147/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">📄 SYLLABUS</a>
+    <a href="/courses/38147/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">📚 MODULES</a>
+    <a href="/courses/38147/pages/0.1-narrative" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">NEXT: 0.1 NARRATIVE ➡️</a>
   </nav>
 
   <footer style="margin-top: 40px; font-size: 0.8em; text-align: center; border-top: 1px solid #003366; padding-top: 20px;">
