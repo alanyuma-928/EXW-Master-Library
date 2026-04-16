@@ -8,57 +8,34 @@
 
 <div style="background-color: #FFF9F0; color: #003366; padding: 30px; border: 2px solid #003366; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: auto;">
 
-  <p style="background-color: #003366; color: #FFF9F0; padding: 10px; font-size: 0.9em; text-align: center; border-radius: 5px;">
-    <strong>NAV NOTE:</strong> Use the buttons at the bottom of this page to return to the Course Home, Syllabus, or Modules list.
-  </p>
+  <header style="border-bottom: 3px solid #003366; margin-bottom: 30px; padding-bottom: 10px;">
+    <h2 style="color: #003366; margin: 0; font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px;">
+      0.6 The Drill: Nutritional Baseline Audit
+    </h2>
+    <p style="font-weight: bold; color: #003366;">Mission Loop: Solving for Initial Inventory</p>
+  </header>
 
-  <hr style="border: 0; height: 1px; background: #003366; margin: 20px 0;">
+  <section id="system-drill">
+    <h3 style="color: #003366; border-left: 5px solid #003366; padding-left: 15px;">Target: Identifying the "Fad" Pattern</h3>
+    <p>
+      Your first mission is to analyze your current "Nutritional Inventory" for 24 hours. You must identify one food item that you believe is "Healthy" and justify its presence in your engine using the <strong>DGA 2025–2030</strong> rules.
+    </p>
 
-  <div class="module-content">
-    
-    <!-- [INSERT YOUR MODULE CONTENT HERE] -->
-    
-  </div>
-    <header style="border-bottom: 3px solid #003366; margin-bottom: 30px; padding-bottom: 10px;">
-        <h2 style="color: #003366; margin: 0; font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px;">
-            06: Lab 00 - The Rapid Inventory
-        </h2>
-        <p style="font-weight: bold; color: #003366;">Mission Loop: Solving for Nutritional Integrity</p>
-    </header>
+    <div style="background-color: #ba0c2f; color: #ffffff; padding: 15px; border-radius: 5px; margin: 20px 0; font-weight: bold; text-align: center;">
+      SUBMISSION TYPE: TEXT-ONLY
+    </div>
 
-    <section id="inventory-baseline">
-        <h3 style="color: #003366; border-left: 5px solid #003366; padding-left: 15px;">The Baseline Solve</h3>
-        <p>
-            Your mission is to perform a **24-Hour Rapid Inventory** of your current intake patterns.
-        </p>
+    <ol>
+      <li><strong>Identify the Pattern:</strong> What is your common fueling choice for breakfast?</li>
+      <li><strong>Apply the Rule:</strong> Does this choice align with the DGA recommendation for whole grains or lean protein?</li>
+      <li><strong>Execute the Solve:</strong> If it does not align, what is one "SSoT-Approved" swap you can make tomorrow?</li>
+    </ol>
+  </section>
 
-        <div style="background-color: #ffffff; padding: 25px; border: 2px solid #003366; border-radius: 4px; margin: 25px 0;">
-            <strong>Protocol:</strong> Record everything you consume over a 24-hour period. Do not change your behavior; we are auditing the "Current Pattern," not the "Perfect Pattern."
-        </div>
-    </section>
-
-    <section id="submission-protocol">
-        <h3 style="color: #003366;">Submission Protocol</h3>
-        <p style="background-color: #ba0c2f; color: #ffffff; padding: 10px; font-weight: bold; text-align: center;">SUBMISSION TYPE: TEXT-ONLY</p>
-        <ol>
-            <li><strong>The Pattern:</strong> Identify your total intake of "Added Sugars" and "Saturated Fats" during the audit.</li>
-            <li><strong>The Rule:</strong> Using the **DGA 2025-2030**, identify the recommended daily percentage limit for added sugars.</li>
-            <li><strong>The Solve:</strong> Did your inventory clear the DGA rule? If not, identify one specific "Substrate Swap" (e.g., water for soda) that would solve the error.</li>
-        </ol>
-    </section>
-
-  <hr style="border: 0; height: 2px; background: #003366; margin: 40px 0;">
-
-  <div style="text-align: center; margin-bottom: 30px;">
-    <a href="/courses/your-course-id" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">HOME</a>
-    <a href="/courses/your-course-id/assignments/syllabus" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">SYLLABUS</a>
-    <a href="/courses/your-course-id/modules" style="background-color: #003366; color: #FFF9F0; padding: 12px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; font-weight: bold;">MODULES</a>
-  </div>
+  <hr style="border: 0; height: 1px; background: #003366; margin: 40px 0;">
 
   <footer style="font-size: 0.8em; text-align: center; border-top: 1px solid #003366; padding-top: 20px;">
     <p>© 2026 Webcognita LLC | Coach Alan Pruitt</p>
-    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" style="color: #003366; font-weight: bold;">Creative Commons Attribution 4.0 International License</a>.</p>
-    <p><em>Grounded in PAGA 2018 (2nd Ed) standards for clinical integrity.</em></p>
   </footer>
 
 </div>
