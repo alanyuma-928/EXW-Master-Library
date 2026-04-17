@@ -1,0 +1,65 @@
+# **Webcognita LLC: OER Metadata Master Template**
+
+**Category:** Instructional Governance & Deployment Integrity
+
+**Single Source of Truth (SSoT) Origin:** OER Commons Standards / CC BY 4.0
+
+**Architect:** Coach Alan Pruitt
+
+**Status:** MASTER REFERENCE (Save to /ssot/oer-metadata-master.md)
+
+## ---
+
+**\#\# 1\. CORE IDENTITY & LICENSING**
+
+* **Author/Architect:** Coach Alan Pruitt  
+* **Organization:** Webcognita LLC  
+* **Institutional Partner:** Arizona Western College (AWC)  
+* **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
+* **OER Material Type:** \[Instructional Module / Lab Activity / Knowledge Check\]  
+* **Subject Area:** Health, Medicine, and Nursing; Applied Science; Kinesiology
+
+## ---
+
+**\#\# 2\. THE AUTHORITY (SSoT GROUNDING)**
+
+All content is audited against the following Single Sources of Truth to ensure clinical and instructional integrity.
+
+* **Primary SSoT:** Physical Activity Guidelines for Americans (PAGA), 2018 (2nd Ed.).  
+* **Secondary SSoT:** ACSM's Guidelines for Exercise Testing and Prescription, 12th Ed.  
+* **Audit Guard:** ssot/acsm-redlines.md (PAGA-first priority for Special Populations).
+
+## ---
+
+**\#\# 3\. TECHNICAL & ACCESSIBILITY SPECIFICATIONS**
+
+* **Accessibility Standard:** WCAG 2.1 Level AA Compliant.  
+* **Contrast Ratio:** 9:1 Strict Guard (Exceeds federal 4.5:1 requirement).  
+* **Heading Hierarchy:** Standard \<h2\> through \<h4\> (Canvas Title exclusion).  
+* **Delivery Engine:** Curriculum-as-Code (CasC) via Google Antigravity / GitHub.  
+* **Submission Protocol:** Text-Only (Sustainable Grading / High-Accessibility).
+
+## ---
+
+**\#\# 4\. PEDAGOGICAL FRAMEWORK (MISSION LOOP)**
+
+* **Model:** Mission Loop (Pattern / Rule / Solve).  
+* **Pattern (The Context):** \[Describe the specific clinical scenario or population\].  
+* **Rule (The SSoT Application):** \[Cite specific PAGA 2018 / ACSM 12th Ed guidelines\].  
+* **Solve (The Outcome):** \[Describe the evidence-based intervention or student deliverable\].
+
+## ---
+
+**\#\# 5\. METADATA TAGS**
+
+* **Primary Tags:** Kinesiology, Exercise Science, PAGA 2018, ACSM 12th Ed, Curriculum-as-Code.  
+* **Secondary Tags:** Mission Loop, Coach Alan, OER, ADA 9:1 Contrast, Special Populations, Antigravity IDE.
+
+## ---
+
+**\#\# 6\. ARCHITECT'S LOG (INTERNAL USE)**
+
+* **Build Date:** 2026-04-15  
+* **Pipeline Status:** \[Development / Audit / Deployment Ready\]  
+* **Target LMS:** Canvas (Fall 2026 AWC Library)  
+* **Webcognita Asset:** \[Track A: EXW Content / Track B: Universal Container\]
