@@ -32,7 +32,8 @@ I propose a "Walk-and-Talk" study session model. Students can review lecture not
 ---
 
 ### Why We Do This
-* 🤖 **AI-Ready:** This Markdown (.md) format is how AI tools and clinical databases process information without errors.
+* 🤖 **AI-Ready:** This Markdown (.md) format is how AI tools and clinical databases process information without errors. See the [Structural Delimiters Protocol](./Structural_Delimiters_Centaur_Architecture.md) for technical requirements.
+
 * ♿ **Accessible:** Using `##` (Heading 2) or `###` (Heading 3) makes your work readable by screen readers for those with visual impairments.
 * 📱 **Mobile-First:** Your "Solve" can be read instantly on a smartphone, which is essential for community health workers in the field.
 
