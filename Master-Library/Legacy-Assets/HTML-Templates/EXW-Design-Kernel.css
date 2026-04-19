@@ -1,0 +1,46 @@
+/* 
+   EXW DESIGN KERNEL (V04.19.26)
+   ESTABLISHED: Web-First Mode
+   Grounded in WCAG High-Contrast (Navy on Creme)
+*/
+
+:root {
+    --canvas-surface: #FFFDD0;   /* Creme */
+    --canvas-text: #000080;      /* Navy */
+    --logic-highlight: #36454F; /* Charcoal */
+}
+
+body, .awc-canvas-wrapper {
+    background-color: var(--canvas-surface) !important;
+    color: var(--canvas-text) !important;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.6;
+}
+
+/* Hardened Semantic Structure */
+h1, h2, h3, h4 {
+    color: var(--canvas-text) !important;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    border: none !important;
+}
+
+h2 { font-size: 2rem; border-bottom: 4px solid var(--canvas-text) !important; padding-bottom: 10px; }
+h3 { font-size: 1.5rem; border-left: 8px solid var(--canvas-text) !important; padding-left: 15px; }
+h4 { font-size: 1.2rem; color: var(--logic-highlight) !important; }
+
+/* Blocking Manual Overrides */
+span[style*="color"], div[style*="color"], p[style*="color"] {
+    color: inherit !important;
+}
+
+b, strong {
+    font-weight: bold;
+    color: var(--logic-highlight) !important;
+}
+
+a {
+    color: var(--canvas-text) !important;
+    text-decoration: underline;
+    font-weight: bold;
+}
