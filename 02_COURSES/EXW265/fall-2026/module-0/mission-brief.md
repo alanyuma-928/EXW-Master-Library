@@ -43,3 +43,8 @@ To establish the foundational safety protocols and clinical grounding required f
 
 ---
 *Institutional Agility Note: This mission brief is grounded in OERizona standards and federal safety benchmarks. Unauthorized deviation from the SSoT triggers a "Recalibrate" status.*
+
+---
+**Author:** Coach Alan Pruitt  
+**Version:** 1.0 (Fall 2026 Prep)  
+**SSoT:** PAGA 2018 (2nd Ed)

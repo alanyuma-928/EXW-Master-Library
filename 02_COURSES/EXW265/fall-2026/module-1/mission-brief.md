@@ -42,3 +42,8 @@ To identify the pattern of physical inactivity among adults with chronic conditi
 
 ---
 *Institutional Note: This Overview prioritizes the PAGA "Activity-First" stance. Any adherence to outdated "Clearance Barriers" is considered a structural failure.*
+
+---
+**Author:** Coach Alan Pruitt  
+**Version:** 1.0 (Fall 2026 Prep)  
+**SSoT:** PAGA 2018 (2nd Ed)

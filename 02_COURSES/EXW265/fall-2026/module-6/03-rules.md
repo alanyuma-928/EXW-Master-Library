@@ -12,3 +12,8 @@
 
 ---
 *Mission Loop: Pattern (Low BMD) | Rule (Weight-Bearing/Balance) | Solve (Fall Prevention)*
+
+---
+**Author:** Coach Alan Pruitt  
+**Version:** 1.0 (Fall 2026 Prep)  
+**SSoT:** PAGA 2018 (2nd Ed)

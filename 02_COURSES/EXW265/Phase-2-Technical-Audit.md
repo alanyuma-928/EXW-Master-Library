@@ -49,3 +49,8 @@ Use the **PAGA (2018)** "Source of Truth" to identify the three major safety vio
 
 ### 🏁 Next Step
 Once you have identified the three hallucinations and cited the PAGA standards, proceed to **Phase 3: The Clinical Evidence**, where you will rewrite this plan into a safe, evidence-based blueprint.
+
+---
+**Author:** Coach Alan Pruitt  
+**Version:** 1.0 (Fall 2026 Prep)  
+**SSoT:** PAGA 2018 (2nd Ed)

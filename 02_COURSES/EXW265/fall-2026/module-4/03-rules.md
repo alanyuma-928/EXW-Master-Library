@@ -13,3 +13,8 @@
 
 ---
 *Mission Loop: Pattern (HP) | Rule (PAGA) | Solve (Safe Prescription)*
+
+---
+**Author:** Coach Alan Pruitt  
+**Version:** 1.0 (Fall 2026 Prep)  
+**SSoT:** PAGA 2018 (2nd Ed)

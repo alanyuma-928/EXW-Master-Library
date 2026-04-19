@@ -53,3 +53,8 @@ C. Because it is easier to grade.
 
 ---
 *Institutional Note: This "Drill" logic acts as the SSoT for assessment. Any deviation in the Canvas deployment triggers a Recalibrate status.*
+
+---
+**Author:** Coach Alan Pruitt  
+**Version:** 1.0 (Fall 2026 Prep)  
+**SSoT:** PAGA 2018 (2nd Ed)
