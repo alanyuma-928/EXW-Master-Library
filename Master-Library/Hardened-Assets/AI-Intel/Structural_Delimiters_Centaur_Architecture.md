@@ -33,6 +33,9 @@ Here is how an **Architect** (Prompt Engineer) structures a clinical query using
 
 **Format:** Provide the plan in a clear table format. Include a "Red Flag" section at the bottom listing symptoms that require immediate cessation of exercise (Angina, dizziness, etc.).
 
+###
+
+
 ---
 
 ### Why the ### Matters for the Pilot
