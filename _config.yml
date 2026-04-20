@@ -3,8 +3,8 @@
 
 title: WPE Department Master Library
 description: The Authorized Single Source-of-Truth for Exercise Science at Arizona Western College.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://coach-alan.github.io" # the base hostname & protocol for your site
+baseurl: "/coach-alan.github.io" 
+url: "https://alanyuma-928.github.io"
 
 # Branding & Visuals (Navy & Creme Harmony)
 color_scheme: "wpe_navy_creme"

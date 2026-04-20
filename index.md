@@ -15,7 +15,7 @@ nav_order: 1
 ## 🛠️ The Instructor Toolkit
 *Select a compartment to view the hardened clinical logic.*
 
-| [📘 Instructor Field Guide](https://coach-alan.github.io/instructor-field-guide/){: .btn .btn-blue } | [🛡️ The SSoT Vault](./Master-Library/Hardened-Assets/Modules/Module-0/0.1_SSoT.md){: .btn .btn-green } |
+[📘 Instructor Field Guide]({{ site.baseurl }}/docs/field-guide.md){: .btn .btn-blue } [🛡️ The SSoT Vault](./Master-Library/Hardened-Assets/Modules/Module-0/0.1_SSoT.md){: .btn .btn-green } |
 | :--- | :--- |
 | **Practical Mastery:** The 16-Pillar manual for AI-augmented Kinesiology. | **Ground Truth:** Direct navigation protocols for PAGA 2018 (2nd Ed). |
 
