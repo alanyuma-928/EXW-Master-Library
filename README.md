@@ -39,5 +39,5 @@ We utilize a competency-based **Exemplary/Competent/Recalibrate Mastery Scale**:
 - `/EXW150`: Nutrition & Performance (2026 "Real Food" Standards).
 - `/EXW245`: Clinical Testing & Metabolic Math.
 - `/EXW265`: Special Populations & Adaptive Design.
-- `GEMINI.md`: Master system instructions for the AI ID Factory.
+- `Antigravity/Config/system_instructions.md`: Master system instructions for the AI ID Factory.
 - `UNIFIED_MASTER_SYLLABUS.html`: Standardized Canvas HTML template.
