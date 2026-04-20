@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Home
-nav_order: 1
 ---
 
 # Coach Alan | Curriculum Architect 🍱
@@ -42,3 +41,9 @@ nav_order: 1
 **Pattern / Rule / Solve** Our proprietary **Mission Loop** ensures that AI is used as an engine, never as the pilot.
 
 [View the Centaur Manifesto on LinkedIn](#){: .btn }
+
+<style>
+  body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; background: #fdfcf8; color: #002D72; }
+  .btn { display: inline-block; padding: 12px 20px; background: #002D72; color: white !important; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 5px; }
+  .bento-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+</style>
