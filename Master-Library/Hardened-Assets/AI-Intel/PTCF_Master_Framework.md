@@ -1,5 +1,5 @@
 <h2> SOP: The PTCF Master Framework (The Prompt Anatomy)
-Team, listen up. In the Webcognita OS, we do not "chat" with the AI; we issue clinical directives. To ensure the engine provides a safe, grounded, and professional output, every prompt you write must satisfy the PTCF Framework. If one pillar is missing, the structural integrity of the mission is compromised.
+Team, listen up. In the EXW Master Library, we do not "chat" with the AI; we issue clinical directives. To ensure the engine provides a safe, grounded, and professional output, every prompt you write must satisfy the PTCF Framework. If one pillar is missing, the structural integrity of the mission is compromised.
 
 <h3> 🟥 [P] Persona: The Identity
 The Logic: Who is the AI supposed to be? Assigning a persona constrains the AI's vocabulary and ethical boundaries.
