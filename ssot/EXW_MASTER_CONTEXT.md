@@ -29,11 +29,11 @@
 
 ## 5. PEDAGOGICAL FRAMEWORKS
 * **The Mission Loop:** Every lesson must flow through **Pattern** (Case Study), **Rule** (SSoT Audit), and **Solve** (Clinical Prescription).
-* **The SEAL Scale:** * **10 (Exemplary):** Professional-grade mission success.
+* **The Clinical Mastery Scale:** * **10 (Exemplary):** Professional-grade mission success.
     * **7 (Competent):** Safe but requires refinement.
     * **0 (Recalibrate):** Safety breach or failure to apply SSoT.
 * **Einstein Protocol:** Human presence is proven through a required **"Presence Defense"** at the top of all submissions.
 
 ## 6. ATTRIBUTION & VERSIONING
-* **License:** CC BY 4.0 Attribution.
+* **License:** CC BY-NC 4.0 Attribution.
 * **Timestamp:** V.04.15.26

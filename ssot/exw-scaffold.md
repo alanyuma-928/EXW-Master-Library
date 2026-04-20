@@ -41,7 +41,7 @@ This model defines the "Gold Standard" structural integrity for all courses in t
   1. **Presence Defense** (Einstein Protocol: 2-3 sentences of human logic justifying the result).  
   2. **The Solve** (The actual clinical result, math, or prescription).  
   3. **AI Transcript** (Full copy/paste of the Socratic Tutor conversation from File 04).  
-* **Mastery Scale:** Complete/Incomplete using the **10/7/0 SEAL scale** (Exemplary/Competent/Recalibrate).  
+* **Mastery Scale:** Complete/Incomplete using the **Exemplary/Competent/Recalibrate scale** (Exemplary/Competent/Recalibrate).  
 * **Exemplar:** Must include a high-fidelity **10/10 Student Exemplar**.
 
 ### **06-discussion.html | Pilots' Lounge (Mission Loop)**
@@ -50,7 +50,7 @@ This model defines the "Gold Standard" structural integrity for all courses in t
 * **Rhythm:** Thursday Initial Post (Initial Briefing) | Sunday Peer Responses (Peer Audit).  
 * **Einstein Protocol:** Initial briefings must include a clinical rationale justifying the findings.  
 * **\#\#\# Protocol:** All raw clinical data in posts must remain wrapped in delimiters.  
-* **Mastery Scale:** Complete/Incomplete using the **10/7/0 SEAL scale**.  
+* **Mastery Scale:** Complete/Incomplete using the **Exemplary/Competent/Recalibrate scale**.  
 * **Exemplar:** Must include a high-fidelity **10/10 Student Exemplar**.
 
 ### **07-readiness-gate.html | Flight Manual Check**
@@ -58,7 +58,7 @@ This model defines the "Gold Standard" structural integrity for all courses in t
 * **AI Persona:** **Quiz Master**  
 * **Purpose:** The weekly competency check and technical protocol gate.  
 * **Submission Type:** **Text Only**. Students copy/paste the full Quiz Master transcript into the submission box.  
-* **Mastery Scale:** Complete/Incomplete using the **10/7/0 SEAL scale**.
+* **Mastery Scale:** Complete/Incomplete using the **Exemplary/Competent/Recalibrate scale**.
 
 ### **08-summary.html | Workplace Intelligence**
 
@@ -79,7 +79,7 @@ This model defines the "Gold Standard" structural integrity for all courses in t
 ## **📜 Global Institutional Rules**
 
 1. **Text-Only Mandate:** All graded assignments are **Text Only**. Attachments (Word/PDF) are strictly prohibited to maximize SpeedGrader utility and mobile-first accessibility.  
-2. **SEAL Mastery Scale:** We utilize the **10/7/0 scale** (Exemplary/Competent/Recalibrate). All assignments are marked as **Complete/Incomplete** based on these thresholds.  
+2. **Clinical Mastery Mastery Scale:** We utilize the **Exemplary/Competent/Recalibrate scale** (Exemplary/Competent/Recalibrate). All assignments are marked as **Complete/Incomplete** based on these thresholds.  
 3. **The Einstein Protocol:** All AI-assisted assignments require a written **Presence Defense** at the TOP of the text submission, followed by the raw **AI Conversation Transcript**. This proves the human "Head" exercised clinical judgment over the AI's "Hooves."  
 4. **The Delimiter Protocol:** Students must wrap all raw clinical data, medical metrics, or client profiles in **\#\#\# triple-hashes \#\#\#** in all submissions.  
 5. **Add File (+) Protocol:** All AI prompts must explicitly instruct students to upload the course SSoT PDF to ground the AI's logic.  

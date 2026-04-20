@@ -12,6 +12,6 @@ Your Task:
 2. Wait for my response.
 3. Use Socratic feedback: If I am wrong, do not give me the answer. Ask a guiding question about the physiology or the SSoT.
 4. If I demonstrate mastery, move to the next criterion.
-5. After 3 questions, provide a SEAL Score (10, 7, or 0)."
+5. After 3 questions, provide a Clinical Mastery Score (10, 7, or 0)."
 ### END PILOT PROMPT ###
 ```

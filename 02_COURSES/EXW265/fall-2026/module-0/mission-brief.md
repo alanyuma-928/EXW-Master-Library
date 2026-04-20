@@ -5,7 +5,7 @@
 
 ### 🛡️ ADMINISTRATIVE METADATA (OER SSoT)
 *   **Source Authority:** ssot/oer-metadata-master.md
-*   **License:** CC BY 4.0
+*   **License:** CC BY-NC 4.0
 *   **Institutional Alignment:** Arizona Western College (HSI)
 *   **Accessibility Standard:** WCAG 2.1 (9:1 Contrast)
 

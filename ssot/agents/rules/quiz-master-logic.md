@@ -8,7 +8,7 @@ To maintain high-fidelity workforce training, we are pivoting away from the Canv
 
 * **LMS Component:** Canvas Assignment (Text Entry Only).  
 * **Assignment Group:** 🧠 Flight Manual Checks (20%).  
-* **Grading:** Complete/Incomplete (10/0 SEAL Scale).  
+* **Grading:** Complete/Incomplete (10/0 Clinical Mastery Scale).  
 * **The Mission:** The student must pass a 5-minute technical audit with the **Quiz Master** persona.
 
 ### **2\. The AI Quiz Master Persona (Gemma 4 Environment)**

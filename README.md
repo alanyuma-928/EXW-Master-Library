@@ -18,8 +18,8 @@ All content is developed using the **Centaur Protocol**, a human-AI collaborativ
 2. **The Auditor (Judgment):** Verifies all AI-generated math and safety claims against the SSOT.
 3. **The Guardian (Privacy):** Ensures strict HIPAA/FERPA compliance.
 
-## 🏁 SEAL Philosophy (Assessment Standards)
-We utilize a competency-based **10/7/0 Mastery Scale**:
+## 🏁 Clinical Mastery Philosophy (Assessment Standards)
+We utilize a competency-based **Exemplary/Competent/Recalibrate Mastery Scale**:
 * **Exemplary (10 pts):** Zero safety/privacy errors; audit identifies an AI "Safety Gate" trap.
 * **Competent (7 pts):** Safe and functional; meets workforce baselines.
 * **Recalibrate (0 pts):** Critical failure (PII leak or safety risk). Requires immediate resubmission.

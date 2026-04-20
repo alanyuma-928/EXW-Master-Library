@@ -1,7 +1,7 @@
 # EXW150: Foundations of Nutrition
 ## 📘 Module 1: Grounding & Source of Truth
 
-### 🎯 Learning Objectives (SEAL Aligned)
+### 🎯 Learning Objectives (Clinical Mastery Aligned)
 * **[LO 1.1]** Contrast nutrient-dense vs. calorie-dense food patterns.
 * **[LO 1.2]** Audit a sample diet plan against the **2025-2030 Dietary Guidelines for Americans**.
 
@@ -11,7 +11,7 @@
 | Standard                       | Criterion                      | Application                                                 |
 | :----------------------------- | :----------------------------- | :---------------------------------------------------------- |
 | **Dietary Guidelines 2025-30** | Ch. 1: Healthy Eating Patterns | Baseline for all nutritional recommendations.               |
-| **SEAL Philosophy**            | Competent (7 pts)              | Student identifies major macronutrient imbalances in audit. |
+| **Clinical Mastery Philosophy**            | Competent (7 pts)              | Student identifies major macronutrient imbalances in audit. |
 | **WCAG 2.1**                   | AA Compliance                  | Accessible tables with appropriate captions.                |
 
 ---

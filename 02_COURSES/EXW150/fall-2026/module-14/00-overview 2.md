@@ -3,7 +3,7 @@
 SSoT: CANVAS MASTER PAGE WRAPPER 
   VERSION: V.04.15.26
   ARCHITECT: Coach Alan Pruitt (Webcognita LLC)
-  LICENSE: CC BY 4.0
+  LICENSE: CC BY-NC 4.0
   CONTRAST: 9:1 (AWC Navy on Creme)
 -->
 

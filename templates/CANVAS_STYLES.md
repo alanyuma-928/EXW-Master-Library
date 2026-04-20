@@ -26,7 +26,7 @@ Use these snippets to maintain WCAG 2.1 AA compliance and professional branding 
 
 ---
 
-## 3. The 10/7/0 Mastery Table
+## 3. The Exemplary/Competent/Recalibrate Mastery Table
 *Use this component to explain the grading logic for Labs and Practical Applications.*
 
 ```html

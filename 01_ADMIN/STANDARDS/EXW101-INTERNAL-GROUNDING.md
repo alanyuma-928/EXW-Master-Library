@@ -1,7 +1,7 @@
 # EXW101: Foundations of Wellness
 ## 📘 Module 1: Grounding & Source of Truth
 
-### 🎯 Learning Objectives (SEAL Aligned)
+### 🎯 Learning Objectives (Clinical Mastery Aligned)
 * **[LO 1.1]** Define "Wellness" across the 8 dimensions (Emotional, Physical, Occupational, Social, Spiritual, Intellectual, Environmental, and Financial).
 * **[LO 1.2]** Identify current federal physical activity recommendations for adults based on the **PAGA (2018) Guidelines**.
 
@@ -11,7 +11,7 @@
 | Standard | Criterion | Application |
 | :--- | :--- | :--- |
 | **PAGA (2018)** | Ch. 2: Physical Activity & Health | Defining baseline "Physical" wellness metrics. |
-| **SEAL Philosophy** | Exemplary (10 pts) | Student demonstrates mastery of PAGA data in personal reflection. |
+| **Clinical Mastery Philosophy** | Exemplary (10 pts) | Student demonstrates mastery of PAGA data in personal reflection. |
 | **WCAG 2.1** | AA Compliance | All tables and headers follow a logical hierarchy. |
 
 ---

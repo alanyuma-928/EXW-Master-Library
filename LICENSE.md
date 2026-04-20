@@ -1,4 +1,4 @@
-# Creative Commons Attribution 4.0 International (CC BY 4.0)
+# Creative Commons Attribution 4.0 International (CC BY-NC 4.0)
 
 This work, the **EXW Master Content Library**, is a derivative of the Wellness & Physical Education (WPE) Department Clinical AI Residency and is licensed under a **Creative Commons Attribution 4.0 International License**.
 

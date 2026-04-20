@@ -3,7 +3,7 @@
   SSoT: CANVAS MASTER PAGE WRAPPER 
   VERSION: V.04.15.26
   ARCHITECT: Coach Alan Pruitt (Webcognita LLC)
-  LICENSE: CC BY 4.0
+  LICENSE: CC BY-NC 4.0
   CONTRAST: 9:1 (AWC Navy on Creme)
 -->
 
@@ -51,7 +51,7 @@
         <p style="margin: 5px 0; font-size: 1rem; opacity: 0.9;">Coach Alan Pruitt | The AI Architect</p>
         
         <div style="margin-top: 20px; font-size: 0.85rem; opacity: 0.8; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 15px;">
-            This work is licensed under CC BY 4.0. Includes AWC Institutional Standards.
+            This work is licensed under CC BY-NC 4.0. Includes AWC Institutional Standards.
         </div>
     </footer>
 </div>

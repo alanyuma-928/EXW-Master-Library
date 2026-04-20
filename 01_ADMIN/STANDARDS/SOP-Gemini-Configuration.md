@@ -23,8 +23,8 @@ All content must be strictly grounded in these specific sources:
 
 ---
 
-## 🏁 The Mastery Standard (SEAL Philosophy)
-**Grading Scale: 10/7/0**
+## 🏁 The Mastery Standard (Clinical Mastery Philosophy)
+**Grading Scale: Exemplary/Competent/Recalibrate**
 Every assignment generated must include the **Three-Part Submission Standard**:
 1. **Part 1 (The Engine):** P-T-C-F Engineered Prompt (Persona, Task, Context, Format).
 2. **Part 2 (The Audit):** 150-word Clinical Audit/Critique of the AI output against the SSOT.
