@@ -30,7 +30,7 @@ We utilize a competency-based **10/7/0 Mastery Scale**:
 - **Development:** VS Code & Gemini CLI.
 - **Pedagogy:** Socratic Scaffolding & Tiered Literacy (Tiers 1-3).
 - **Compliance:** WCAG 2.1 Level AA Accessibility & Canvas Exemplary Course Standards.
-- **Licensing:** OERizona Network / CC BY 4.0.
+- **Licensing:** OERizona Network / CC BY-NC 4.0.
 
 ---
 

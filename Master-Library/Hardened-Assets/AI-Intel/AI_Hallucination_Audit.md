@@ -39,6 +39,8 @@ Use this checklist for every lab submission to ensure mission integrity:
 <h3> ⚠️ Red Flag Alert: Immediate Deferral
 If the AI output suggests any moderate-to-vigorous activity for a client with uncontrolled hypertension or symptomatic T2D without citing medical clearance, the audit has failed. STOP. Defer exercise. Refer to provider.
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | ACSM 12th Ed
 
 Architect: Coach Alan Pruitt

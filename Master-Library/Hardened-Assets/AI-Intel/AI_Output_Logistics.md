@@ -31,6 +31,8 @@ Workforce Ready: In a clinical setting, you don't show a doctor a screenshot of 
 <h3> 🛠️ Pro-Tip: The "Markdown Copy"
 In Gemini, always look for the "Copy" or "Export to Docs" icon at the bottom of the response. This preserves the Markdown formatting (bolding, tables, headers) so you can paste it directly into Canvas without losing the Centaur Protocol structure.
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Workplace Intelligence Standard
 
 Architect: Coach Alan Pruitt

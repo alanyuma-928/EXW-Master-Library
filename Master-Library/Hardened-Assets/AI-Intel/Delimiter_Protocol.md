@@ -39,6 +39,8 @@ Delimiters are the difference between a professional audit and a casual chat. By
 
 "If it isn't wrapped in hashes, it isn't isolated. If it isn't isolated, it isn't clinical."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Infrastructure-as-Code Standard
 
 Architect: Coach Alan Pruitt

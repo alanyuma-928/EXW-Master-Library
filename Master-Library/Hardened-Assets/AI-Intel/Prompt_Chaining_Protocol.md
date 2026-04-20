@@ -31,6 +31,8 @@ Prompt Chaining is how you manage complexity without losing safety. It turns the
 
 "A chain is only as strong as its weakest link. Audit every step."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Algorithmic Thinking Standard
 
 Architect: Coach Alan Pruitt

@@ -42,4 +42,6 @@ I propose a "Walk-and-Talk" study session model. Students can review lecture not
 ---
 **Author:** Coach Alan Pruitt  
 **Version:** 1.0 (Fall 2026 Prep)  
+**License:** CC BY-NC 4.0
+
 **SSoT:** PAGA 2018 (2nd Ed)

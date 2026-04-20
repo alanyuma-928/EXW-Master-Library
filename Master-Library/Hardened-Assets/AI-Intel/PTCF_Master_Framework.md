@@ -42,6 +42,8 @@ PTCF is the DNA of a professional prompt. It eliminates the "guesswork" that lea
 
 "Precision in the Prompt equals Safety in the Solve."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Instructional Engineering Standard
 
 Architect: Coach Alan Pruitt

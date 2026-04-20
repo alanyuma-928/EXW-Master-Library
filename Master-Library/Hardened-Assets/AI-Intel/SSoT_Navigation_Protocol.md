@@ -31,6 +31,8 @@ A Pilot who can't find their instruments is a liability. By mastering the Naviga
 
 "Speed is the byproduct of a sharp radar. Search with intention."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Information Retrieval Standard
 
 Architect: Coach Alan Pruitt

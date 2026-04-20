@@ -27,6 +27,8 @@ Roleplay is not "play"—it is a technical constraint. By assigning the AI a per
 
 "If you don't tell the AI who it is, it will guess—and in exercise science, a guess is a liability."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Persona Logic Standard
 
 Architect: Coach Alan Pruitt

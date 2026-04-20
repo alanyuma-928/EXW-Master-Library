@@ -57,4 +57,6 @@ C. Because it is easier to grade.
 ---
 **Author:** Coach Alan Pruitt  
 **Version:** 1.0 (Fall 2026 Prep)  
+**License:** CC BY-NC 4.0
+
 **SSoT:** PAGA 2018 (2nd Ed)

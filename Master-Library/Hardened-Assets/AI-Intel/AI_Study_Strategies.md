@@ -26,6 +26,8 @@ AI is a mirror. If you use it to do the work, you stay weak. If you use it to ch
 
 "Study to prove yourself, not to complete the task."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Bloom’s Taxonomy Standard
 
 Architect: Coach Alan Pruitt

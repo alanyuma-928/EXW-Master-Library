@@ -37,6 +37,8 @@ The Exemplar Standard is how we maintain institutional agility. When every stude
 
 "Show me the work. Defend the data. Protect the client."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Instructional Design Standard
 
 Architect: Coach Alan Pruitt

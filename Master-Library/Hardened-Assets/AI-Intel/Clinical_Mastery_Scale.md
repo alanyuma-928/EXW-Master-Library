@@ -41,6 +41,8 @@ The scale is not a suggestion; it is the metric by which we protect our communit
 
 "Master the engine, or be driven by it."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Bloom’s Taxonomy Applied
 
 Architect: Coach Alan Pruitt

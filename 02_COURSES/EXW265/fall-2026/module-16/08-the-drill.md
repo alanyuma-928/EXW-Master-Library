@@ -44,4 +44,6 @@ C. Competent (7 pts) - Acceptable if the clinical solve works.
 ---
 **Author:** Coach Alan Pruitt  
 **Version:** 1.0 (Fall 2026 Prep)  
+**License:** CC BY-NC 4.0
+
 **SSoT:** PAGA 2018 (2nd Ed)

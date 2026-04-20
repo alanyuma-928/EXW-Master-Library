@@ -31,6 +31,8 @@ You cannot fix the nature of the beast, but you can build a cage for it. When yo
 
 "In a world of probability, the Human-in-the-Loop is the only source of Certainty."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Information Theory Standard
 
 Architect: Coach Alan Pruitt

@@ -26,6 +26,8 @@ Workplace Literacy is the final pillar of the vault because it is where the clas
 
 "AI won't replace the clinician, but the clinician using AI will replace the one who isn't."
 
+**License:** CC BY-NC 4.0
+
 SSoT: PAGA 2018 (2nd Ed) | Workforce Intelligence Standard
 
 Architect: Coach Alan Pruitt
