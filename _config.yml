@@ -1,41 +1,9 @@
-# Welcome to the WPE Department Master Library Configuration
-# Theme: Just the Docs (Jekyll)
-
 title: WPE Department Master Library
-description: The Authorized Single Source-of-Truth for Exercise Science at Arizona Western College.
-baseurl: "/coach-alan.github.io" 
+description: SSoT for Exercise Science at AWC.
+baseurl: "/coach-alan.github.io"
 url: "https://alanyuma-928.github.io"
-
-# Branding & Visuals
-# FALLBACK: Set to 'light' to ensure Bento tiles render even without custom CSS files.
-color_scheme: "light"
-
-# Theme Configuration
+theme: jekyll-theme-cayman # Using a built-in theme as a "Kickstart"
 remote_theme: just-the-docs/just-the-docs
-
-# Navigation
-nav_sort: "nav_order"
-
-# Search
-search_enabled: true
-search_tokenizer_separator: /[\s\-/]+/
-
-# Layout Settings
-aux_links:
-  "WPE Department on GitHub":
-    - "https://github.com/alanyuma-928/EXW-Master-Library"
-
-# Footer Content
-last_edit_timestamp: true
-last_edit_time_format: "%b %d, %Y"
-footer_content: "© 2026 Wellness & Physical Education (WPE) Department | Arizona Western College. Licensed under CC BY-NC 4.0."
-
-# Sass Configuration
-sass:
-  style: compressed
-
-# Back-end Logic
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-  - jekyll-include-cache
