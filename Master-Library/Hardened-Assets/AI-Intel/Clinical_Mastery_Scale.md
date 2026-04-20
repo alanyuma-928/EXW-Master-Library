@@ -25,7 +25,7 @@ Verdict: Standard Residency Achievement.
 <h3> 🟦 Level 4: The Senior Auditor (Mastery)
 Behavior: Exhibits total command of the Mission Loop. The student routinely identifies high-level "Logic Collapses" in the AI output and provides a superior "Solve" based on deep SSoT knowledge.
 
-Veridct: Honors. You are ready to lead at the Matador Wellness Center.
+Veridct: Honors. You are ready to lead at the Wellness & Physical Education (WPE) Department.
 
 <h3> 🛠️ The Mastery Audit Checklist
 To reach Level 4, your submissions must satisfy the "Three Pillars of Mastery":

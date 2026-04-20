@@ -24,7 +24,7 @@
 
     <div style="padding: 30px 40px;">
         <h2 style="color: #ba0c2f; border-bottom: 2px solid #e1e1e1; padding-bottom: 0.6rem; font-size: 1.6rem;">🎯 Mission Briefing: 0.1 Start Here</h2>
-        <p>Welcome to the **Matador Wellness Center Clinical AI Residency**. You are not just a student in this course; you are an <strong>Architect</strong> and a <strong>Pilot</strong>.</p>
+        <p>Welcome to the **Wellness & Physical Education (WPE) Department Clinical AI Residency**. You are not just a student in this course; you are an <strong>Architect</strong> and a <strong>Pilot</strong>.</p>
         
         <div style="background-color: #f8f9fa; border-left: 5px solid rgba(39, 53, 64, 1); padding: 20px; margin: 25px 0; border-radius: 4px;">
             <p style="margin: 0;"><strong>The Analogy:</strong> You are the Pilot (Judgment); AI is the Engine (Processing). A pilot doesn't let the engine fly the plane alone, and an architect doesn't let the calculator design the bridge. You will use AI to enhance your clinical reach, but you remain the final authority on safety and accuracy.</p>
@@ -47,7 +47,7 @@
 
         <p style="margin: 0 0 20px 0; font-size: 0.95rem; color: #eafffd; font-style: italic;"><strong>Navigation Note:</strong> Look for the <strong>"Previous"</strong> and <strong>"Next"</strong> buttons at the bottom of your screen to move through this Module.</p>
 
-        <p style="margin: 0; font-weight: bold; font-size: 1.1rem;">Arizona Western College | Matador Wellness Center</p>
+        <p style="margin: 0; font-weight: bold; font-size: 1.1rem;">Arizona Western College | Wellness & Physical Education (WPE) Department</p>
         <p style="margin: 5px 0; font-size: 1rem; opacity: 0.9;">Coach Alan Pruitt | The AI Architect</p>
         
         <div style="margin-top: 20px; font-size: 0.85rem; opacity: 0.8; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 15px;">

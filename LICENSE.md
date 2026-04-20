@@ -1,6 +1,6 @@
 # Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-This work, the **EXW Master Content Library**, is a derivative of the Matador Wellness Center Clinical AI Residency and is licensed under a **Creative Commons Attribution 4.0 International License**.
+This work, the **EXW Master Content Library**, is a derivative of the Wellness & Physical Education (WPE) Department Clinical AI Residency and is licensed under a **Creative Commons Attribution 4.0 International License**.
 
 ### Under this license, you are free to:
 * **Share:** Copy and redistribute the material in any medium or format.

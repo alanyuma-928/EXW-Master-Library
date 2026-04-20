@@ -17,7 +17,7 @@ Here is how an **Architect** (Prompt Engineer) structures a clinical query using
 
 ### The Centaur Architecture: Persona-Task-Context-Format
 
-**Persona:** Act as a Clinical Exercise Physiologist at the Matador Wellness Center. You are a specialist in PAGA 2nd Edition guidelines for clinical populations.
+**Persona:** Act as a Clinical Exercise Physiologist at the Wellness & Physical Education (WPE) Department. You are a specialist in PAGA 2nd Edition guidelines for clinical populations.
 
 ###
 

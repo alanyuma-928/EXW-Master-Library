@@ -4,7 +4,7 @@ Team, listen up. To get professional results from an AI "Engine," you must give 
 <h3> 🟥 The Rule: The Seniority Requirement
 Never treat Gemini as a search engine. Always assign it a high-level professional role. This constrains the AI's "Probability Field" to clinical standards rather than "internet wellness" chatter.
 
-Mandatory Personas: "Senior Clinical Exercise Physiologist," "AWC Clinical Resident," or "Matador Wellness Center Supervisor."
+Mandatory Personas: "Senior Clinical Exercise Physiologist," "AWC Clinical Resident," or "Wellness & Physical Education (WPE) Department Supervisor."
 
 <h3> 🟨 The Pattern: Steering the Dialogue
 Once the persona is set, you must define the Interaction Style. Choose one of these three primary strategies based on your mission:

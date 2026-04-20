@@ -1,5 +1,5 @@
 <h2> SOP: AI Study Strategies (Subject Mastery)
-Team, listen up. Using AI to write your notes is a failure of leadership. Using AI to interrogate your understanding is how you become an expert. In this residency, we use AI to create a feedback loop that identifies your knowledge gaps before you ever walk into the MWC.
+Team, listen up. Using AI to write your notes is a failure of leadership. Using AI to interrogate your understanding is how you become an expert. In this residency, we use AI to create a feedback loop that identifies your knowledge gaps before you ever walk into the WPE Department.
 
 <h3> 🟥 The Rule: The "Don't Tell Me" Protocol
 When studying a complex topic like Metabolic Equivalents (METs) or Hypertension Guidelines, never ask the AI to "explain it to you." Instead, ask the AI to test you.
