@@ -6,8 +6,9 @@ description: The Authorized Single Source-of-Truth for Exercise Science at Arizo
 baseurl: "/coach-alan.github.io" 
 url: "https://alanyuma-928.github.io"
 
-# Branding & Visuals (Navy & Creme Harmony)
-color_scheme: "wpe_navy_creme"
+# Branding & Visuals
+# FALLBACK: Set to 'light' to ensure Bento tiles render even without custom CSS files.
+color_scheme: "light"
 
 # Theme Configuration
 remote_theme: just-the-docs/just-the-docs
@@ -29,7 +30,7 @@ last_edit_timestamp: true
 last_edit_time_format: "%b %d, %Y"
 footer_content: "© 2026 Wellness & Physical Education (WPE) Department | Arizona Western College. Licensed under CC BY-NC 4.0."
 
-# Sass Configuration (Navy/Creme Overrides)
+# Sass Configuration
 sass:
   style: compressed
 
@@ -37,3 +38,4 @@ sass:
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-include-cache
