@@ -145,3 +145,4 @@ out/
 !assets/templates/*.html
 !Master-Library/Legacy-Assets/HTML-Templates/*.html
 
+!_layouts/*.html
