@@ -8,7 +8,7 @@ The Metric: Professionalism is measured by your ability to audit the engine, not
 <h3> 🟨 The Pattern: The Triple-A Mindset
 To succeed as a Centaur Professional, you must maintain three core competencies:
 
-Agility: The ability to pivot between different AI models (Gemini, Claude, GPT) depending on the clinical task.
+Agility: The ability to pivot between different AI models (Gemma 4, Claude, GPT) depending on the clinical task.
 
 Audit: The habit of cross-referencing every probability with the SSoT (PAGA/ACSM).
 

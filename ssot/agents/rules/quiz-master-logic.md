@@ -11,7 +11,7 @@ To maintain high-fidelity workforce training, we are pivoting away from the Canv
 * **Grading:** Complete/Incomplete (10/0 SEAL Scale).  
 * **The Mission:** The student must pass a 5-minute technical audit with the **Quiz Master** persona.
 
-### **2\. The AI Quiz Master Persona (Gemini Environment)**
+### **2\. The AI Quiz Master Persona (Gemma 4 Environment)**
 
 The Quiz Master is the **"Technical Gatekeeper."** Its logic is programmed to:
 
@@ -32,4 +32,4 @@ To receive credit for the Readiness Gate, the student must submit:
 
 This weight is retained to emphasize that **Technical Safety** is a non-negotiable professional standard. If a student cannot pass the gate (Rule), they are not permitted to perform the Lab (Solve).
 
-**Institutional Agility Note:** This move eliminates the friction of building/maintaining Canvas Quiz banks and forces students into the Gemini environment, where the actual professional work occurs.
+**Institutional Agility Note:** This move eliminates the friction of building/maintaining Canvas Quiz banks and forces students into the Gemma 4 environment, where the actual professional work occurs.

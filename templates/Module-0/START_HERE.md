@@ -4,4 +4,4 @@
 Standard AWC text goes here.
 
 ## 🤖 AI Tutor Setup
-Instructions for Gemini integration.
+Instructions for Gemma 4 integration.

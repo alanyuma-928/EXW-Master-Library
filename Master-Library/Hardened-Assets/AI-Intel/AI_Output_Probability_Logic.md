@@ -2,9 +2,9 @@
 Team, listen up. To master the Centaur Protocol, you must understand one fundamental truth: AI does not "know" things. It does not "think." It is a mathematical engine designed to predict the next most likely piece of data (a "token") in a sequence.
 
 <h3> 🟥 The Rule: Probability vs. Fact
-In a standard search engine, you are looking for a Static Fact. In an AI engine (Gemini), you are looking at a Mathematical Prediction.
+In a standard search engine, you are looking for a Static Fact. In an AI engine (Gemma 4), you are looking at a Mathematical Prediction.
 
-The Engine: Gemini analyzes billions of patterns to guess which word should come next based on your prompt.
+The Engine: Gemma 4 analyzes billions of patterns to guess which word should come next based on your prompt.
 
 The Prediction: If the engine predicts a 98% probability that the next word is "PAGA," it will print it. If the probability is split between "PAGA" and a hallucination, you might get a glitch.
 

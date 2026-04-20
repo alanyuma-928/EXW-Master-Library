@@ -45,7 +45,7 @@ Every assignment generated must include the **Three-Part Submission Standard**:
 
 ### AI Disclosure
 For all AI-synthesized audio/video or content, the following disclosure is mandatory:
-> *"AI Disclosure: This content was synthesized using Google Gemini. Residents must audit all clinical claims against the Source of Truth. AI can make mistakes."*
+> *"AI Disclosure: This content was synthesized using Google Gemma 4. Residents must audit all clinical claims against the Source of Truth. AI can make mistakes."*
 
 ---
 

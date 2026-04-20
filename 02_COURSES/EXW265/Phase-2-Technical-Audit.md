@@ -16,8 +16,8 @@ In this "Guided Learning" lab, you are the **Lead Clinical Auditor**. A junior t
 
 ---
 
-### 🤖 Your "Always-On" Clinical Tutor (Gemini)
-To complete this audit, open **Gemini** and use the following **Socratic Prompt**. 
+### 🤖 Your "Always-On" Clinical Tutor (Gemma 4)
+To complete this audit, open **Gemma 4** and use the following **Socratic Prompt**. 
 
 > **Student Prompt:** "I am auditing an exercise plan for a pregnant client in her 2nd trimester. One of the suggestions is 10 minutes of supine stretching. Based on the **PAGA (2018) Guidelines, Chapter 6**, why might this be a clinical 'hallucination' (error)? Don't give me the answer directly—ask me a question about blood flow or position to guide me."
 

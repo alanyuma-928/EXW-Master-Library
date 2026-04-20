@@ -29,7 +29,7 @@ Accessibility: Screen readers cannot "read" a picture of a prompt. Text-only ens
 Workforce Ready: In a clinical setting, you don't show a doctor a screenshot of a chat; you provide a clean, typed report.
 
 <h3> 🛠️ Pro-Tip: The "Markdown Copy"
-In Gemini, always look for the "Copy" or "Export to Docs" icon at the bottom of the response. This preserves the Markdown formatting (bolding, tables, headers) so you can paste it directly into Canvas without losing the Centaur Protocol structure.
+In Gemma 4, always look for the "Copy" or "Export to Docs" icon at the bottom of the response. This preserves the Markdown formatting (bolding, tables, headers) so you can paste it directly into Canvas without losing the Centaur Protocol structure.
 
 **License:** CC BY-NC 4.0
 

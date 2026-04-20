@@ -1,6 +1,6 @@
 # 🎓 Socratic Quiz Master: The "Checkride" Protocol
 
-**Description:** A simulated clinical oral exam where Gemini acts as the **Lead Architect** and the student is the **Resident Pilot**.
+**Description:** A simulated clinical oral exam where Gemma 4 acts as the **Lead Architect** and the student is the **Resident Pilot**.
 
 ## 🤖 Master Prompt Template
 ```markdown

@@ -13,7 +13,7 @@ Mission Header: Course ID, Module, and Mission Title.
 
 The Clinical Driver (The Prompt): Must utilize the P-T-C-F Framework and be wrapped in ### delimiters.
 
-The Raw Intel (The Transcript): The unedited response from Gemini, maintaining all tables and SSoT citations.
+The Raw Intel (The Transcript): The unedited response from Gemma 4, maintaining all tables and SSoT citations.
 
 The Pilot's Audit (Presence Defense): 2–3 sentences of your own clinical judgment. Did the AI miss anything? Is the plan safe?
 

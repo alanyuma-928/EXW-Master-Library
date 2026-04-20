@@ -40,7 +40,7 @@
       <li><strong>1.2 The Pattern:</strong> Identifying the "Gap" in community health.</li>
       <li><strong>1.3 The Rule:</strong> Applying the PAGA 2018 Single Source of Truth.</li>
       <li><strong>1.4 The Solve:</strong> Designing a professional intervention.</li>
-      <li><strong>1.5 AI Tool Box:</strong> Math verification and clinical auditing with Gemini.</li>
+      <li><strong>1.5 AI Tool Box:</strong> Math verification and clinical auditing with Gemma 4.</li>
       <li><strong>1.6 The Drill:</strong> A low-stakes Knowledge Check to confirm mastery.</li>
     </ol>
   </section>

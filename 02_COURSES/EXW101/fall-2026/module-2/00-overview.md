@@ -40,7 +40,7 @@
       <li><strong>2.2 The Pattern:</strong> Identifying the "Sedentary Gap."</li>
       <li><strong>2.3 The Rule:</strong> Applying the PAGA 2018 Adult Dosage.</li>
       <li><strong>2.4 The Solve:</strong> Designing a "Dosage Plan" for a sedentary profile.</li>
-      <li><strong>2.5 AI Tool Box:</strong> Verifying metabolic math with Gemini.</li>
+      <li><strong>2.5 AI Tool Box:</strong> Verifying metabolic math with Gemma 4.</li>
       <li><strong>2.6 The Drill:</strong> Knowledge Check on PAGA thresholds.</li>
     </ol>
   </section>

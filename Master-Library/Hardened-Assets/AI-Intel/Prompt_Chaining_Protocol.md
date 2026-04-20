@@ -1,5 +1,5 @@
 <h2> SOP: The Prompt Chaining Protocol (Sequential Logic)
-Team, listen up. In clinical exercise prescription, a "Logic Collapse" happens when you try to ask the AI to do too much at once. If you ask Gemini to "Screen a patient, calculate METs, and design a 12-week program" in one go, you are begging for a hallucination. In this residency, we use Prompt Chaining—the art of linking small, accurate wins into a massive clinical victory.
+Team, listen up. In clinical exercise prescription, a "Logic Collapse" happens when you try to ask the AI to do too much at once. If you ask Gemma 4 to "Screen a patient, calculate METs, and design a 12-week program" in one go, you are begging for a hallucination. In this residency, we use Prompt Chaining—the art of linking small, accurate wins into a massive clinical victory.
 
 <h3> 🟥 The Rule: The "One Task per Link" Mandate
 Never ask for the "Solve" until you have established the "Rule." By breaking your audit into a chain, you maintain a "Manual Override" at every step. If Link 1 is wrong, you fix it before the AI ever sees Link 2.
@@ -20,7 +20,7 @@ Link 3: The Prescription (The Solve)
 Prompt: "Based on the audit you just performed, generate a Phase 1 adaptive exercise plan that addresses the safety gaps identified in Link 2."
 
 <h3> 🟦 The Solve: Managing the "Memory"
-When chaining prompts in Gemini, you are building a "Thread Memory." If the chain gets too long, the AI may begin to "forget" the earlier constraints.
+When chaining prompts in Gemma 4, you are building a "Thread Memory." If the chain gets too long, the AI may begin to "forget" the earlier constraints.
 
 The Fix: Every 3–4 prompts, remind the AI of the SSoT.
 

@@ -29,7 +29,7 @@ This model defines the "Gold Standard" structural integrity for all courses in t
 ### **04-lab-part-a.html | AI Guided Audit (Part A)**
 
 * **AI Persona:** **Socratic Tutor**  
-* **Protocol:** Instructions must include the **"Add File (+)"** command to ground the Gemini interaction in the official SSoT PDF.  
+* **Protocol:** Instructions must include the **"Add File (+)"** command to ground the Gemma 4 interaction in the official SSoT PDF.  
 * **Interaction:** Students wrap data from File 02 in **\#\#\# triple-hashes \#\#\#** and ask the Socratic Tutor to audit the pattern against the attached Rules.  
 * **Note:** This is the setup phase for the File 05 "Solve."
 

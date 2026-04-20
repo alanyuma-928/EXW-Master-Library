@@ -2,7 +2,7 @@
 Team, listen up. To get professional results from an AI "Engine," you must give it a professional Identity. If you ask a generic question, you get a generic (and often unsafe) answer. In this residency, we use Persona Steering to force the AI into a high-stakes clinical mindset.
 
 <h3> 🟥 The Rule: The Seniority Requirement
-Never treat Gemini as a search engine. Always assign it a high-level professional role. This constrains the AI's "Probability Field" to clinical standards rather than "internet wellness" chatter.
+Never treat Gemma 4 as a search engine. Always assign it a high-level professional role. This constrains the AI's "Probability Field" to clinical standards rather than "internet wellness" chatter.
 
 Mandatory Personas: "Senior Clinical Exercise Physiologist," "AWC Clinical Resident," or "Wellness & Physical Education (WPE) Department Supervisor."
 

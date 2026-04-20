@@ -43,7 +43,7 @@
     <section id="case-data" style="margin-top: 30px;">
         <h3 style="color: #000080;">AI Socratic Audit: Prompt Template</h3>
         <p style="font-style: italic; font-size: 0.9rem; color: #000080;">Copy the following block exactly for your
-            interaction in SOP 04. <strong>Note:</strong> You must click <strong>Add File (+)</strong> in Gemini to
+            interaction in SOP 04. <strong>Note:</strong> You must click <strong>Add File (+)</strong> in Gemma 4 to
             attach the PAGA 2018 PDF before sending.</p>
 
         <div

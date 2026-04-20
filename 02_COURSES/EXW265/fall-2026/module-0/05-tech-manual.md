@@ -21,7 +21,7 @@
         <h2 style="color: #000080; margin: 0; font-size: 1.8rem; text-transform: uppercase; letter-spacing: 1px;">
             The Technical Manual
         </h2>
-        <p style="font-weight: bold; color: #000080;">SOP: The Gemini AI Guided Learning Personas</p>
+        <p style="font-weight: bold; color: #000080;">SOP: The Gemma 4 AI Guided Learning Personas</p>
     </header>
 
     <!-- INTRO TO PERSONAS -->

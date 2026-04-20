@@ -1,6 +1,6 @@
 # EXW Master Content Library (Monorepo)
 
-This repository serves as the **Master Source-of-Truth** for the Exercise Science (EXW) curriculum at Arizona Western College. It is managed as a "Content Factory" using the **Gemini CLI** for automated Markdown-to-Canvas synchronization and version control.
+This repository serves as the **Master Source-of-Truth** for the Exercise Science (EXW) curriculum at Arizona Western College. It is managed as a "Content Factory" using the **Antigravity Pipeline** for automated Markdown-to-Canvas synchronization and version control.
 
 ## 📚 Courses in this Library
 | Course Code | Title                            | Primary Source of Truth (SSOT) |
@@ -27,7 +27,7 @@ We utilize a competency-based **10/7/0 Mastery Scale**:
 ---
 
 ## 🛠️ Toolchain & Standards
-- **Development:** VS Code & Gemini CLI.
+- **Development:** Antigravity IDE & Antigravity Pipeline.
 - **Pedagogy:** Socratic Scaffolding & Tiered Literacy (Tiers 1-3).
 - **Compliance:** WCAG 2.1 Level AA Accessibility & Canvas Exemplary Course Standards.
 - **Licensing:** OERizona Network / CC BY-NC 4.0.

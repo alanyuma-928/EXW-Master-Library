@@ -40,7 +40,7 @@
       <li><strong>8.2 The Pattern:</strong> Identifying the clinical or technical "Gap."</li>
       <li><strong>8.3 The Rule:</strong> Applying the appropriate Single Source of Truth.</li>
       <li><strong>8.4 The Solve:</strong> Designing a professional intervention.</li>
-      <li><strong>8.5 AI Tool Box:</strong> Leveraging data verification with Gemini.</li>
+      <li><strong>8.5 AI Tool Box:</strong> Leveraging data verification with Gemma 4.</li>
       <li><strong>8.6 The Drill:</strong> Knowledge Check to confirm mastery.</li>
     </ol>
   </section>
