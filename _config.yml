@@ -1,9 +1,4 @@
-title: WPE Department Master Library
-description: SSoT for Exercise Science at AWC.
+title: WPE Department
 baseurl: "/coach-alan.github.io"
 url: "https://alanyuma-928.github.io"
-theme: jekyll-theme-cayman # Using a built-in theme as a "Kickstart"
-remote_theme: just-the-docs/just-the-docs
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
+markdown: kramdown
