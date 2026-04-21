@@ -1,4 +1,14 @@
 title: WPE Department
-baseurl: "/coach-alan.github.io"
+# CHANGE: Match the current repository name
+baseurl: "/EXW-Master-Library"
 url: "https://alanyuma-928.github.io"
+
+# Engine Settings
 markdown: kramdown
+theme: jekyll-theme-cayman
+
+# Force Inclusion of your core directories
+include:
+  - "01_ADMIN"
+  - "Master-Library"
+  - "02_COURSES"
