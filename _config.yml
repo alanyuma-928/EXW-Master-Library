@@ -1,5 +1,4 @@
 title: WPE Department
-# CHANGE: Match the current repository name
 baseurl: "/EXW-Master-Library"
 url: "https://alanyuma-928.github.io"
 
@@ -7,8 +6,12 @@ url: "https://alanyuma-928.github.io"
 markdown: kramdown
 theme: jekyll-theme-cayman
 
-# Force Inclusion of your core directories
+# CRITICAL: Force Jekyll to process these specific folders
+# And ignore nothing.
 include:
   - "01_ADMIN"
   - "Master-Library"
   - "02_COURSES"
+
+# Force 'pretty' URLs so that /folder/file-name works without .html
+permalink: pretty
