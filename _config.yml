@@ -1,17 +1,16 @@
 title: WPE Department
-baseurl: "/EXW-Master-Library"
 url: "https://alanyuma-928.github.io"
+baseurl: "/EXW-Master-Library"
 
 # Engine Settings
 markdown: kramdown
 theme: jekyll-theme-cayman
 
-# CRITICAL: Force Jekyll to process these specific folders
-# And ignore nothing.
+# THE FIX: Explicitly include numeric folders and disable the "ignore" logic
 include:
   - "01_ADMIN"
   - "Master-Library"
   - "02_COURSES"
 
-# Force 'pretty' URLs so that /folder/file-name works without .html
-permalink: pretty
+# Remove the 'pretty' logic to ensure the files map exactly as they exist
+permalink: none
