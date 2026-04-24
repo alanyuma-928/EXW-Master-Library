@@ -1,0 +1,13 @@
+### MATH PRECISION RULE (V1.0) ###
+
+# CLINICAL CALCULATION STANDARDS
+- Caloric Math: Use Atwater Factors (4-4-9).
+- Heart Rate Math: Use Karvonen Formula for Intensity Targets.
+- BMI/Anthropometrics: Round to one decimal place.
+
+# PRECISION GATE
+- Every calculation must show the formula used before the result.
+- Units must be explicitly stated (e.g., kcal, bpm, kg/m²).
+- "Clinical Hallucination" occurs if a rounding error exceeds 0.5% of the total.
+
+### END RULE-SET ###

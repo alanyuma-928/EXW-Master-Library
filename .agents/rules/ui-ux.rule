@@ -1,0 +1,13 @@
+### UI-UX ACCESSIBILITY RULE (V1.0) ###
+
+# DESIGN SYSTEM (HYBRID-BENTO)
+- Background: Creme (#FFFDD0).
+- Primary Text: Navy (#000080).
+- Accent: Gold (#FFC72C).
+
+# ACCESSIBILITY (WCAG 2.1 AA)
+- Contrast: All text must meet a 4.5:1 ratio.
+- Alt-Text: Mandatory for all images/diagrams.
+- Semantic HTML: Use <h1> to <h3> hierarchy; avoid bolding for headers.
+
+### END RULE-SET ###
