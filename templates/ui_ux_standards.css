@@ -1,0 +1,30 @@
+/* EXW Master Library: UI/UX Standards v1.0 */
+
+/* 1. Global Call-out Box (The Coach's Huddle) */
+.exw-callout {
+    background-color: #eafffd;
+    border-left: 6px solid #2CCCD3;
+    padding: 1.5rem;
+    border: 1px solid #2CCCD3;
+    border-radius: 4px;
+    color: #1a1a1a;
+}
+
+/* 2. AI Prompt Call-out Box */
+.exw-ai-prompt {
+    background-color: #FFFDD0;
+    color: #000080;
+    padding: 15px;
+    border: 2px solid #000080;
+    border-radius: 8px;
+    font-family: 'Space Mono', monospace; /* Implementing Space Mono for AI call-outs */
+}
+
+/* 3. Safety Alert (The Recalibrate Indicator) */
+.exw-safety-alert {
+    background-color: #000080;
+    color: #FFFDD0;
+    padding: 15px;
+    border: 2px solid #FFC72C;
+    border-radius: 8px;
+}
