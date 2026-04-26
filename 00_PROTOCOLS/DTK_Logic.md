@@ -23,8 +23,18 @@
 <div style="background-color: #FFFDD0; color: #000080; padding: 15px; border: 2px solid #000080; border-radius: 8px; font-family: 'Space Mono', monospace;">
   <h4>🛠️ DTK Master Prompt (P-T-C-F)</h4>
   <strong>Engine:</strong> Diagnostic Linter<br>
-  <strong>Prompt:</strong> "Act as a Clinical Exercise Diagnostic Auditor (Persona). Audit the following physiological data set (Context) against ACSM 12th Ed and PAGA standards (Task). Identify any 'Data Smugglers' or 'Mathematical Redlines' and propose a 'DTK Solve' (Format)."
+  <strong>Prompt:</strong> "### Act as a Clinical Exercise Diagnostic Auditor (Persona). Audit the following physiological data set (Context) against ACSM 12th Ed and PAGA standards (Task). Identify any 'Data Smugglers' or 'Mathematical Redlines' and propose a 'DTK Solve' (Format). ###"
 </div>
+
+&nbsp;
+
+### 🧮 The Functional Boxes (SSoT Formulas)
+*The following mathematical redlines are hard-coded into the Kernel:*
+
+* **The Biometrics Box:** Siri Equation $BF\% = (4.95 / Db - 4.50) \times 100$
+* **The Engine Box:** Rockport 1-Mile Kline Equation for $VO_2max$.
+* **The Fuel Box:** Revised Harris-Benedict (RMR) + PAGA Activity Multipliers.
+* **The Safety Box:** PAR-Q+ 2024 (Binary Stop/Go Logic).
 
 &nbsp;
 
