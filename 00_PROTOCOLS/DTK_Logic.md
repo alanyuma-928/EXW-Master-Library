@@ -29,7 +29,7 @@
 &nbsp;
 
 ### 🧮 The Functional Boxes (SSoT Formulas)
-*The following mathematical redlines are hard-coded into the Kernel:*
+*The following mathematical redlines are hard-coded into the Kernel (Automated via WPE DTK App):*
 
 * **The Biometrics Box:** Siri Equation $BF\% = (4.95 / Db - 4.50) \times 100$
 * **The Engine Box:** Rockport 1-Mile Kline Equation for $VO_2max$.
