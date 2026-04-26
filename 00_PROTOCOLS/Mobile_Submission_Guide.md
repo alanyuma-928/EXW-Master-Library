@@ -8,7 +8,7 @@
 ## 📡 The Mobile Dialect
 <div style="background-color: #000080; color: #FFFDD0; padding: 15px; border-left: 10px solid #FFC72C;">
   <strong>Sovereignty System: The Mobile Audit</strong><br>
-  Clinical auditing happens in the field, not just at the desk. This guide establishes the master workflow for transferring data from the **WPE DTK App** to **Canvas** using mobile-first "Text Entry" protocols.
+  Clinical auditing happens in the field, not just at the desk. This guide establishes the master workflow for transferring clinical and environmental data from the **WPE DTK App** to **Canvas** using mobile-first "Text Entry" protocols.
 </div>
 
 &nbsp;
