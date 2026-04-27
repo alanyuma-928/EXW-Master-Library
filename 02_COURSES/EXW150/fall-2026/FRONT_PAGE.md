@@ -32,6 +32,15 @@ To verify your nutritional audits and program designs, all student submissions r
 * **[The Performance Plate Toolkit]**
 
 ---
-**Curriculum Architect:** Alan Pruitt, MS (Candidate)
+
+### ♿ Mission Support: AccessABILITY & Readiness Services (ARS)
+
+If you require specific **"cockpit accommodations"** to fly safely, please get in touch with AWC AccessABILITY Services immediately to adjust your flight plan.
+
+**📞 Phone:** (928) 344-7674 | **📧 Email:** [access@azwestern.edu](mailto:access@azwestern.edu)
+
+---
+
+**Curriculum Architect:** Alan Pruitt
 **Location:** AWC Yuma Campus | NSW Food Lab
 **Status:** System Operational | Fall 2026 Live

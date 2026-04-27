@@ -31,6 +31,15 @@ To neutralize automated exploits and ensure authentic learning, all narrative as
 * **[Explore Kinesiology Careers]**
 
 ---
-**Curriculum Architect:** Alan Pruitt, MS (Candidate)
+
+### ♿ Mission Support: AccessABILITY & Readiness Services (ARS)
+
+If you require specific **"cockpit accommodations"** to fly safely, please get in touch with AWC AccessABILITY Services immediately to adjust your flight plan.
+
+**📞 Phone:** (928) 344-7674 | **📧 Email:** [access@azwestern.edu](mailto:access@azwestern.edu)
+
+---
+
+**Curriculum Architect:** Coach Alan Pruitt
 **Location:** AWC Yuma Campus 
 **Status:** System Operational | Fall 2026 Live
