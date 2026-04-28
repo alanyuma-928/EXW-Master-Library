@@ -1,4 +1,4 @@
-# Welcome to EXW 265: Exercise for Special Populations
+## Welcome to EXW 265: Exercise for Special Populations
 ## Fall 2026 | Arizona Western College
 
 ---
@@ -38,6 +38,9 @@ Because we are dealing with clinical safety, your "Presence" in the data is mand
 If you require specific **"cockpit accommodations"** to fly safely, please get in touch with AWC AccessABILITY Services immediately to adjust your flight plan.
 
 **📞 Phone:** (928) 344-7674 | **📧 Email:** [access@azwestern.edu](mailto:access@azwestern.edu)
+
+---
+
 **Curriculum Architect:** Coach Alan Pruitt
 **Location:** AWC Yuma Campus
 **Status:** System Operational | Fall 2026 Live

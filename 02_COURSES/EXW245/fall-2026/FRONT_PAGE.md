@@ -1,4 +1,4 @@
-# Welcome to EXW 245: Exercise Testing & Prescription
+## Welcome to EXW 245: Exercise Testing & Prescription
 ## Fall 2026 | Arizona Western College
 
 ---

@@ -1,4 +1,5 @@
-# Welcome to EXW 150: Nutrition for Sports and Exercise
+## Welcome to EXW 150: Nutrition for Sports and Exercise
+
 ## Fall 2026 | Arizona Western College
 
 ---

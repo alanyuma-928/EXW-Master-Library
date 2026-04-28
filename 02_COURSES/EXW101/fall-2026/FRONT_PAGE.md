@@ -1,4 +1,4 @@
-# Welcome to EXW 101: Concepts of Kinesiology & Physical Education
+## Welcome to EXW 101: Concepts of Kinesiology & Physical Education
 ## Fall 2026 | Arizona Western College
 
 ---
