@@ -42,6 +42,6 @@ If you require specific **"cockpit accommodations"** to fly safely, please get i
 
 ---
 
-**Curriculum Architect:** Alan Pruitt
+**Curriculum Architect:** Coach Alan Pruitt
 **Location:** AWC Yuma Campus | NSW Food Lab
 **Status:** System Operational | Fall 2026 Live
