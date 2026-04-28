@@ -29,6 +29,20 @@ def wrap_in_kernel(html_body, label="Course Content"):
 
 # --- [THE ORCHESTRATION ENGINE] ---
 
+def deploy_front_page(course_id, file_path):
+    if not os.path.exists(file_path): return
+    with open(file_path, 'r', encoding='utf-8') as f:
+        md_content = f.read()
+    raw_html = markdown.markdown(md_content, extensions=['tables', 'fenced_code', 'sane_lists'])
+    html_payload = wrap_in_kernel(raw_html, "Course Dashboard")
+    
+    url = f"{BASE_URL}/api/v1/courses/{course_id}/pages/front-page"
+    requests.put(url, headers=headers, json={"wiki_page": {"title": "Course Home", "body": html_payload, "published": True, "front_page": True}})
+    
+    course_url = f"{BASE_URL}/api/v1/courses/{course_id}"
+    requests.put(course_url, headers=headers, json={"course": {"default_view": "wiki"}})
+    print(f"[SUCCESS] Front Page Locked for {course_id}")
+
 def deploy_module_content(course_id, module_name, local_folder_path):
     if not os.path.exists(local_folder_path): return
 
@@ -83,6 +97,7 @@ if __name__ == "__main__":
 
     for course_id, folder in fleet.items():
         print(f"\n🚀 ORCHESTRATING MODULES FOR {folder}...")
+        deploy_front_page(course_id, f"02_COURSES/{folder}/fall-2026/FRONT_PAGE.md")
         deploy_module_content(course_id, "Module 00: Orientation & Readiness", "01_ADMIN/01_SCAFFOLD/module-0")
 
     print("\n[!] Orchestration Complete.")
