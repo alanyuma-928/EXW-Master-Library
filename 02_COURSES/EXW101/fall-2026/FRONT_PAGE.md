@@ -11,6 +11,7 @@ Welcome to the foundational entry point for the Exercise Science department. In 
 ---
 
 ### 2. The Authority (SSoT)
+
 Our structural logic is anchored in the following federal standard:
 * **PAGA 2018 (2nd Ed):** The Physical Activity Guidelines for Americans.
 * We utilize the **Mission Loop (Pattern / Rule / Solve)** to identify inactivity patterns and solve for community-level health interventions.
@@ -18,6 +19,7 @@ Our structural logic is anchored in the following federal standard:
 ---
 
 ### 3. The 3-Sentence Presence Defense (Academic Integrity)
+
 To neutralize automated exploits and ensure authentic learning, all narrative assignments require:
 1. A clear identification of the **Pattern** being discussed.
 2. A citation of the specific **PAGA Rule** applied.
@@ -26,6 +28,7 @@ To neutralize automated exploits and ensure authentic learning, all narrative as
 ---
 
 ### 4. Quick Actions
+
 * **[Start Here: Module 00 Orientation]**
 * **[View the Master Syllabus]**
 * **[Explore Kinesiology Careers]**
