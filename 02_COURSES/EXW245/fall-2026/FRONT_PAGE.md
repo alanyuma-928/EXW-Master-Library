@@ -13,6 +13,7 @@ Welcome to the clinical engine of the Kinesiology department. In this course, we
 ### 2. The Authority (SSoT)
 
 All clinical decisions in this course are governed by the following exclusive sources of truth:
+
 * **ACSM 12th Edition:** (Guidelines for Exercise Testing and Prescription).
 * **PAGA 2018 (2nd Ed):** (Federal Physical Activity Guidelines).
 * *Conflicting external info will be discarded in favor of these standards.*
@@ -22,6 +23,7 @@ All clinical decisions in this course are governed by the following exclusive so
 ### 3. The 3-Sentence Presence Defense (Academic Integrity)
 
 To ensure the integrity of our clinical audits, this course utilizes the **Einstein Protocol**:
+
 1. Every AI-assisted verification must be accompanied by a manual math audit.
 2. Students must provide a 3-sentence "Presence Defense" for all lab conclusions.
 3. Authentic human insight is the only valid currency in GY 116.
