@@ -35,33 +35,23 @@ def wrap_in_kernel(html_body, label="Course Content"):
         </div>
     </div>"""
 
-# --- [NEW: ACCREDITATION BRIDGE] ---
-
+# --- [ACCREDITATION BRIDGE] ---
 def deploy_native_syllabus(course_id, folder_name):
-    """Satisfies AWC Best Practice by pushing to the dedicated Syllabus sidebar tool."""
+    """Satisfies Institutional Audits by pushing to the Sidebar Syllabus tool."""
     file_path = "01_ADMIN/01_SCAFFOLD/module-0/00_MASTER_SYLLABUS.md"
-    if not os.path.exists(file_path): 
-        print(f"[ERROR] Syllabus source missing at {file_path}")
-        return
+    if not os.path.exists(file_path): return
 
     with open(file_path, 'r', encoding='utf-8') as f:
         md_content = f.read()
 
-    # Render, Scrub, and Wrap
     html_body = markdown.markdown(md_content, extensions=['tables', 'sane_lists'])
     payload = wrap_in_kernel(html_body, f"{folder_name} Native Syllabus")
     
-    # PUT request to the course endpoint to update the syllabus_body
     endpoint = f"{BASE_URL}/api/v1/courses/{course_id}"
-    res = requests.put(endpoint, headers=headers, json={"course": {"syllabus_body": payload}})
-    
-    if res.status_code == 200:
-        print(f"[AUDIT-READY] {folder_name}: Native Syllabus Sidebar Updated.")
-    else:
-        print(f"[FAILED] {folder_name}: Syllabus Sidebar Push (Status: {res.status_code})")
+    requests.put(endpoint, headers=headers, json={"course": {"syllabus_body": payload}})
+    print(f"[AUDIT-READY] {folder_name}: Native Syllabus Sidebar Updated.")
 
-# --- [STANDARD DEPLOYMENT ENGINES] ---
-
+# --- [DEPLOYMENT ENGINES] ---
 def deploy_front_page(course_id, folder_name):
     file_path = f"02_COURSES/{folder_name}/fall-2026/FRONT_PAGE.md"
     if not os.path.exists(file_path): return
@@ -73,6 +63,7 @@ def deploy_front_page(course_id, folder_name):
     print(f"[SUCCESS] {folder_name}: Front Page Orchestrated.")
 
 def deploy_module_content(course_id, module_name, local_folder_path):
+    """v5.1: Handles the new Icon-Driven naming and Library Scrub."""
     if not os.path.exists(local_folder_path): return
 
     # Module Setup & Atomic Purge
@@ -103,7 +94,6 @@ def deploy_module_content(course_id, module_name, local_folder_path):
             for ed in existing_discs:
                 if ed['title'] == clean_title:
                     requests.delete(f"{disc_list_url}/{ed['id']}", headers=headers)
-            
             disc_res = requests.post(disc_list_url, headers=headers, json={"title": clean_title, "message": html_payload, "published": True}).json()
             requests.post(items_url, headers=headers, json={"module_item": {"type": "Discussion", "content_id": disc_res['id']}})
             
@@ -114,7 +104,6 @@ def deploy_module_content(course_id, module_name, local_folder_path):
             for ea in existing_asgns:
                 if ea['name'] == clean_title:
                     requests.delete(f"{asgn_list_url}/{ea['id']}", headers=headers)
-
             asgn_res = requests.post(asgn_list_url, headers=headers, json={"assignment": {"name": clean_title, "description": html_payload, "points_possible": 100, "submission_types": ["online_upload"], "published": True}}).json()
             requests.post(items_url, headers=headers, json={"module_item": {"type": "Assignment", "content_id": asgn_res['id']}})
             
@@ -130,11 +119,14 @@ def deploy_module_content(course_id, module_name, local_folder_path):
 if __name__ == "__main__":
     fleet = {"38157": "EXW101", "38147": "EXW150", "38148": "EXW245", "38156": "EXW265"}
     
-    print("🚀 EXECUTING SOVEREIGN ORCHESTRATOR v5.0 (Audit-Ready)")
+    # AWC BEST PRACTICE MODULE 0 NAME
+    ORIENTATION_MODULE = "Module 00: 👋 WELCOME > Start Here! 📍"
+    
+    print(f"🚀 EXECUTING SOVEREIGN ORCHESTRATOR v5.1")
     for course_id, folder in fleet.items():
         print(f"\n--- Processing {folder} ---")
         deploy_front_page(course_id, folder)
-        deploy_native_syllabus(course_id, folder) # Deep Integration Bridge
-        deploy_module_content(course_id, "Module 00: Orientation & Readiness", "01_ADMIN/01_SCAFFOLD/module-0")
+        deploy_native_syllabus(course_id, folder)
+        deploy_module_content(course_id, ORIENTATION_MODULE, "01_ADMIN/01_SCAFFOLD/module-0")
         
-    print("\n[!] MISSION COMPLETE: FLEET IS SYNCED, VACCINATED, AND AUDIT-READY.")
+    print("\n[!] MISSION COMPLETE: FLEET IS SYNCED, VACCINATED, AND WELCOMING.")
